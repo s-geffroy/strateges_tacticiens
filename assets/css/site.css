@@ -551,3 +551,75 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
   box-shadow: inset 0 -1.35em 0 var(--laiton);
   transition: box-shadow .12s, color .12s;
 }
+
+/* --- Le croisement des deux classements (accueil) ----------------------- */
+
+.figure {
+  margin: clamp(2.4rem, 7vw, 3.6rem) 0 0;
+  padding-top: clamp(1.6rem, 5vw, 2.4rem);
+  border-top: 1px solid var(--filet);
+}
+
+.croisement {
+  display: block;
+  width: 100%;
+  min-width: 30rem;   /* sous cette largeur le visuel defile plutot que de
+                         devenir illisible : ses etiquettes ne se remettent
+                         pas a l'echelle du lecteur. */
+  height: auto;
+}
+
+.croisement .c-place {
+  stroke: var(--encre);
+  stroke-width: 2;
+}
+.croisement .c-hors {
+  stroke: var(--filet);
+  stroke-width: 1;
+}
+.croisement .c-porte {
+  stroke: var(--laiton);
+  stroke-width: 2.5;
+}
+.croisement .c-lien {
+  stroke: var(--laiton);
+  stroke-width: 1.5;
+}
+.croisement .c-noeud { fill: var(--laiton); }
+
+.croisement text {
+  font-family: var(--sans);
+  fill: var(--encre);
+}
+.croisement .c-titre { font-size: 16px; font-weight: 600; }
+.croisement .c-repere {
+  font-size: 11px;
+  fill: var(--encre-pale);
+  font-weight: 500;
+}
+.croisement .c-nom {
+  font-size: 14px;
+  font-weight: 600;
+  /* Un halo de la couleur du papier, pour que le nom reste lisible la ou il
+     croise un trait. Moins fragile qu'un rectangle dimensionne a la main. */
+  stroke: var(--papier);
+  stroke-width: 5;
+  paint-order: stroke;
+}
+.croisement .c-rangs {
+  font-size: 12px;
+  fill: var(--encre-pale);
+  font-weight: 500;
+  stroke: var(--papier);
+  stroke-width: 4;
+  paint-order: stroke;
+}
+.croisement .c-fleche { fill: var(--filet); }
+
+.figure figcaption {
+  max-width: var(--mesure);
+  margin-top: 1.4rem;
+  font-size: 0.95rem;
+  color: var(--encre-pale);
+}
+.figure figcaption strong { color: var(--encre); font-weight: 600; }

@@ -34,6 +34,26 @@ confiance qu’il mérite.</p>
   </section>
 </div>
 
+<figure class="figure">
+  <div class="debord">
+    {% include croisement.html %}
+  </div>
+  <figcaption>
+    Les deux classements face à face, et les quatre seules liaisons qui existent
+    entre eux. Deux hommes figurent dans les <strong>deux Top 12</strong> :
+    <a href="{{ '/dossiers-strateges/' | relative_url }}#napoleon-bonaparte">Napoléon
+    Bonaparte</a>, quatrième stratège et deuxième tacticien, et
+    <a href="{{ '/dossiers-strateges/' | relative_url }}#scipion-l-africain">Scipion
+    l’Africain</a>, cinquième des deux côtés. Deux autres apparaissent des deux
+    côtés sans être admis nulle part —
+    <a href="{{ '/dossiers-tacticiens/' | relative_url }}#alexandre-le-grand">Alexandre
+    le Grand</a>, premier tacticien mais seulement dix-septième stratège, et
+    <a href="{{ '/dossiers-strateges/' | relative_url }}#frederic-ii-de-prusse">Frédéric
+    II de Prusse</a>, écarté de justesse deux fois. Les trente-deux autres noms
+    n’existent que d’un seul côté.
+  </figcaption>
+</figure>
+
 <div class="prose">
 
 <h2>Ce que mesure l’échelle de gauche</h2>
@@ -70,13 +90,10 @@ principalement opérative ne prouve ni une supériorité tactique, ni une
 supériorité stratégique. Trois grands noms en font les frais et figurent
 seulement parmi les prétendants — <a href="{{ '/dossiers-strateges/' | relative_url }}#helmuth-von-moltke-l-ancien">Helmuth von Moltke l’Ancien</a>, <a href="{{ '/dossiers-tacticiens/' | relative_url }}#subutai">Subutaï</a> et <a href="{{ '/dossiers-tacticiens/' | relative_url }}#konstantin-rokossovski">Rokossovski</a>.</p>
 
-<h2>Deux hommes seulement figurent dans les deux Top 12</h2>
+<h2>Le reste des correspondances</h2>
 
-<p><a href="{{ '/dossiers-strateges/' | relative_url }}#napoleon-bonaparte">Napoléon Bonaparte</a>, quatrième stratège et deuxième tacticien : le tacticien
-y dépasse nettement le bilan final de grande stratégie. Et <a href="{{ '/dossiers-strateges/' | relative_url }}#scipion-l-africain">Scipion l’Africain</a>,
-cinquième dans les deux listes, le profil le plus équilibré du corpus entre
-apprentissage, campagne, bataille et résultat politique. Le reste des
-correspondances se lit dans la <a href="{{ '/matrice/' | relative_url }}">matrice
-croisée</a>.</p>
+<p>Le tableau croisé prend les trente-six personnages un par un : leur rang et
+leur confiance dans chaque discipline, et ce que la comparaison révèle de chacun
+— <a href="{{ '/matrice/' | relative_url }}">voir la matrice croisée</a>.</p>
 
 </div>
