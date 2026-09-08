@@ -102,8 +102,9 @@ ce que ce choix coûte, et pourquoi la séparation des niveaux reste nécessaire
 on peut être extraordinairement important sans appartenir au Top 12 de l’une ou
 l’autre discipline.
 
-## Les cases vides
+## D’où vient la dernière colonne
 
-Une case vide dans la colonne « Ce que dit la comparaison » n’est pas un oubli.
-Le corpus ne commente au niveau croisé que vingt-quatre des quarante dossiers ;
-pour les seize autres, il ne dit rien, et rien n’a été ajouté ici.
+Le fichier de matrice du corpus commente vingt-quatre des quarante dossiers au
+niveau croisé ; ses formulations sont reprises telles quelles. Pour les seize
+autres, la colonne résume le dossier de l’intéressé — son profil, sa limite,
+ce qu’on peut lui attribuer — sans y ajouter de fait qui n’y figure pas.

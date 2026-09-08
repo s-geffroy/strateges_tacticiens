@@ -110,6 +110,7 @@
 - rang: 8
   nom: "Mehmed II"
   slug: "mehmed-ii"
+  croise: "Siège, flotte, diplomatie et administration : le résultat est impérial et institutionnel, pas tactique."
   confiance: "Élevée"
   cran: 4
   motif: "Combine technologie, siège, diplomatie, coercition et consolidation impériale."
@@ -184,6 +185,7 @@
 - rang: 13
   nom: "Chester W. Nimitz"
   slug: "chester-w-nimitz"
+  croise: "Commandement de théâtre, inscrit dans un système industriel et de renseignement plus large que lui."
   confiance: "Moyenne"
   cran: 2
   motif: "Commandement de théâtre exceptionnel, mais contribution moins globale que Marshall et moins politico-stratégique que Giáp."
@@ -198,6 +200,7 @@
 - rang: 14
   nom: "Frédéric II de Prusse"
   slug: "frederic-ii-de-prusse"
+  croise: "Écarté de justesse des deux côtés : son génie tactique contaminait l’évaluation stratégique, son irrégularité lui coûte le Top 12 tactique."
   confiance: "Moyenne"
   cran: 2
   motif: "Survie remarquable face à une coalition supérieure, mais risques auto-infligés et dépendance aux événements extérieurs."
@@ -212,6 +215,7 @@
 - rang: 15
   nom: "Pierre le Grand"
   slug: "pierre-le-grand"
+  croise: "Transformateur d’État plus que commandant : la victoire vient des institutions, lentement et cher."
   confiance: "Moyenne"
   cran: 2
   motif: "Transformation militaire et étatique majeure, mais victoire lente, coûteuse et partiellement structurelle."
@@ -226,6 +230,7 @@
 - rang: 16
   nom: "Dwight D. Eisenhower"
   slug: "dwight-d-eisenhower"
+  croise: "Arbitre de coalition ; ni la stratégie alliée ni la conduite du combat ne lui reviennent en propre."
   confiance: "Moyenne"
   cran: 2
   motif: "Commandant de coalition remarquable, mais auteur seulement partiel de la grande stratégie alliée."
@@ -269,6 +274,7 @@
 - rang: 19
   nom: "Kautilya — Arthashastra"
   slug: "kautilya-arthashastra"
+  croise: "Corpus de gouvernement et de puissance, où la conduite militaire n’est pas le centre."
   confiance: "Moyenne"
   cran: 2
   motif: "Corpus systémique de gouvernement et de puissance, mais attribution et validation opérationnelle insuffisantes."
@@ -283,6 +289,7 @@
 - rang: 20
   nom: "Joseph Staline"
   slug: "joseph-staline"
+  croise: "Mobilisation d’un système politique entier ; la conduite militaire appartient à la Stavka et aux maréchaux."
   confiance: "Élevée sur les faits, rang faible"
   cran: 4
   motif: "Capacité de mobilisation existentielle réelle, contrebalancée par des erreurs initiales et des coûts extrêmes."

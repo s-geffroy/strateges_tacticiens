@@ -4,6 +4,8 @@ layout: default
 <h1 class="titre-page">{{ page.titre_long }}</h1>
 <p class="chapeau">{{ page.chapeau }}</p>
 
+<p class="passerelle"><a href="{{ page.classement | relative_url }}">Revenir au classement</a></p>
+
 {%- assign jeu = site.data[page.jeu] -%}
 
 <nav class="sommaire" aria-label="Les vingt dossiers">

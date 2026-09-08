@@ -197,6 +197,7 @@
 - rang: 14
   nom: "Jan Žižka"
   slug: "jan-zizka"
+  croise: "Innovation de bataille traçable, mais liée à un théâtre et à des adversaires mal adaptés."
   confiance: "Moyenne"
   cran: 2
   motif: "Innovation hussite traçable et efficace, mais système et théâtre plus spécialisés."
@@ -211,6 +212,7 @@
 - rang: 15
   nom: "Khalid ibn al-Walid"
   slug: "khalid-ibn-al-walid"
+  croise: "Dossier tactique plausible et non résoluble : ce sont les sources qui bloquent, pas le talent."
   confiance: "Faible à moyenne"
   cran: 1
   motif: "Potentiel très élevé, mais résolution documentaire trop faible pour une douzième place mondiale."
@@ -225,6 +227,7 @@
 - rang: 16
   nom: "Louis-Nicolas Davout"
   slug: "louis-nicolas-davout"
+  croise: "Un chef-d’œuvre de bataille, trop peu de commandements autonomes pour peser au-delà."
   confiance: "Élevée"
   cran: 4
   motif: "Auerstaedt est un chef-d’œuvre, mais l’échantillon de commandement autonome reste trop étroit."
@@ -239,6 +242,7 @@
 - rang: 17
   nom: "Nader Shah"
   slug: "nader-shah"
+  croise: "Feu mobile et manœuvre, mais une part opérative importante et des adversaires de qualité inégale."
   confiance: "Moyenne à élevée"
   cran: 3
   motif: "Maîtrise du feu mobile et de la manœuvre, mais part opérative importante et adversaires de qualité inégale."
@@ -253,6 +257,7 @@
 - rang: 18
   nom: "Han Xin"
   slug: "han-xin"
+  croise: "Créativité de manœuvre probable, restituée par des sources trop tardives pour être située."
   confiance: "Faible à moyenne"
   cran: 1
   motif: "Créativité potentiellement exceptionnelle, mais sources trop tardives et littéraires pour un rang précis."

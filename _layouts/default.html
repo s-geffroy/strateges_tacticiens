@@ -29,18 +29,8 @@
       {%- for g in site.data.navigation %}
       <span class="nav-groupe" role="group" aria-label="{{ g.groupe }}">
         {%- for lien in g.entrees %}
-        <span class="nav-item{% if lien.sous %} a-sous-menu{% endif %}">
-          <a href="{{ lien.url | relative_url }}"
-             {% if page.url == lien.url %}aria-current="page"{% endif %}>{{ lien.titre }}</a>
-          {%- if lien.sous %}
-          <span class="sous">
-            {%- for s in lien.sous %}
-            <a href="{{ s.url | relative_url }}"
-               {% if page.url == s.url %}aria-current="page"{% endif %}>{{ s.titre }}</a>
-            {%- endfor %}
-          </span>
-          {%- endif %}
-        </span>
+        <a href="{{ lien.url | relative_url }}"
+           {% if page.url == lien.url %}aria-current="page"{% endif %}>{{ lien.titre }}</a>
         {%- endfor %}
       </span>
       {%- endfor %}
