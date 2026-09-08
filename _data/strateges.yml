@@ -5,6 +5,7 @@
 - rang: 1
   nom: "Gengis Khan"
   slug: "gengis-khan"
+  croise: "Système impérial et organisation de la guerre."
   confiance: "Très élevée"
   cran: 5
   motif: "Construit un système de guerre et de conquête extensible qui dépasse sa personne."
@@ -19,6 +20,7 @@
 - rang: 2
   nom: "Otto von Bismarck"
   slug: "otto-von-bismarck"
+  croise: "Choix et limitation des guerres, diplomatie et ordre politique."
   confiance: "Très élevée"
   cran: 5
   motif: "Maîtrise exemplaire de la limitation politique de la guerre et de l’après-victoire."
@@ -33,6 +35,7 @@
 - rang: 3
   nom: "Mao Zedong"
   slug: "mao-zedong"
+  croise: "Mobilisation politique et temporalité révolutionnaire."
   confiance: "Très élevée"
   cran: 5
   motif: "Intègre politique, mobilisation, temps long, guerre irrégulière et guerre conventionnelle."
@@ -47,6 +50,7 @@
 - rang: 4
   nom: "Napoléon Bonaparte"
   slug: "napoleon-bonaparte"
+  croise: "Maître complet, mais tacticien supérieur à son bilan final de grande stratégie."
   confiance: "Très élevée"
   cran: 5
   motif: "Maîtrise militaire exceptionnelle, limitée par l’incapacité finale à stabiliser l’ordre européen."
@@ -61,6 +65,7 @@
 - rang: 5
   nom: "Scipion l’Africain"
   slug: "scipion-l-africain"
+  croise: "Le profil le plus équilibré du corpus entre apprentissage, campagne, bataille et résultat politique."
   confiance: "Élevée"
   cran: 4
   motif: "Déplace le théâtre, désarticule la base carthaginoise et convertit l’apprentissage en décision politique."
@@ -75,6 +80,7 @@
 - rang: 6
   nom: "Tokugawa Ieyasu"
   slug: "tokugawa-ieyasu"
+  croise: "Coalition, patience et stabilisation."
   confiance: "Élevée"
   cran: 4
   motif: "Allie patience, coalition, conservation des forces et institutionnalisation durable de la victoire."
@@ -89,6 +95,7 @@
 - rang: 7
   nom: "Auguste"
   slug: "auguste"
+  croise: "Institutionnalisation de la victoire."
   confiance: "Élevée"
   cran: 4
   motif: "Transforme la victoire civile en architecture militaire et politique durable, avec attribution opérationnelle partagée."
@@ -117,6 +124,7 @@
 - rang: 9
   nom: "Carl von Clausewitz"
   slug: "carl-von-clausewitz"
+  croise: "Puissance théorique."
   confiance: "Élevée"
   cran: 4
   motif: "Fournit la théorie la plus puissante de la guerre comme instrument politique, malgré une validation personnelle limitée."
@@ -131,6 +139,7 @@
 - rang: 10
   nom: "Sun Tzu — corpus attribué"
   slug: "sun-tzu"
+  croise: "Corpus stratégique."
   confiance: "Élevée pour le corpus"
   cran: 4
   motif: "Corpus majeur sur information, tromperie, asymétrie et économie de la coercition ; l’individu historique demeure incertain."
@@ -145,6 +154,7 @@
 - rang: 11
   nom: "George C. Marshall"
   slug: "george-c-marshall"
+  croise: "Construction d’un appareil de guerre global."
   confiance: "Moyenne à élevée"
   cran: 3
   motif: "Construit l’appareil américain capable de soutenir une guerre mondiale et sélectionne les instruments humains de son exécution."
@@ -159,6 +169,7 @@
 - rang: 12
   nom: "Võ Nguyên Giáp"
   slug: "vo-nguyen-giap"
+  croise: "Articulation politico-militaire de l’asymétrie et du temps."
   confiance: "Moyenne"
   cran: 2
   motif: "Résultat politique disproportionné aux moyens initiaux ; attribution collective et coûts empêchent un rang supérieur."
@@ -243,6 +254,7 @@
 - rang: 18
   nom: "Helmuth von Moltke l’Ancien"
   slug: "helmuth-von-moltke-l-ancien"
+  croise: "Maître de l’art opératif, classé ici et non parmi les tacticiens."
   confiance: "Élevée"
   cran: 4
   motif: "Maître de l’art opératif ; autonomie politico-stratégique limitée par la primauté de Bismarck."

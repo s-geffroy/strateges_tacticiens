@@ -5,6 +5,7 @@
 - rang: 1
   nom: "Alexandre le Grand"
   slug: "alexandre-le-grand"
+  croise: "Premier tacticien, dix-septième stratège : la succession et la stabilisation coûtent cher."
   confiance: "Très élevée"
   cran: 5
   motif: "Meilleur équilibre entre pic, constance, diversité des situations, commandement personnel et forces combinées."
@@ -33,6 +34,7 @@
 - rang: 3
   nom: "Hannibal Barca"
   slug: "hannibal-barca"
+  croise: "Pic tactique immense, incapacité à convertir ses victoires en décision politique contre Rome."
   confiance: "Très élevée"
   cran: 5
   motif: "Pic tactique probablement maximal avec Cannes et remarquable capacité à modeler la réaction adverse."
@@ -47,6 +49,7 @@
 - rang: 4
   nom: "Jules César"
   slug: "jules-cesar"
+  croise: "Tacticien de premier ordre ; sa carrière politico-stratégique n’a pas été retenue parmi les vingt finalistes."
   confiance: "Très élevée"
   cran: 5
   motif: "Polyvalence extrême : bataille, siège, ingénierie, improvisation et commandement dans la crise."
@@ -75,6 +78,7 @@
 - rang: 6
   nom: "Yi Sun-sin"
   slug: "yi-sun-sin"
+  croise: "Tactique navale exceptionnelle, rôle stratégique plus spécialisé."
   confiance: "Élevée"
   cran: 4
   motif: "Exploitation exceptionnelle du terrain maritime, des courants, du feu et de l’économie des moyens."
@@ -89,6 +93,7 @@
 - rang: 7
   nom: "Horatio Nelson"
   slug: "horatio-nelson"
+  croise: "Rupture tactique navale, stratégie nationale définie au-dessus de lui."
   confiance: "Élevée"
   cran: 4
   motif: "Rupture du dispositif naval, commandement par intention et culture d’initiative."
@@ -103,6 +108,7 @@
 - rang: 8
   nom: "Épaminondas"
   slug: "epaminondas"
+  croise: "Innovation de bataille majeure, échantillon stratégique plus limité."
   confiance: "Élevée"
   cran: 4
   motif: "Innovation structurelle du dispositif hoplitique ; petit échantillon empêchant un rang supérieur."
@@ -117,6 +123,7 @@
 - rang: 9
   nom: "Alexandre Souvorov"
   slug: "alexandre-souvorov"
+  croise: "Commandement tactique et opératif supérieur à sa contribution de grande stratégie."
   confiance: "Élevée"
   cran: 4
   motif: "Vitesse, simplicité, moral et offensive ; légère contamination par l’art opératif."
@@ -131,6 +138,7 @@
 - rang: 10
   nom: "John Churchill, duc de Marlborough"
   slug: "marlborough"
+  croise: "Grand commandant de coalition, mais non auteur principal des finalités politiques britanniques."
   confiance: "Élevée"
   cran: 4
   motif: "Très grande synchronisation de coalition et maîtrise de la fixation, du déplacement de l’effort et de l’exploitation."
@@ -145,6 +153,7 @@
 - rang: 11
   nom: "Arthur Wellesley, duc de Wellington"
   slug: "wellington"
+  croise: "Robustesse tactique exceptionnelle ; profil politico-stratégique moins transformateur."
   confiance: "Élevée"
   cran: 4
   motif: "Génie de la robustesse : terrain, discipline, feu, réserves et réduction systématique du risque."
@@ -159,6 +168,7 @@
 - rang: 12
   nom: "Bélisaire"
   slug: "belisaire"
+  croise: "Économie des moyens et adaptation sous contraintes."
   confiance: "Moyenne"
   cran: 2
   motif: "Meilleure économie des moyens parmi les candidats de frontière ; adaptation supérieure dans des situations dégradées."
@@ -257,6 +267,7 @@
 - rang: 19
   nom: "Subutaï"
   slug: "subutai"
+  croise: "Génie surtout opératif, classé ici faute d’un troisième classement."
   confiance: "Moyenne"
   cran: 2
   motif: "Génie surtout opératif : coordination de colonnes et campagnes continentales plutôt que conduite tactique stricte."
@@ -271,6 +282,7 @@
 - rang: 20
   nom: "Konstantin Rokossovski"
   slug: "konstantin-rokossovski"
+  croise: "Maître de l’art opératif interarmes, classé ici faute d’un troisième classement."
   confiance: "Très élevée"
   cran: 5
   motif: "Maître de l’art opératif interarmes ; la preuve tactique personnelle est plus indirecte."

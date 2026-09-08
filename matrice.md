@@ -4,82 +4,106 @@ permalink: /matrice/
 title: Matrice croisée
 titre_long: Stratégie contre tactique
 chapeau: >-
-  Ce que donne la superposition des deux listes : très peu de recouvrement, et
-  c’est le résultat le plus intéressant du travail.
+  Les deux classements superposés, personnage par personnage. Trente-six noms,
+  quarante places : quatre hommes seulement occupent une place dans chaque
+  discipline.
 description: >-
-  Lecture croisée des deux classements : qui figure dans les deux Top 12, qui
-  domine d’un côté seulement, et les maîtres de l’art opératif.
+  Tableau croisé des deux classements : rang stratégique et rang tactique de
+  chacun des trente-six personnages, et ce que la comparaison révèle.
 ---
 
-<h2>Présents dans les deux Top 12</h2>
-
 <div class="debord">
-<table class="tableau">
-  <caption>Calculé à partir des deux classements : sont retenus les noms qui figurent dans les douze premiers des deux listes.</caption>
+<table class="tableau matrice">
+  <caption>Construit à partir des deux classements. Un rang en gris désigne un
+  prétendant immédiat, hors du Top 12. Chaque rang conduit au dossier
+  correspondant.</caption>
   <thead>
-    <tr><th>Personnage</th><th>Stratégie</th><th>Tactique</th><th>Lecture</th></tr>
-  </thead>
-  <tbody>
-  {%- for s in site.data.strateges -%}
-    {%- if s.rang <= 12 -%}
-      {%- for t in site.data.tacticiens -%}
-        {%- if t.rang <= 12 and t.nom == s.nom -%}
     <tr>
-      <td>{{ s.nom }}</td>
-      <td><a href="{{ '/dossiers-strateges/' | relative_url }}#{{ s.slug }}">{{ s.rang }}<sup>e</sup></a></td>
-      <td><a href="{{ '/dossiers-tacticiens/' | relative_url }}#{{ t.slug }}">{{ t.rang }}<sup>e</sup></a></td>
-      <td>{% if s.nom contains "Napoléon" %}Maître complet, mais tacticien supérieur à son bilan final de grande stratégie.{% else %}Le profil le plus équilibré du corpus entre apprentissage, campagne, bataille et résultat politique.{% endif %}</td>
+      <th scope="col">Personnage</th>
+      <th scope="col" class="col-rang">Stratégie</th>
+      <th scope="col" class="col-rang">Tactique</th>
+      <th scope="col">Ce que dit la comparaison</th>
     </tr>
-        {%- endif -%}
-      {%- endfor -%}
-    {%- endif -%}
-  {%- endfor -%}
+  </thead>
+
+  {%- assign S = '/dossiers-strateges/' | relative_url -%}
+  {%- assign T = '/dossiers-tacticiens/' | relative_url -%}
+
+  <tbody>
+    <tr class="rubrique"><th colspan="4" scope="colgroup">Classés dans les deux disciplines</th></tr>
+    {%- for s in site.data.strateges -%}
+      {%- assign t = site.data.tacticiens | where: 'nom', s.nom | first -%}
+      {%- if t %}
+    <tr>
+      <th scope="row">{{ s.nom }}</th>
+      <td class="col-rang"><a class="{% if s.rang > 12 %}hors{% endif %}" href="{{ S }}#{{ s.slug }}">{{ s.rang }}<sup>e</sup></a></td>
+      <td class="col-rang"><a class="{% if t.rang > 12 %}hors{% endif %}" href="{{ T }}#{{ t.slug }}">{{ t.rang }}<sup>e</sup></a></td>
+      <td>{{ s.croise | default: t.croise }}</td>
+    </tr>
+      {%- endif -%}
+    {%- endfor %}
+  </tbody>
+
+  <tbody>
+    <tr class="rubrique"><th colspan="4" scope="colgroup">Classés en stratégie seulement</th></tr>
+    {%- for s in site.data.strateges -%}
+      {%- assign t = site.data.tacticiens | where: 'nom', s.nom | first -%}
+      {%- unless t %}
+    <tr>
+      <th scope="row">{{ s.nom }}</th>
+      <td class="col-rang"><a class="{% if s.rang > 12 %}hors{% endif %}" href="{{ S }}#{{ s.slug }}">{{ s.rang }}<sup>e</sup></a></td>
+      <td class="col-rang vide" aria-label="non classé">—</td>
+      <td>{{ s.croise }}</td>
+    </tr>
+      {%- endunless -%}
+    {%- endfor %}
+  </tbody>
+
+  <tbody>
+    <tr class="rubrique"><th colspan="4" scope="colgroup">Classés en tactique seulement</th></tr>
+    {%- for t in site.data.tacticiens -%}
+      {%- assign s = site.data.strateges | where: 'nom', t.nom | first -%}
+      {%- unless s %}
+    <tr>
+      <th scope="row">{{ t.nom }}</th>
+      <td class="col-rang vide" aria-label="non classé">—</td>
+      <td class="col-rang"><a class="{% if t.rang > 12 %}hors{% endif %}" href="{{ T }}#{{ t.slug }}">{{ t.rang }}<sup>e</sup></a></td>
+      <td>{{ t.croise }}</td>
+    </tr>
+      {%- endunless -%}
+    {%- endfor %}
   </tbody>
 </table>
 </div>
 
-<p>Deux noms sur vingt-quatre places. Le reste des deux Top 12 ne se recoupe
-pas du tout, et la matrice ci-dessous dit dans quel sens penche chacun.</p>
+## Ce que le tableau donne à voir
 
-<h2>Stratèges nettement supérieurs à leur profil tactique</h2>
+Deux hommes seulement figurent dans les **deux Top 12** : Napoléon Bonaparte,
+quatrième stratège et deuxième tacticien, et Scipion l’Africain, cinquième dans
+les deux listes. Deux autres apparaissent des deux côtés sans être admis
+partout : Alexandre le Grand, premier tacticien mais seulement dix-septième
+stratège, et Frédéric II de Prusse, écarté de justesse dans les deux
+disciplines.
 
-- [**Gengis Khan**]({{ '/dossiers-strateges/' | relative_url }}#gengis-khan) — système impérial et organisation de la guerre.
-- [**Otto von Bismarck**]({{ '/dossiers-strateges/' | relative_url }}#otto-von-bismarck) — choix et limitation des guerres, diplomatie et ordre politique.
-- [**Mao Zedong**]({{ '/dossiers-strateges/' | relative_url }}#mao-zedong) — mobilisation politique et temporalité révolutionnaire.
-- [**Tokugawa Ieyasu**]({{ '/dossiers-strateges/' | relative_url }}#tokugawa-ieyasu) — coalition, patience et stabilisation.
-- [**Auguste**]({{ '/dossiers-strateges/' | relative_url }}#auguste) — institutionnalisation de la victoire.
-- [**Carl von Clausewitz**]({{ '/dossiers-strateges/' | relative_url }}#carl-von-clausewitz) — puissance théorique.
-- [**Sun Tzu**]({{ '/dossiers-strateges/' | relative_url }}#sun-tzu) — corpus stratégique.
-- [**George C. Marshall**]({{ '/dossiers-strateges/' | relative_url }}#george-c-marshall) — construction d’un appareil de guerre global.
-- [**Võ Nguyên Giáp**]({{ '/dossiers-strateges/' | relative_url }}#vo-nguyen-giap) — articulation politico-militaire de l’asymétrie et du temps.
-
-<h2>Tacticiens nettement supérieurs à leur profil de grande stratégie</h2>
-
-- [**Alexandre le Grand**]({{ '/dossiers-tacticiens/' | relative_url }}#alexandre-le-grand) — premier tacticien, mais dix-septième stratège en raison de la succession et de la stabilisation.
-- [**Hannibal Barca**]({{ '/dossiers-tacticiens/' | relative_url }}#hannibal-barca) — pic tactique immense, incapacité à convertir ses victoires en décision politique contre Rome.
-- [**Jules César**]({{ '/dossiers-tacticiens/' | relative_url }}#jules-cesar) — tacticien de premier ordre ; sa carrière politico-stratégique n’a pas été retenue parmi les vingt finalistes stratégiques.
-- [**Yi Sun-sin**]({{ '/dossiers-tacticiens/' | relative_url }}#yi-sun-sin) — tactique navale exceptionnelle, rôle stratégique plus spécialisé.
-- [**Horatio Nelson**]({{ '/dossiers-tacticiens/' | relative_url }}#horatio-nelson) — rupture tactique navale, stratégie nationale définie au-dessus de lui.
-- [**Épaminondas**]({{ '/dossiers-tacticiens/' | relative_url }}#epaminondas) — innovation de bataille majeure, échantillon stratégique plus limité.
-- [**Alexandre Souvorov**]({{ '/dossiers-tacticiens/' | relative_url }}#alexandre-souvorov) — commandement tactique et opératif supérieur à sa contribution de grande stratégie.
-- [**John Churchill, duc de Marlborough**]({{ '/dossiers-tacticiens/' | relative_url }}#marlborough) — grand commandant de coalition, mais non auteur principal des finalités politiques britanniques.
-- [**Arthur Wellesley, duc de Wellington**]({{ '/dossiers-tacticiens/' | relative_url }}#wellington) — robustesse tactique exceptionnelle ; profil politico-stratégique moins transformateur.
-- [**Bélisaire**]({{ '/dossiers-tacticiens/' | relative_url }}#belisaire) — économie des moyens et adaptation sous contraintes.
-
-<h2>Maîtres de l’art opératif, identifiés mais non classés comme tels</h2>
-
-- [**Helmuth von Moltke l’Ancien**]({{ '/dossiers-strateges/' | relative_url }}#helmuth-von-moltke-l-ancien) — dix-huitième stratège.
-- [**Subutaï**]({{ '/dossiers-tacticiens/' | relative_url }}#subutai) — dix-neuvième tacticien.
-- [**Konstantin Rokossovski**]({{ '/dossiers-tacticiens/' | relative_url }}#konstantin-rokossovski) — vingtième tacticien.
-
-Leur position montre pourquoi la séparation des niveaux est nécessaire : on peut
-être extraordinairement important sans être automatiquement dans le Top 12 de
-l’une ou l’autre discipline.
-
-<h2>Conclusion</h2>
+Trente-deux noms sur trente-six ne figurent donc que d’un seul côté. Ce faible
+recouvrement n’est pas un défaut de construction, c’est le résultat.
 
 > La capacité à gagner des batailles et la capacité à gagner politiquement une
 > guerre ne sont pas la même compétence.
 
-Le faible recouvrement des deux listes n’est pas un défaut de construction. Il
-est le résultat.
+## Le niveau qui n’a pas de colonne
+
+Trois noms occupent une case par défaut plutôt que par mérite : Helmuth von
+Moltke l’Ancien est rangé en stratégie, Subutaï et Konstantin Rokossovski en
+tactique, alors que leur génie est **opératif** — organiser des opérations en
+campagnes. Le corpus a délibérément refusé d’en faire un troisième classement
+et s’en sert comme catégorie de contrôle. Leur position dans ce tableau montre
+ce que ce choix coûte, et pourquoi la séparation des niveaux reste nécessaire :
+on peut être extraordinairement important sans appartenir au Top 12 de l’une ou
+l’autre discipline.
+
+## Les cases vides
+
+Une case vide dans la colonne « Ce que dit la comparaison » n’est pas un oubli.
+Le corpus ne commente au niveau croisé que vingt-quatre des quarante dossiers ;
+pour les seize autres, il ne dit rien, et rien n’a été ajouté ici.
