@@ -74,6 +74,16 @@ préférence pour un nom ou une école militaire ne suffit pas.
 Les erreurs factuelles, elles, se corrigent sans discussion : elles se
 signalent dans le [dépôt du site](https://github.com/s-geffroy/strateges_tacticiens).
 
+## L’auteur
+
+Le corpus est de **Sylvain Geffroy** : la méthodologie, les quarante dossiers,
+les procès contradictoires des places de frontière et l’arrêt des listes. Le
+site n’est que la mise en ligne de ce travail, par la même main.
+
+Ce que cela implique se lit dans la règle de stabilité ci-dessus : les listes
+sont fermées par leur auteur, et rouvertes aux mêmes conditions que pour
+n’importe qui — un document nouveau, une erreur, une contradiction.
+
 ## Comment le site est fabriqué
 
 Les quarante dossiers vivent dans deux fichiers de données, et rien d’autre :
