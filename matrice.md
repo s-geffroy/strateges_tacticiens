@@ -14,9 +14,9 @@ description: >-
 
 <div class="debord">
 <table class="tableau matrice">
-  <caption>Construit à partir des deux classements. Un rang en gris désigne un
-  prétendant immédiat, hors du Top 12. Chaque rang conduit au dossier
-  correspondant.</caption>
+  <caption>Construit à partir des deux classements. Chaque rang est suivi de sa
+  confiance, sur l’échelle à cinq crans du site ; un rang en gris désigne un
+  prétendant immédiat, hors du Top 12. Chaque rang conduit à son dossier.</caption>
   <thead>
     <tr>
       <th scope="col">Personnage</th>
@@ -36,8 +36,8 @@ description: >-
       {%- if t %}
     <tr>
       <th scope="row">{{ s.nom }}</th>
-      <td class="col-rang"><a class="{% if s.rang > 12 %}hors{% endif %}" href="{{ S }}#{{ s.slug }}">{{ s.rang }}<sup>e</sup></a></td>
-      <td class="col-rang"><a class="{% if t.rang > 12 %}hors{% endif %}" href="{{ T }}#{{ t.slug }}">{{ t.rang }}<sup>e</sup></a></td>
+      <td class="col-rang"><div class="rang-cran"><a class="{% if s.rang > 12 %}hors{% endif %}" href="{{ S }}#{{ s.slug }}">{{ s.rang }}<sup>e</sup></a>{% include cran.html cran=s.cran libelle=s.confiance %}</div></td>
+      <td class="col-rang"><div class="rang-cran"><a class="{% if t.rang > 12 %}hors{% endif %}" href="{{ T }}#{{ t.slug }}">{{ t.rang }}<sup>e</sup></a>{% include cran.html cran=t.cran libelle=t.confiance %}</div></td>
       <td>{{ s.croise | default: t.croise }}</td>
     </tr>
       {%- endif -%}
@@ -51,7 +51,7 @@ description: >-
       {%- unless t %}
     <tr>
       <th scope="row">{{ s.nom }}</th>
-      <td class="col-rang"><a class="{% if s.rang > 12 %}hors{% endif %}" href="{{ S }}#{{ s.slug }}">{{ s.rang }}<sup>e</sup></a></td>
+      <td class="col-rang"><div class="rang-cran"><a class="{% if s.rang > 12 %}hors{% endif %}" href="{{ S }}#{{ s.slug }}">{{ s.rang }}<sup>e</sup></a>{% include cran.html cran=s.cran libelle=s.confiance %}</div></td>
       <td class="col-rang vide" aria-label="non classé">—</td>
       <td>{{ s.croise }}</td>
     </tr>
@@ -67,7 +67,7 @@ description: >-
     <tr>
       <th scope="row">{{ t.nom }}</th>
       <td class="col-rang vide" aria-label="non classé">—</td>
-      <td class="col-rang"><a class="{% if t.rang > 12 %}hors{% endif %}" href="{{ T }}#{{ t.slug }}">{{ t.rang }}<sup>e</sup></a></td>
+      <td class="col-rang"><div class="rang-cran"><a class="{% if t.rang > 12 %}hors{% endif %}" href="{{ T }}#{{ t.slug }}">{{ t.rang }}<sup>e</sup></a>{% include cran.html cran=t.cran libelle=t.confiance %}</div></td>
       <td>{{ t.croise }}</td>
     </tr>
       {%- endunless -%}
@@ -77,6 +77,13 @@ description: >-
 </div>
 
 ## Ce que le tableau donne à voir
+
+Les crans placés à côté de chaque rang évitent la lecture paresseuse. Konstantin
+Rokossovski ferme le classement tactique avec la confiance maximale : on sait
+exactement ce qu’il a fait, et cela relève de l’art opératif. Khalid ibn
+al-Walid est quinzième avec la confiance la plus basse du corpus : rien ne
+permet de le situer mieux. Les deux sont hors du Top 12, pour des raisons
+opposées.
 
 Deux hommes seulement figurent dans les **deux Top 12** : Napoléon Bonaparte,
 quatrième stratège et deuxième tacticien, et Scipion l’Africain, cinquième dans
