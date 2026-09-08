@@ -10,71 +10,8 @@ chapeau: >-
 description: >-
   Tableau croisé des deux classements : rang stratégique et rang tactique de
   chacun des trente-six personnages, et ce que la comparaison révèle.
+avant_prose: matrice-tableau.html
 ---
-
-<div class="debord">
-<table class="tableau matrice">
-  <caption>Construit à partir des deux classements. Chaque rang est suivi de sa
-  confiance, sur l’échelle à cinq crans du site ; un rang en gris désigne un
-  prétendant immédiat, hors du Top 12. Chaque rang conduit à son dossier.</caption>
-  <thead>
-    <tr>
-      <th scope="col">Personnage</th>
-      <th scope="col" class="col-rang">Stratégie</th>
-      <th scope="col" class="col-rang">Tactique</th>
-      <th scope="col">Ce que dit la comparaison</th>
-    </tr>
-  </thead>
-
-  {%- assign S = '/dossiers-strateges/' | relative_url -%}
-  {%- assign T = '/dossiers-tacticiens/' | relative_url -%}
-
-  <tbody>
-    <tr class="rubrique"><th colspan="4" scope="colgroup">Classés dans les deux disciplines</th></tr>
-    {%- for s in site.data.strateges -%}
-      {%- assign t = site.data.tacticiens | where: 'nom', s.nom | first -%}
-      {%- if t %}
-    <tr>
-      <th scope="row">{{ s.nom }}</th>
-      <td class="col-rang"><div class="rang-cran"><a class="{% if s.rang > 12 %}hors{% endif %}" href="{{ S }}#{{ s.slug }}">{{ s.rang }}<sup>e</sup></a>{% include cran.html cran=s.cran libelle=s.confiance %}</div></td>
-      <td class="col-rang"><div class="rang-cran"><a class="{% if t.rang > 12 %}hors{% endif %}" href="{{ T }}#{{ t.slug }}">{{ t.rang }}<sup>e</sup></a>{% include cran.html cran=t.cran libelle=t.confiance %}</div></td>
-      <td>{{ s.croise | default: t.croise }}</td>
-    </tr>
-      {%- endif -%}
-    {%- endfor %}
-  </tbody>
-
-  <tbody>
-    <tr class="rubrique"><th colspan="4" scope="colgroup">Classés en stratégie seulement</th></tr>
-    {%- for s in site.data.strateges -%}
-      {%- assign t = site.data.tacticiens | where: 'nom', s.nom | first -%}
-      {%- unless t %}
-    <tr>
-      <th scope="row">{{ s.nom }}</th>
-      <td class="col-rang"><div class="rang-cran"><a class="{% if s.rang > 12 %}hors{% endif %}" href="{{ S }}#{{ s.slug }}">{{ s.rang }}<sup>e</sup></a>{% include cran.html cran=s.cran libelle=s.confiance %}</div></td>
-      <td class="col-rang vide" aria-label="non classé">—</td>
-      <td>{{ s.croise }}</td>
-    </tr>
-      {%- endunless -%}
-    {%- endfor %}
-  </tbody>
-
-  <tbody>
-    <tr class="rubrique"><th colspan="4" scope="colgroup">Classés en tactique seulement</th></tr>
-    {%- for t in site.data.tacticiens -%}
-      {%- assign s = site.data.strateges | where: 'nom', t.nom | first -%}
-      {%- unless s %}
-    <tr>
-      <th scope="row">{{ t.nom }}</th>
-      <td class="col-rang vide" aria-label="non classé">—</td>
-      <td class="col-rang"><div class="rang-cran"><a class="{% if t.rang > 12 %}hors{% endif %}" href="{{ T }}#{{ t.slug }}">{{ t.rang }}<sup>e</sup></a>{% include cran.html cran=t.cran libelle=t.confiance %}</div></td>
-      <td>{{ t.croise }}</td>
-    </tr>
-      {%- endunless -%}
-    {%- endfor %}
-  </tbody>
-</table>
-</div>
 
 ## Ce que le tableau donne à voir
 

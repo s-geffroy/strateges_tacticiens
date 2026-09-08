@@ -6,6 +6,10 @@ layout: default
 <p class="chapeau">{{ page.chapeau }}</p>
 {%- endif %}
 
+{%- if page.avant_prose %}
+{% include {{ page.avant_prose }} %}
+{%- endif %}
+
 <div class="prose">
   {{ content }}
 </div>

@@ -491,7 +491,22 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 
 /* --- Le tableau croise -------------------------------------------------- */
 
-.matrice th[scope="row"] { font-family: var(--serif); font-weight: 400; }
+/* Aucun nom ne se coupe. La colonne prend la largeur du plus long
+   -- « Arthur Wellesley, duc de Wellington » -- et la table impose un minimum
+   en dessous duquel elle defile plutot que d'ecraser la derniere colonne. */
+.matrice { min-width: 48rem; }
+.matrice th[scope="row"] {
+  font-family: var(--serif);
+  font-weight: 400;
+  white-space: nowrap;
+  padding-right: 1.4rem;
+}
+
+/* Tout s'aligne sur la premiere ligne : un nom tient sur une ligne, la lecture
+   croisee peut en prendre trois. */
+.matrice tbody th,
+.matrice tbody td { vertical-align: top; }
+
 .matrice .col-rang {
   width: 6.6rem;
   white-space: nowrap;
@@ -502,6 +517,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  line-height: 1.62;   /* la meme que le corps : le cran se centre sur la ligne */
 }
 .rang-cran .cran { margin-top: 0; }
 .matrice .col-rang a { text-decoration: none; box-shadow: inset 0 -1px 0 var(--filet); }
