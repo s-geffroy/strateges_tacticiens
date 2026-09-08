@@ -1,9 +1,83 @@
 ---
-layout: home
+layout: default
 title: Accueil
+description: >-
+  Les douze plus grands stratèges et les douze plus grands tacticiens, classés
+  par arbitrage multicritère, chaque rang accompagné de la confiance qu’on peut
+  lui accorder.
 ---
 
-Cette page est le point d'entree du site. Remplace ce texte.
+<h1 class="titre-page">Deux classements, et ce qu’on peut leur accorder</h1>
 
-Les articles deposes dans `_posts/` apparaissent automatiquement ci-dessous
-avec le theme `minima`.
+<p class="chapeau">Gagner des batailles et gagner politiquement une guerre ne
+sont pas la même compétence. Ce site tient donc deux listes séparées, arrêtées
+le 11 août 2026, et ne publie aucun score : à la place, chaque rang porte la
+confiance qu’il mérite.</p>
+
+<div class="pivot">
+  <section class="definition">
+    <h2>Le stratège</h2>
+    <p>Transforme les moyens militaires, politiques, économiques et temporels
+    en résultat politique. Il choisit les objectifs, ajuste les fins aux
+    moyens, tient une coalition, et organise l’après-guerre.</p>
+    <a class="conduit" href="{{ '/strateges/' | relative_url }}">Les douze stratèges</a>
+  </section>
+
+  <div class="pivot-filet"></div>
+
+  <section class="definition">
+    <h2>Le tacticien</h2>
+    <p>Transforme une situation de combat en avantage militaire décisif. Il
+    conçoit l’engagement, lit le terrain et l’adversaire, place ses réserves,
+    et improvise quand le plan cède.</p>
+    <a class="conduit" href="{{ '/tacticiens/' | relative_url }}">Les douze tacticiens</a>
+  </section>
+</div>
+
+<div class="prose">
+
+<h2>Ce que mesure l’échelle de gauche</h2>
+
+<p>Un classement qui affiche un score au dixième de point ment sur sa propre
+précision. Celui-ci refuse le score et déclare autre chose : pour chaque nom,
+la solidité du dossier. Les cinq crans portés dans la marge des deux listes se
+lisent ainsi.</p>
+
+<div class="legende">
+  {% include cran.html cran=5 libelle="Très élevée" %}
+  <p><strong>Très élevée.</strong> Documentation abondante, attribution nette, aucune place sérieusement contestable.</p>
+  {% include cran.html cran=4 libelle="Élevée" %}
+  <p><strong>Élevée.</strong> Le dossier tient ; l’écart avec les rangs voisins reste discutable.</p>
+  {% include cran.html cran=3 libelle="Moyenne à élevée" %}
+  <p><strong>Moyenne à élevée.</strong> Une dimension du dossier — sources, attribution, échantillon — reste ouverte.</p>
+  {% include cran.html cran=2 libelle="Moyenne" %}
+  <p><strong>Moyenne.</strong> Le rang est un arbitrage assumé, pas une évidence.</p>
+  {% include cran.html cran=1 libelle="Faible à moyenne" %}
+  <p><strong>Faible à moyenne.</strong> Le talent est plausible, les sources ne permettent pas de le situer.</p>
+</div>
+
+<p>Le cran ne juge pas l’homme, il juge la preuve. Konstantin Rokossovski est
+vingtième des tacticiens avec une confiance maximale, parce qu’on sait
+précisément ce qu’il a fait et que cela relève de l’art opératif. Khalid ibn
+al-Walid est quinzième avec la confiance la plus basse : c’est la résolution
+documentaire qui lui interdit le Top 12, pas une infériorité démontrée.</p>
+
+<h2>Un troisième niveau, mais pas un troisième classement</h2>
+
+<p>Entre la bataille et la guerre, l’art opératif organise les opérations en
+campagnes. Il sert ici de catégorie de contrôle : une performance
+principalement opérative ne prouve ni une supériorité tactique, ni une
+supériorité stratégique. Trois grands noms en font les frais et figurent
+seulement parmi les prétendants — Helmuth von Moltke l’Ancien, Subutaï et
+Rokossovski.</p>
+
+<h2>Deux hommes seulement figurent dans les deux Top 12</h2>
+
+<p>Napoléon Bonaparte, quatrième stratège et deuxième tacticien : le tacticien
+y dépasse nettement le bilan final de grande stratégie. Et Scipion l’Africain,
+cinquième dans les deux listes, le profil le plus équilibré du corpus entre
+apprentissage, campagne, bataille et résultat politique. Le reste des
+correspondances se lit dans la <a href="{{ '/matrice/' | relative_url }}">matrice
+croisée</a>.</p>
+
+</div>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'fr' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {%- comment -%}
+    jekyll-seo-tag pose <title>, la description, les balises Open Graph et le
+    JSON-LD a partir de _config.yml et du front matter de la page.
+    jekyll-feed pose le lien vers /feed.xml.
+  {%- endcomment -%}
+  {%- seo -%}
+  {%- feed_meta -%}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+
+<a class="evitement" href="#contenu">Aller au contenu</a>
+
+<header class="entete-bande">
+  <div class="enveloppe entete">
+    <a class="enseigne" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav class="nav" aria-label="Sections du site">
+      {%- for lien in site.data.navigation %}
+      <a href="{{ lien.url | relative_url }}"
+         {% if page.url == lien.url %}aria-current="page"{% endif %}>{{ lien.titre }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+  <div class="enveloppe">
+    {{ content }}
+  </div>
+</main>
+
+<footer class="pied">
+  <div class="enveloppe">
+    <p>
+      Version arrêtée le 11 août 2026. Les listes sont fermées sur le fond : un
+      rang ne se rouvre qu’en présence d’un élément documentaire nouveau, d’une
+      erreur factuelle identifiée ou d’une contradiction méthodologique
+      démontrée.
+    </p>
+    <p>
+      Aucun score final n’est publié. Les rangs résultent d’un arbitrage
+      multicritère ordinal, et chaque rang est accompagné de la confiance qu’on
+      peut lui accorder — <a href="{{ '/methodologie/' | relative_url }}">voir la
+      méthodologie</a>.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

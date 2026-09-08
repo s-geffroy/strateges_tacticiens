@@ -1,0 +1,383 @@
+/* Feuille de style du site. Fichier statique, sans front matter : Jekyll le
+   copie tel quel dans _site/assets/css/site.css.
+
+   Le parti pris tient en une phrase : ce corpus refuse de publier un score, et
+   declare a la place une CONFIANCE pour chaque rang. Le rang n'est donc jamais
+   montre seul -- l'echelle a cinq crans dans la marge de gauche est le seul
+   endroit ou ce site se permet d'etre spectaculaire. Tout le reste se tait. */
+
+/* --- Jetons ------------------------------------------------------------- */
+
+:root {
+  color-scheme: light dark;
+
+  /* Papier de carte d'etat-major : gris legerement vert, franchement froid. */
+  --papier:        #e7eae3;
+  --papier-creux:  #dce0d7;
+  /* Encre bleu de Prusse. C'est un bleu, pas un noir teinte. */
+  --encre:         #17293c;
+  --encre-pale:    #4d5c61;
+  --filet:         #a9b2a6;
+  /* Un seul accent, un or olive de laiton. */
+  --laiton:        #7d5e0c;
+
+  --sans:  "Archivo", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  --serif: "Spectral", Georgia, "Times New Roman", serif;
+
+  --mesure: 34rem;   /* environ 68 signes en Spectral : la ligne de lecture */
+  --marge:  clamp(1.1rem, 4vw, 3rem);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier:        #101c26;
+    --papier-creux:  #17293c;
+    --encre:         #dde3d9;
+    --encre-pale:    #93a29c;
+    --filet:         #3a4c52;
+    --laiton:        #c79b2e;
+  }
+}
+
+/* --- Socle -------------------------------------------------------------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--encre);
+  font-family: var(--serif);
+  font-size: clamp(1rem, 0.96rem + 0.2vw, 1.075rem);
+  line-height: 1.62;               /* une serif demande un peu plus d'air */
+  font-variant-numeric: oldstyle-nums;
+}
+
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { text-decoration-color: var(--laiton); }
+
+:focus-visible {
+  outline: 2px solid var(--laiton);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, .rang, .nav, .porte, .cartouche dt {
+  font-family: var(--sans);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+h1, h2, h3 { line-height: 1.12; letter-spacing: -0.018em; font-weight: 600; margin: 0; }
+
+p { margin: 0 0 1em; }
+p:last-child { margin-bottom: 0; }
+
+/* --- Ossature ----------------------------------------------------------- */
+
+.enveloppe {
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 0 var(--marge);
+}
+
+.lisible { max-width: var(--mesure); }
+
+.entete {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.6rem;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 1.5rem 0 1.1rem;
+  border-bottom: 1px solid var(--filet);
+}
+
+.enseigne {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 0.98rem;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.15rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.nav a { text-decoration: none; color: var(--encre-pale); }
+.nav a:hover { color: var(--encre); }
+.nav a[aria-current="page"] {
+  color: var(--encre);
+  box-shadow: inset 0 -2px 0 var(--laiton);
+}
+
+main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
+
+.pied {
+  margin-top: clamp(3rem, 8vw, 5.5rem);
+  padding: 1.4rem 0 2.6rem;
+  border-top: 1px solid var(--filet);
+  color: var(--encre-pale);
+  font-size: 0.88rem;
+}
+.pied p { max-width: var(--mesure); }
+
+/* --- Titres de page ----------------------------------------------------- */
+
+.titre-page {
+  font-size: clamp(1.85rem, 1.1rem + 3.4vw, 3.1rem);
+  max-width: 18ch;
+}
+
+.chapeau {
+  margin-top: 1.1rem;
+  max-width: var(--mesure);
+  font-size: 1.06em;
+  color: var(--encre-pale);
+}
+
+/* --- Le pivot du site : les deux definitions en regard ------------------ */
+
+.pivot {
+  display: grid;
+  gap: clamp(1.6rem, 5vw, 3.2rem);
+  margin: clamp(2rem, 6vw, 3.4rem) 0;
+}
+.pivot-filet { display: none; }
+
+@media (min-width: 46rem) {
+  .pivot { grid-template-columns: 1fr 1px 1fr; align-items: start; }
+  .pivot-filet {
+    display: block;
+    align-self: stretch;
+    background: var(--filet);
+  }
+}
+
+.definition h2 {
+  font-size: clamp(1.5rem, 1rem + 2vw, 2.15rem);
+  margin-bottom: 0.55rem;
+}
+.definition p { font-size: 1.02em; }
+.definition .conduit {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 0.92rem;
+  text-decoration: none;
+  box-shadow: inset 0 -2px 0 var(--laiton);
+  padding-bottom: 1px;
+}
+.definition .conduit:hover {
+  color: var(--papier);
+  box-shadow: inset 0 -1.35em 0 var(--laiton);
+  transition: box-shadow .12s, color .12s;
+}
+
+/* --- L'echelle de confiance --------------------------------------------- */
+
+.cran {
+  display: flex;
+  flex-direction: column-reverse;   /* se remplit par le bas, comme une jauge */
+  gap: 3px;
+  width: 20px;
+  margin-top: 0.55rem;
+}
+.cran i {
+  display: block;
+  height: 2px;
+  background: var(--filet);
+  opacity: 0.55;
+}
+.cran i.plein { background: var(--laiton); opacity: 1; }
+
+/* --- Le registre -------------------------------------------------------- */
+
+.registre { margin: 2.6rem 0 0; }
+
+.entree {
+  display: grid;
+  grid-template-columns: 20px 2.4rem 1fr;
+  gap: 0 clamp(0.7rem, 2vw, 1.2rem);
+  padding: 1.05rem 0;
+  border-top: 1px solid var(--papier-creux);
+}
+.entree:first-child { border-top: 1px solid var(--filet); }
+
+.rang {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: right;
+  padding-top: 0.1rem;
+  letter-spacing: -0.03em;
+}
+.hors .rang { color: var(--encre-pale); font-weight: 500; }
+
+.corps-entree { min-width: 0; }
+
+.nom {
+  font-family: var(--sans);
+  font-size: 1.14rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+.motif { margin: 0.28rem 0 0; max-width: var(--mesure); }
+.mention {
+  margin: 0.4rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--encre-pale);
+}
+
+/* La porte d'admissibilite : ce filet est une information, pas un ornement. */
+.porte {
+  display: grid;
+  grid-template-columns: 20px 2.4rem 1fr;
+  gap: 0 clamp(0.7rem, 2vw, 1.2rem);
+  align-items: center;
+  margin: 0.4rem 0 0;
+  padding: 0.75rem 0 0.15rem;
+  border-top: 3px solid var(--laiton);
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--encre-pale);
+}
+.porte span { grid-column: 3; }
+
+/* --- Le dossier deplie -------------------------------------------------- */
+
+.dossier { margin-top: 0.55rem; }
+
+.dossier > summary {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--encre-pale);
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+.dossier > summary::-webkit-details-marker { display: none; }
+.dossier > summary::before {
+  content: "+";
+  font-weight: 700;
+  color: var(--laiton);
+}
+.dossier[open] > summary::before { content: "\2212"; }
+.dossier > summary:hover { color: var(--encre); }
+
+.cartouche {
+  margin: 0.85rem 0 0.3rem;
+  padding: 0 0 0 1rem;
+  border-left: 1px solid var(--filet);
+  max-width: var(--mesure);
+}
+.cartouche dt {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--encre-pale);
+  margin-top: 0.85rem;
+}
+.cartouche dt:first-child { margin-top: 0; }
+.cartouche dd { margin: 0.1rem 0 0; }
+
+.verdict {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--laiton);
+  font-style: italic;
+  max-width: var(--mesure);
+}
+
+/* --- Prose (methodologie, arbitrages, sources) -------------------------- */
+
+.prose { max-width: var(--mesure); }
+.prose h2 {
+  font-size: 1.35rem;
+  margin: 2.6rem 0 0.7rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--filet);
+}
+.prose h3 { font-size: 1.02rem; margin: 1.7rem 0 0.4rem; }
+.prose ul, .prose ol { padding-left: 1.15rem; margin: 0 0 1em; }
+.prose li { margin-bottom: 0.35em; }
+.prose blockquote {
+  margin: 1.4rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--laiton);
+  font-style: italic;
+}
+.prose code { font-size: 0.9em; }
+
+/* Tableaux : ils portent des poids et des correspondances, pas du decor. */
+.prose table, .tableau {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2rem 0 1.6rem;
+  font-size: 0.95rem;
+}
+.prose caption, .tableau caption {
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--encre-pale);
+  padding-bottom: 0.5rem;
+}
+.prose th, .tableau th {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: left;
+  color: var(--encre-pale);
+  padding: 0 0.7rem 0.45rem 0;
+  border-bottom: 1px solid var(--filet);
+}
+.prose td, .tableau td {
+  padding: 0.5rem 0.7rem 0.5rem 0;
+  border-bottom: 1px solid var(--papier-creux);
+  vertical-align: top;
+}
+.prose th:last-child, .prose td:last-child,
+.tableau th:last-child, .tableau td:last-child { padding-right: 0; }
+.prose td:nth-child(2), .prose th:nth-child(2) { white-space: nowrap; }
+
+.debord { overflow-x: auto; }
+
+/* --- Divers ------------------------------------------------------------- */
+
+.evitement {
+  position: absolute;
+  left: -9999px;
+}
+.evitement:focus {
+  position: static;
+  display: inline-block;
+  padding: 0.5rem 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+/* --- Legende de l'echelle (accueil) ------------------------------------- */
+
+.legende {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 0.55rem clamp(0.7rem, 2vw, 1.1rem);
+  align-items: start;
+  margin: 1.5rem 0 1.8rem;
+  padding-left: 0.1rem;
+}
+.legende .cran { margin-top: 0.35rem; }
+.legende p { margin: 0; font-size: 0.98rem; }

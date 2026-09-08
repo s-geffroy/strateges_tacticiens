@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<h1 class="titre-page">{{ page.titre_long }}</h1>
+<p class="chapeau">{{ page.chapeau }}</p>
+
+<div class="registre">
+  {%- assign jeu = site.data[page.jeu] -%}
+  {%- for d in jeu -%}
+    {%- if d.rang == 13 -%}
+    <div class="porte" aria-hidden="false">
+      <span>Porte d’admissibilité. Les huit suivants sont des prétendants immédiats, écartés du Top 12 — pas des candidats inférieurs.</span>
+    </div>
+    {%- endif -%}
+    {% include entree.html d=d %}
+  {%- endfor -%}
+</div>
+
+<div class="prose">
+  <h2>Lecture du rang</h2>
+  {{ content }}
+</div>

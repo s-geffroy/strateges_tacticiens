@@ -1,0 +1,10 @@
+{%- comment -%}
+  L'echelle de confiance : cinq crans, remplis par le bas.
+  Parametres : include.cran (1 a 5), include.libelle (le libelle exact du
+  corpus, restitue aux lecteurs d'ecran et au survol).
+{%- endcomment -%}
+<div class="cran" role="img" aria-label="Confiance : {{ include.libelle }}" title="Confiance : {{ include.libelle }}">
+  {%- for i in (1..5) -%}
+  <i{% if i <= include.cran %} class="plein"{% endif %}></i>
+  {%- endfor -%}
+</div>

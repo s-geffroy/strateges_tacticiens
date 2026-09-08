@@ -5,15 +5,18 @@
 # Le titre, la description et le nom d'auteur s'ecrivent en francais normal,
 # avec leurs accents : ils seront lus par des visiteurs. La regle « sans
 # accents » de ce depot vise les fichiers d'infrastructure, pas le contenu.
-title: strat-tact
-description: Une ligne pour dire de quoi parle ce site.
-author: Auteur
+# La langue du site : sans elle, jekyll-seo-tag annonce en_US.
+lang: fr-FR
+
+title: Stratèges et tacticiens
+description: Les douze plus grands strateges et les douze plus grands tacticiens, classes par arbitrage multicritere, chaque rang accompagne de la confiance qu'on peut lui accorder.
+author: Sylvain Geffroy
 
 # L'adresse publique du site, sans barre oblique finale.
 #   site de projet    : https://<utilisateur>.github.io
 #   site d'utilisateur: https://<utilisateur>.github.io
 #   domaine personnel : https://www.exemple.fr
-url: "https://CHANGEME.github.io"
+url: "https://s-geffroy.github.io"
 
 # LE PIEGE, ET POURQUOI IL NE SE DECLENCHE PAS ICI.
 #
@@ -29,9 +32,11 @@ url: "https://CHANGEME.github.io"
 # ci-dessous. Ce qui reste ici ne sert donc qu'a la CONSTRUCTION LOCALE
 # (`sudo appctl run bundle bundle exec jekyll build`) : la garder juste evite
 # qu'un apercu local ne ressemble pas au site publie.
-baseurl: "/strat-tact"
+baseurl: "/strateges_tacticiens"
 
-theme: minima
+# Pas de theme : les gabarits de ce site sont dans _layouts/ et _includes/.
+# La gem minima reste declaree dans le Gemfile mais n'est plus chargee ici ;
+# la retirer du Gemfile demanderait de regenerer Gemfile.lock.
 
 # Greffons. Contrairement au constructeur natif de GitHub Pages, il n'y a ici ni
 # safe mode, ni liste blanche : ce qui est declare dans le Gemfile est charge,
