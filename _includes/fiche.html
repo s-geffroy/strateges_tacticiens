@@ -1,0 +1,37 @@
+{%- comment -%}
+  Un dossier comparatif complet, tel qu'il figure dans les fichiers 03 et 05 du
+  corpus. Parametres :
+    include.d          une entree de _data/strateges.yml ou tacticiens.yml
+    include.classement l'url de la page de classement correspondante
+    include.discipline "stratège" ou "tacticien"
+{%- endcomment -%}
+<article class="fiche" id="{{ include.d.slug }}">
+  <div class="fiche-marge">
+    {% include cran.html cran=include.d.cran libelle=include.d.confiance %}
+    <div class="rang">{{ include.d.rang }}</div>
+  </div>
+
+  <div class="fiche-corps">
+    <h2 class="fiche-nom">{{ include.d.nom }}</h2>
+    <p class="fiche-position">
+      {{ include.d.rang }}<sup>e</sup> {{ include.discipline }} sur vingt —
+      {% if include.d.rang <= 12 %}Top 12{% else %}prétendant immédiat{% endif %}.
+      Confiance {{ include.d.confiance | downcase }}.
+    </p>
+    <p class="motif">{{ include.d.motif }}</p>
+
+    <dl class="cartouche">
+      <dt>Profil</dt><dd>{{ include.d.profil }}</dd>
+      <dt>Cas maître</dt><dd>{{ include.d.cas }}</dd>
+      <dt>Avantage décisif</dt><dd>{{ include.d.avantage }}</dd>
+      <dt>Limite</dt><dd>{{ include.d.limite }}</dd>
+      <dt>Attribution</dt><dd>{{ include.d.attribution }}</dd>
+      <dt>Confiance documentaire</dt><dd>{{ include.d.doc }}</dd>
+      <dt>Bande estimée avant arbitrage</dt><dd>{{ include.d.bande }}</dd>
+    </dl>
+
+    <p class="verdict">{{ include.d.verdict }}</p>
+
+    <p class="fiche-retour"><a href="{{ include.classement | append: '#' | append: include.d.slug | relative_url }}">Situer ce dossier dans le classement</a></p>
+  </div>
+</article>

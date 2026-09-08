@@ -1,14 +1,23 @@
-# Les entrees de la barre de navigation. L'url doit correspondre exactement au
-# permalink de la page, sinon l'etat 'page courante' ne s'allume pas.
-- titre: "Stratèges"
-  url: /strateges/
-- titre: "Tacticiens"
-  url: /tacticiens/
-- titre: "Matrice croisée"
-  url: /matrice/
-- titre: "Arbitrages"
-  url: /arbitrages/
-- titre: "Méthodologie"
-  url: /methodologie/
-- titre: "Sources"
-  url: /sources/
+# La barre de navigation, en deux groupes separes visuellement.
+# L'url doit correspondre exactement au permalink de la page, sinon l'etat
+# 'page courante' ne s'allume pas.
+- groupe: "Les listes et leurs dossiers"
+  entrees:
+    - titre: "Stratèges"
+      url: /strateges/
+    - titre: "Dossiers stratèges"
+      url: /dossiers-strateges/
+    - titre: "Tacticiens"
+      url: /tacticiens/
+    - titre: "Dossiers tacticiens"
+      url: /dossiers-tacticiens/
+- groupe: "L’appareil critique"
+  entrees:
+    - titre: "Matrice croisée"
+      url: /matrice/
+    - titre: "Arbitrages"
+      url: /arbitrages/
+    - titre: "Méthodologie"
+      url: /methodologie/
+    - titre: "Sources"
+      url: /sources/

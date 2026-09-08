@@ -26,8 +26,8 @@ description: >-
         {%- if t.rang <= 12 and t.nom == s.nom -%}
     <tr>
       <td>{{ s.nom }}</td>
-      <td>{{ s.rang }}<sup>e</sup></td>
-      <td>{{ t.rang }}<sup>e</sup></td>
+      <td><a href="{{ '/dossiers-strateges/' | relative_url }}#{{ s.slug }}">{{ s.rang }}<sup>e</sup></a></td>
+      <td><a href="{{ '/dossiers-tacticiens/' | relative_url }}#{{ t.slug }}">{{ t.rang }}<sup>e</sup></a></td>
       <td>{% if s.nom contains "Napoléon" %}Maître complet, mais tacticien supérieur à son bilan final de grande stratégie.{% else %}Le profil le plus équilibré du corpus entre apprentissage, campagne, bataille et résultat politique.{% endif %}</td>
     </tr>
         {%- endif -%}
@@ -43,34 +43,34 @@ pas du tout, et la matrice ci-dessous dit dans quel sens penche chacun.</p>
 
 <h2>Stratèges nettement supérieurs à leur profil tactique</h2>
 
-- **Gengis Khan** — système impérial et organisation de la guerre.
-- **Otto von Bismarck** — choix et limitation des guerres, diplomatie et ordre politique.
-- **Mao Zedong** — mobilisation politique et temporalité révolutionnaire.
-- **Tokugawa Ieyasu** — coalition, patience et stabilisation.
-- **Auguste** — institutionnalisation de la victoire.
-- **Carl von Clausewitz** — puissance théorique.
-- **Sun Tzu** — corpus stratégique.
-- **George C. Marshall** — construction d’un appareil de guerre global.
-- **Võ Nguyên Giáp** — articulation politico-militaire de l’asymétrie et du temps.
+- [**Gengis Khan**]({{ '/dossiers-strateges/' | relative_url }}#gengis-khan) — système impérial et organisation de la guerre.
+- [**Otto von Bismarck**]({{ '/dossiers-strateges/' | relative_url }}#otto-von-bismarck) — choix et limitation des guerres, diplomatie et ordre politique.
+- [**Mao Zedong**]({{ '/dossiers-strateges/' | relative_url }}#mao-zedong) — mobilisation politique et temporalité révolutionnaire.
+- [**Tokugawa Ieyasu**]({{ '/dossiers-strateges/' | relative_url }}#tokugawa-ieyasu) — coalition, patience et stabilisation.
+- [**Auguste**]({{ '/dossiers-strateges/' | relative_url }}#auguste) — institutionnalisation de la victoire.
+- [**Carl von Clausewitz**]({{ '/dossiers-strateges/' | relative_url }}#carl-von-clausewitz) — puissance théorique.
+- [**Sun Tzu**]({{ '/dossiers-strateges/' | relative_url }}#sun-tzu) — corpus stratégique.
+- [**George C. Marshall**]({{ '/dossiers-strateges/' | relative_url }}#george-c-marshall) — construction d’un appareil de guerre global.
+- [**Võ Nguyên Giáp**]({{ '/dossiers-strateges/' | relative_url }}#vo-nguyen-giap) — articulation politico-militaire de l’asymétrie et du temps.
 
 <h2>Tacticiens nettement supérieurs à leur profil de grande stratégie</h2>
 
-- **Alexandre le Grand** — premier tacticien, mais dix-septième stratège en raison de la succession et de la stabilisation.
-- **Hannibal Barca** — pic tactique immense, incapacité à convertir ses victoires en décision politique contre Rome.
-- **Jules César** — tacticien de premier ordre ; sa carrière politico-stratégique n’a pas été retenue parmi les vingt finalistes stratégiques.
-- **Yi Sun-sin** — tactique navale exceptionnelle, rôle stratégique plus spécialisé.
-- **Horatio Nelson** — rupture tactique navale, stratégie nationale définie au-dessus de lui.
-- **Épaminondas** — innovation de bataille majeure, échantillon stratégique plus limité.
-- **Alexandre Souvorov** — commandement tactique et opératif supérieur à sa contribution de grande stratégie.
-- **John Churchill, duc de Marlborough** — grand commandant de coalition, mais non auteur principal des finalités politiques britanniques.
-- **Arthur Wellesley, duc de Wellington** — robustesse tactique exceptionnelle ; profil politico-stratégique moins transformateur.
-- **Bélisaire** — économie des moyens et adaptation sous contraintes.
+- [**Alexandre le Grand**]({{ '/dossiers-tacticiens/' | relative_url }}#alexandre-le-grand) — premier tacticien, mais dix-septième stratège en raison de la succession et de la stabilisation.
+- [**Hannibal Barca**]({{ '/dossiers-tacticiens/' | relative_url }}#hannibal-barca) — pic tactique immense, incapacité à convertir ses victoires en décision politique contre Rome.
+- [**Jules César**]({{ '/dossiers-tacticiens/' | relative_url }}#jules-cesar) — tacticien de premier ordre ; sa carrière politico-stratégique n’a pas été retenue parmi les vingt finalistes stratégiques.
+- [**Yi Sun-sin**]({{ '/dossiers-tacticiens/' | relative_url }}#yi-sun-sin) — tactique navale exceptionnelle, rôle stratégique plus spécialisé.
+- [**Horatio Nelson**]({{ '/dossiers-tacticiens/' | relative_url }}#horatio-nelson) — rupture tactique navale, stratégie nationale définie au-dessus de lui.
+- [**Épaminondas**]({{ '/dossiers-tacticiens/' | relative_url }}#epaminondas) — innovation de bataille majeure, échantillon stratégique plus limité.
+- [**Alexandre Souvorov**]({{ '/dossiers-tacticiens/' | relative_url }}#alexandre-souvorov) — commandement tactique et opératif supérieur à sa contribution de grande stratégie.
+- [**John Churchill, duc de Marlborough**]({{ '/dossiers-tacticiens/' | relative_url }}#marlborough) — grand commandant de coalition, mais non auteur principal des finalités politiques britanniques.
+- [**Arthur Wellesley, duc de Wellington**]({{ '/dossiers-tacticiens/' | relative_url }}#wellington) — robustesse tactique exceptionnelle ; profil politico-stratégique moins transformateur.
+- [**Bélisaire**]({{ '/dossiers-tacticiens/' | relative_url }}#belisaire) — économie des moyens et adaptation sous contraintes.
 
 <h2>Maîtres de l’art opératif, identifiés mais non classés comme tels</h2>
 
-- **Helmuth von Moltke l’Ancien** — dix-huitième stratège.
-- **Subutaï** — dix-neuvième tacticien.
-- **Konstantin Rokossovski** — vingtième tacticien.
+- [**Helmuth von Moltke l’Ancien**]({{ '/dossiers-strateges/' | relative_url }}#helmuth-von-moltke-l-ancien) — dix-huitième stratège.
+- [**Subutaï**]({{ '/dossiers-tacticiens/' | relative_url }}#subutai) — dix-neuvième tacticien.
+- [**Konstantin Rokossovski**]({{ '/dossiers-tacticiens/' | relative_url }}#konstantin-rokossovski) — vingtième tacticien.
 
 Leur position montre pourquoi la séparation des niveaux est nécessaire : on peut
 être extraordinairement important sans être automatiquement dans le Top 12 de

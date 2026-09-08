@@ -26,9 +26,13 @@
   <div class="enveloppe entete">
     <a class="enseigne" href="{{ '/' | relative_url }}">{{ site.title }}</a>
     <nav class="nav" aria-label="Sections du site">
-      {%- for lien in site.data.navigation %}
-      <a href="{{ lien.url | relative_url }}"
-         {% if page.url == lien.url %}aria-current="page"{% endif %}>{{ lien.titre }}</a>
+      {%- for g in site.data.navigation %}
+      <span class="nav-groupe" role="group" aria-label="{{ g.groupe }}">
+        {%- for lien in g.entrees %}
+        <a href="{{ lien.url | relative_url }}"
+           {% if page.url == lien.url %}aria-current="page"{% endif %}>{{ lien.titre }}</a>
+        {%- endfor %}
+      </span>
       {%- endfor %}
     </nav>
   </div>

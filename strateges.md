@@ -2,6 +2,7 @@
 layout: classement
 permalink: /strateges/
 jeu: strateges
+dossiers: /dossiers-strateges/
 title: Stratèges
 titre_long: Les douze plus grands stratèges
 chapeau: >-

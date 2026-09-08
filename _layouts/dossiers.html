@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<h1 class="titre-page">{{ page.titre_long }}</h1>
+<p class="chapeau">{{ page.chapeau }}</p>
+
+{%- assign jeu = site.data[page.jeu] -%}
+
+<nav class="sommaire" aria-label="Les vingt dossiers">
+  {%- for d in jeu %}
+  <a href="#{{ d.slug }}"{% if d.rang > 12 %} class="hors"{% endif %}><span class="sommaire-rang">{{ d.rang }}</span> {{ d.nom }}</a>
+  {%- endfor %}
+</nav>
+
+<div class="fiches">
+  {%- for d in jeu -%}
+    {%- if d.rang == 13 -%}
+    <div class="porte porte-fiches">
+      <span>Porte d’admissibilité. Les huit dossiers suivants sont ceux des prétendants immédiats.</span>
+    </div>
+    {%- endif -%}
+    {% include fiche.html d=d classement=page.classement discipline=page.discipline %}
+  {%- endfor -%}
+</div>
+
+{%- if content != '' %}
+<div class="prose">{{ content }}</div>
+{%- endif %}

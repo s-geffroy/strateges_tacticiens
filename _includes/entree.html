@@ -1,26 +1,17 @@
 {%- comment -%}
-  Une ligne du registre, avec son dossier repliable.
-  Parametre : include.d (une entree de _data/strateges.yml ou tacticiens.yml).
+  Une ligne du registre. Le dossier comparatif n'est plus deplie ici : il a sa
+  page, et le nom y conduit. Le classement reste ce qu'il est dans le corpus
+  -- un rang, un motif, une confiance -- lisible d'un seul coup d'oeil.
+  Parametres :
+    include.d        une entree de _data/strateges.yml ou tacticiens.yml
+    include.dossiers l'url de la page des dossiers correspondante
 {%- endcomment -%}
-<article class="entree{% if include.d.rang > 12 %} hors{% endif %}" id="{{ include.d.nom | slugify }}">
+<article class="entree{% if include.d.rang > 12 %} hors{% endif %}" id="{{ include.d.slug }}">
   {% include cran.html cran=include.d.cran libelle=include.d.confiance %}
   <div class="rang">{{ include.d.rang }}</div>
   <div class="corps-entree">
-    <h3 class="nom">{{ include.d.nom }}</h3>
+    <h3 class="nom"><a href="{{ include.dossiers | append: '#' | append: include.d.slug | relative_url }}">{{ include.d.nom }}</a></h3>
     <p class="motif">{{ include.d.motif }}</p>
     <p class="mention">Confiance {{ include.d.confiance | downcase }}. Bande estimée avant arbitrage : {{ include.d.bande | downcase }}.</p>
-
-    <details class="dossier">
-      <summary>Dossier comparatif</summary>
-      <dl class="cartouche">
-        <dt>Profil</dt><dd>{{ include.d.profil }}</dd>
-        <dt>Cas maître</dt><dd>{{ include.d.cas }}</dd>
-        <dt>Avantage décisif</dt><dd>{{ include.d.avantage }}</dd>
-        <dt>Limite</dt><dd>{{ include.d.limite }}</dd>
-        <dt>Attribution</dt><dd>{{ include.d.attribution }}</dd>
-        <dt>Confiance documentaire</dt><dd>{{ include.d.doc }}</dd>
-      </dl>
-      <p class="verdict">{{ include.d.verdict }}</p>
-    </details>
   </div>
 </article>

@@ -56,10 +56,10 @@ lisent ainsi.</p>
   <p><strong>Faible à moyenne.</strong> Le talent est plausible, les sources ne permettent pas de le situer.</p>
 </div>
 
-<p>Le cran ne juge pas l’homme, il juge la preuve. Konstantin Rokossovski est
+<p>Le cran ne juge pas l’homme, il juge la preuve. <a href="{{ '/dossiers-tacticiens/' | relative_url }}#konstantin-rokossovski">Konstantin Rokossovski</a> est
 vingtième des tacticiens avec une confiance maximale, parce qu’on sait
-précisément ce qu’il a fait et que cela relève de l’art opératif. Khalid ibn
-al-Walid est quinzième avec la confiance la plus basse : c’est la résolution
+précisément ce qu’il a fait et que cela relève de l’art opératif. <a href="{{ '/dossiers-tacticiens/' | relative_url }}#khalid-ibn-al-walid">Khalid ibn
+al-Walid</a> est quinzième avec la confiance la plus basse : c’est la résolution
 documentaire qui lui interdit le Top 12, pas une infériorité démontrée.</p>
 
 <h2>Un troisième niveau, mais pas un troisième classement</h2>
@@ -68,13 +68,12 @@ documentaire qui lui interdit le Top 12, pas une infériorité démontrée.</p>
 campagnes. Il sert ici de catégorie de contrôle : une performance
 principalement opérative ne prouve ni une supériorité tactique, ni une
 supériorité stratégique. Trois grands noms en font les frais et figurent
-seulement parmi les prétendants — Helmuth von Moltke l’Ancien, Subutaï et
-Rokossovski.</p>
+seulement parmi les prétendants — <a href="{{ '/dossiers-strateges/' | relative_url }}#helmuth-von-moltke-l-ancien">Helmuth von Moltke l’Ancien</a>, <a href="{{ '/dossiers-tacticiens/' | relative_url }}#subutai">Subutaï</a> et <a href="{{ '/dossiers-tacticiens/' | relative_url }}#konstantin-rokossovski">Rokossovski</a>.</p>
 
 <h2>Deux hommes seulement figurent dans les deux Top 12</h2>
 
-<p>Napoléon Bonaparte, quatrième stratège et deuxième tacticien : le tacticien
-y dépasse nettement le bilan final de grande stratégie. Et Scipion l’Africain,
+<p><a href="{{ '/dossiers-strateges/' | relative_url }}#napoleon-bonaparte">Napoléon Bonaparte</a>, quatrième stratège et deuxième tacticien : le tacticien
+y dépasse nettement le bilan final de grande stratégie. Et <a href="{{ '/dossiers-strateges/' | relative_url }}#scipion-l-africain">Scipion l’Africain</a>,
 cinquième dans les deux listes, le profil le plus équilibré du corpus entre
 apprentissage, campagne, bataille et résultat politique. Le reste des
 correspondances se lit dans la <a href="{{ '/matrice/' | relative_url }}">matrice

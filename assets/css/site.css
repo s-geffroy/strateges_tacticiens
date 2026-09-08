@@ -381,3 +381,110 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 }
 .legende .cran { margin-top: 0.35rem; }
 .legende p { margin: 0; font-size: 0.98rem; }
+
+/* --- Navigation en deux groupes ----------------------------------------- */
+
+.nav-groupe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.15rem;
+}
+.nav { gap: 0.35rem 2.4rem; }   /* l'ecart entre groupes, plus large */
+
+/* --- Le nom conduit au dossier ------------------------------------------ */
+
+.nom a {
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 var(--filet);
+}
+.nom a:hover { box-shadow: inset 0 -2px 0 var(--laiton); }
+
+/* La ligne visee par une ancre se signale sans clignoter. */
+.entree:target, .fiche:target {
+  background: var(--papier-creux);
+  box-shadow: -0.8rem 0 0 var(--papier-creux), 0.8rem 0 0 var(--papier-creux);
+}
+
+/* --- Sommaire des vingt dossiers ---------------------------------------- */
+
+.sommaire {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.1rem 1.6rem;
+  margin: 2.4rem 0 0;
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--filet);
+  border-bottom: 1px solid var(--filet);
+  font-family: var(--sans);
+  font-size: 0.92rem;
+}
+.sommaire a {
+  display: flex;
+  gap: 0.55rem;
+  padding: 0.22rem 0;
+  text-decoration: none;
+}
+.sommaire a:hover { color: var(--laiton); }
+.sommaire a.hors { color: var(--encre-pale); }
+.sommaire-rang {
+  flex: none;
+  width: 1.4rem;
+  text-align: right;
+  font-variant-numeric: lining-nums tabular-nums;
+  color: var(--encre-pale);
+}
+
+/* --- Les fiches --------------------------------------------------------- */
+
+.fiches { margin-top: 1rem; }
+
+.fiche {
+  display: grid;
+  grid-template-columns: 3.6rem 1fr;
+  gap: 0 clamp(0.9rem, 3vw, 1.8rem);
+  padding: 2.1rem 0;
+  border-bottom: 1px solid var(--papier-creux);
+}
+
+.fiche-marge {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+.fiche-marge .cran { margin-top: 0.4rem; }
+.fiche-marge .rang { font-size: 1.85rem; }
+
+.fiche-corps { min-width: 0; }
+
+.fiche-nom {
+  font-size: clamp(1.35rem, 1rem + 1.4vw, 1.75rem);
+  margin: 0;
+}
+.fiche-position {
+  margin: 0.35rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--encre-pale);
+}
+.fiche .motif {
+  margin-top: 0.7rem;
+  font-size: 1.05em;
+}
+.fiche .cartouche { margin-top: 1.2rem; }
+
+.fiche-retour {
+  margin: 1.1rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.84rem;
+}
+.fiche-retour a { color: var(--encre-pale); }
+.fiche-retour a:hover { color: var(--encre); }
+
+.porte-fiches { margin-top: 1.4rem; }
+
+@media (max-width: 30rem) {
+  .fiche { grid-template-columns: 2.6rem 1fr; }
+  .fiche-marge .rang { font-size: 1.5rem; }
+}

@@ -12,7 +12,7 @@ layout: default
       <span>Porte d’admissibilité. Les huit suivants sont des prétendants immédiats, écartés du Top 12 — pas des candidats inférieurs.</span>
     </div>
     {%- endif -%}
-    {% include entree.html d=d %}
+    {% include entree.html d=d dossiers=page.dossiers %}
   {%- endfor -%}
 </div>
 

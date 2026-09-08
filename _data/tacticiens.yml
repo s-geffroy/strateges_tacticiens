@@ -4,6 +4,7 @@
 #   1 faible a moyenne, 2 moyenne, 3 moyenne a elevee, 4 elevee, 5 tres elevee.
 - rang: 1
   nom: "Alexandre le Grand"
+  slug: "alexandre-le-grand"
   confiance: "Très élevée"
   cran: 5
   motif: "Meilleur équilibre entre pic, constance, diversité des situations, commandement personnel et forces combinées."
@@ -17,6 +18,7 @@
   verdict: "Dossier de carrière le plus complet, même si Hannibal peut conserver le plus haut pic isolé."
 - rang: 2
   nom: "Napoléon Bonaparte"
+  slug: "napoleon-bonaparte"
   confiance: "Très élevée"
   cran: 5
   motif: "Répétabilité tactique exceptionnelle à grande échelle, malgré un déclin tardif."
@@ -30,6 +32,7 @@
   verdict: "Probablement le tacticien le plus répétitif à grande échelle."
 - rang: 3
   nom: "Hannibal Barca"
+  slug: "hannibal-barca"
   confiance: "Très élevée"
   cran: 5
   motif: "Pic tactique probablement maximal avec Cannes et remarquable capacité à modeler la réaction adverse."
@@ -43,6 +46,7 @@
   verdict: "Plus haut pic tactique plausible ; rang de carrière disputé avec Alexandre et Napoléon."
 - rang: 4
   nom: "Jules César"
+  slug: "jules-cesar"
   confiance: "Très élevée"
   cran: 5
   motif: "Polyvalence extrême : bataille, siège, ingénierie, improvisation et commandement dans la crise."
@@ -56,6 +60,7 @@
   verdict: "Son absence du premier Top 12 était une erreur méthodologique majeure."
 - rang: 5
   nom: "Scipion l’Africain"
+  slug: "scipion-l-africain"
   confiance: "Très élevée"
   cran: 5
   motif: "Capacité rare à apprendre de l’adversaire et à reconstruire le dispositif pour le neutraliser."
@@ -69,6 +74,7 @@
   verdict: "Maître complet, sans forcément posséder le pic des trois premiers."
 - rang: 6
   nom: "Yi Sun-sin"
+  slug: "yi-sun-sin"
   confiance: "Élevée"
   cran: 4
   motif: "Exploitation exceptionnelle du terrain maritime, des courants, du feu et de l’économie des moyens."
@@ -82,6 +88,7 @@
   verdict: "Candidat naval le plus solide du Top 12."
 - rang: 7
   nom: "Horatio Nelson"
+  slug: "horatio-nelson"
   confiance: "Élevée"
   cran: 4
   motif: "Rupture du dispositif naval, commandement par intention et culture d’initiative."
@@ -95,6 +102,7 @@
   verdict: "Top 12 justifié avec correction institutionnelle."
 - rang: 8
   nom: "Épaminondas"
+  slug: "epaminondas"
   confiance: "Élevée"
   cran: 4
   motif: "Innovation structurelle du dispositif hoplitique ; petit échantillon empêchant un rang supérieur."
@@ -108,6 +116,7 @@
   verdict: "Doit entrer dans le Top 12 malgré un échantillon limité."
 - rang: 9
   nom: "Alexandre Souvorov"
+  slug: "alexandre-souvorov"
   confiance: "Élevée"
   cran: 4
   motif: "Vitesse, simplicité, moral et offensive ; légère contamination par l’art opératif."
@@ -121,6 +130,7 @@
   verdict: "Top 12 crédible, rang sensible à la séparation tactique–opératif."
 - rang: 10
   nom: "John Churchill, duc de Marlborough"
+  slug: "marlborough"
   confiance: "Élevée"
   cran: 4
   motif: "Très grande synchronisation de coalition et maîtrise de la fixation, du déplacement de l’effort et de l’exploitation."
@@ -134,6 +144,7 @@
   verdict: "Sous-évalué dans la première liste ; duel direct nécessaire avec Frédéric et Nelson."
 - rang: 11
   nom: "Arthur Wellesley, duc de Wellington"
+  slug: "wellington"
   confiance: "Élevée"
   cran: 4
   motif: "Génie de la robustesse : terrain, discipline, feu, réserves et réduction systématique du risque."
@@ -147,6 +158,7 @@
   verdict: "Moins spectaculaire, mais plus robuste que plusieurs candidats mieux classés."
 - rang: 12
   nom: "Bélisaire"
+  slug: "belisaire"
   confiance: "Moyenne"
   cran: 2
   motif: "Meilleure économie des moyens parmi les candidats de frontière ; adaptation supérieure dans des situations dégradées."
@@ -160,6 +172,7 @@
   verdict: "Top 12 possible, rang très incertain."
 - rang: 13
   nom: "Frédéric II de Prusse"
+  slug: "frederic-ii-de-prusse"
   confiance: "Élevée"
   cran: 4
   motif: "Chefs-d’œuvre et profondeur de carrière, mais irrégularité, pertes et plusieurs décisions tactiques défaillantes."
@@ -173,6 +186,7 @@
   verdict: "Solide, mais pas automatiquement supérieur à Marlborough ou Bélisaire."
 - rang: 14
   nom: "Jan Žižka"
+  slug: "jan-zizka"
   confiance: "Moyenne"
   cran: 2
   motif: "Innovation hussite traçable et efficace, mais système et théâtre plus spécialisés."
@@ -186,6 +200,7 @@
   verdict: "Candidat important, mais transférabilité et échantillon limitent le Top 12."
 - rang: 15
   nom: "Khalid ibn al-Walid"
+  slug: "khalid-ibn-al-walid"
   confiance: "Faible à moyenne"
   cran: 1
   motif: "Potentiel très élevé, mais résolution documentaire trop faible pour une douzième place mondiale."
@@ -199,6 +214,7 @@
   verdict: "Top 12 plausible ; une cinquième place précise n’est pas soutenable."
 - rang: 16
   nom: "Louis-Nicolas Davout"
+  slug: "louis-nicolas-davout"
   confiance: "Élevée"
   cran: 4
   motif: "Auerstaedt est un chef-d’œuvre, mais l’échantillon de commandement autonome reste trop étroit."
@@ -212,6 +228,7 @@
   verdict: "Prétendant majeur, limité par la profondeur de carrière autonome."
 - rang: 17
   nom: "Nader Shah"
+  slug: "nader-shah"
   confiance: "Moyenne à élevée"
   cran: 3
   motif: "Maîtrise du feu mobile et de la manœuvre, mais part opérative importante et adversaires de qualité inégale."
@@ -225,6 +242,7 @@
   verdict: "Très grand commandant ; son ancien rang 10 n’était pas démontré."
 - rang: 18
   nom: "Han Xin"
+  slug: "han-xin"
   confiance: "Faible à moyenne"
   cran: 1
   motif: "Créativité potentiellement exceptionnelle, mais sources trop tardives et littéraires pour un rang précis."
@@ -238,6 +256,7 @@
   verdict: "Potentiel Top 12, mais non classable avec une précision moderne."
 - rang: 19
   nom: "Subutaï"
+  slug: "subutai"
   confiance: "Moyenne"
   cran: 2
   motif: "Génie surtout opératif : coordination de colonnes et campagnes continentales plutôt que conduite tactique stricte."
@@ -251,6 +270,7 @@
   verdict: "Probablement hors Top 12 tactique strict sans être déclassé comme commandant."
 - rang: 20
   nom: "Konstantin Rokossovski"
+  slug: "konstantin-rokossovski"
   confiance: "Très élevée"
   cran: 5
   motif: "Maître de l’art opératif interarmes ; la preuve tactique personnelle est plus indirecte."

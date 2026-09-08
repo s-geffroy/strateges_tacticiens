@@ -2,6 +2,7 @@
 layout: classement
 permalink: /tacticiens/
 jeu: tacticiens
+dossiers: /dossiers-tacticiens/
 title: Tacticiens
 titre_long: Les douze plus grands tacticiens
 chapeau: >-

@@ -4,6 +4,7 @@
 #   1 faible a moyenne, 2 moyenne, 3 moyenne a elevee, 4 elevee, 5 tres elevee.
 - rang: 1
   nom: "Gengis Khan"
+  slug: "gengis-khan"
   confiance: "Très élevée"
   cran: 5
   motif: "Construit un système de guerre et de conquête extensible qui dépasse sa personne."
@@ -17,6 +18,7 @@
   verdict: "Candidat incontestable au podium ; la première place exige de ne pas lui attribuer rétrospectivement toute la réussite mongole."
 - rang: 2
   nom: "Otto von Bismarck"
+  slug: "otto-von-bismarck"
   confiance: "Très élevée"
   cran: 5
   motif: "Maîtrise exemplaire de la limitation politique de la guerre et de l’après-victoire."
@@ -30,6 +32,7 @@
   verdict: "Son exclusion du Top 12 serait incohérente avec une définition réellement politico-militaire de la stratégie."
 - rang: 3
   nom: "Mao Zedong"
+  slug: "mao-zedong"
   confiance: "Très élevée"
   cran: 5
   motif: "Intègre politique, mobilisation, temps long, guerre irrégulière et guerre conventionnelle."
@@ -43,6 +46,7 @@
   verdict: "Géant de la stratégie révolutionnaire ; le rang mondial n°2 suppose une universalité encore non démontrée."
 - rang: 4
   nom: "Napoléon Bonaparte"
+  slug: "napoleon-bonaparte"
   confiance: "Très élevée"
   cran: 5
   motif: "Maîtrise militaire exceptionnelle, limitée par l’incapacité finale à stabiliser l’ordre européen."
@@ -56,6 +60,7 @@
   verdict: "Son échec final interdit le sommet, pas le premier tiers."
 - rang: 5
   nom: "Scipion l’Africain"
+  slug: "scipion-l-africain"
   confiance: "Élevée"
   cran: 4
   motif: "Déplace le théâtre, désarticule la base carthaginoise et convertit l’apprentissage en décision politique."
@@ -69,6 +74,7 @@
   verdict: "L’un des rares candidats excellant simultanément en stratégie, opératif et tactique."
 - rang: 6
   nom: "Tokugawa Ieyasu"
+  slug: "tokugawa-ieyasu"
   confiance: "Élevée"
   cran: 4
   motif: "Allie patience, coalition, conservation des forces et institutionnalisation durable de la victoire."
@@ -82,6 +88,7 @@
   verdict: "Sous-évalué dans les panthéons occidentaux ; candidat sérieux au Top 12."
 - rang: 7
   nom: "Auguste"
+  slug: "auguste"
   confiance: "Élevée"
   cran: 4
   motif: "Transforme la victoire civile en architecture militaire et politique durable, avec attribution opérationnelle partagée."
@@ -95,6 +102,7 @@
   verdict: "Très grand stratège institutionnel ; un podium mondial surestimerait sa contribution militaire personnelle."
 - rang: 8
   nom: "Mehmed II"
+  slug: "mehmed-ii"
   confiance: "Élevée"
   cran: 4
   motif: "Combine technologie, siège, diplomatie, coercition et consolidation impériale."
@@ -108,6 +116,7 @@
   verdict: "Candidat crédible, surtout si la combinaison technologie–politique–institution est fortement valorisée."
 - rang: 9
   nom: "Carl von Clausewitz"
+  slug: "carl-von-clausewitz"
   confiance: "Élevée"
   cran: 4
   motif: "Fournit la théorie la plus puissante de la guerre comme instrument politique, malgré une validation personnelle limitée."
@@ -121,6 +130,7 @@
   verdict: "Sa place dépend du poids donné à l’influence théorique, non de la qualité intrinsèque de son œuvre."
 - rang: 10
   nom: "Sun Tzu — corpus attribué"
+  slug: "sun-tzu"
   confiance: "Élevée pour le corpus"
   cran: 4
   motif: "Corpus majeur sur information, tromperie, asymétrie et économie de la coercition ; l’individu historique demeure incertain."
@@ -134,6 +144,7 @@
   verdict: "Classer le corpus, non une biographie partiellement légendaire."
 - rang: 11
   nom: "George C. Marshall"
+  slug: "george-c-marshall"
   confiance: "Moyenne à élevée"
   cran: 3
   motif: "Construit l’appareil américain capable de soutenir une guerre mondiale et sélectionne les instruments humains de son exécution."
@@ -147,6 +158,7 @@
   verdict: "Candidat majeur, mais sa cinquième place initiale était excessive."
 - rang: 12
   nom: "Võ Nguyên Giáp"
+  slug: "vo-nguyen-giap"
   confiance: "Moyenne"
   cran: 2
   motif: "Résultat politique disproportionné aux moyens initiaux ; attribution collective et coûts empêchent un rang supérieur."
@@ -160,6 +172,7 @@
   verdict: "Résultat stratégique majeur ; la personnalisation doit être corrigée."
 - rang: 13
   nom: "Chester W. Nimitz"
+  slug: "chester-w-nimitz"
   confiance: "Moyenne"
   cran: 2
   motif: "Commandement de théâtre exceptionnel, mais contribution moins globale que Marshall et moins politico-stratégique que Giáp."
@@ -173,6 +186,7 @@
   verdict: "Finaliste solide, mais le Top 12 exige un duel serré avec Marshall et Eisenhower."
 - rang: 14
   nom: "Frédéric II de Prusse"
+  slug: "frederic-ii-de-prusse"
   confiance: "Moyenne"
   cran: 2
   motif: "Survie remarquable face à une coalition supérieure, mais risques auto-infligés et dépendance aux événements extérieurs."
@@ -186,6 +200,7 @@
   verdict: "Top 12 possible ; la survie prussienne ne doit pas être réécrite comme un contrôle complet de la guerre."
 - rang: 15
   nom: "Pierre le Grand"
+  slug: "pierre-le-grand"
   confiance: "Moyenne"
   cran: 2
   motif: "Transformation militaire et étatique majeure, mais victoire lente, coûteuse et partiellement structurelle."
@@ -199,6 +214,7 @@
   verdict: "Grand transformateur ; sa quatrième place initiale était indéfendable."
 - rang: 16
   nom: "Dwight D. Eisenhower"
+  slug: "dwight-d-eisenhower"
   confiance: "Moyenne"
   cran: 2
   motif: "Commandant de coalition remarquable, mais auteur seulement partiel de la grande stratégie alliée."
@@ -212,6 +228,7 @@
   verdict: "Excellent, mais probablement hors Top 12 mondial."
 - rang: 17
   nom: "Alexandre le Grand"
+  slug: "alexandre-le-grand"
   confiance: "Élevée"
   cran: 4
   motif: "Conquête fulgurante et maîtrise militaire immense, mais faiblesse de la succession et de la stabilisation."
@@ -225,6 +242,7 @@
   verdict: "Génie militaire absolu, grande stratégie incomplète."
 - rang: 18
   nom: "Helmuth von Moltke l’Ancien"
+  slug: "helmuth-von-moltke-l-ancien"
   confiance: "Élevée"
   cran: 4
   motif: "Maître de l’art opératif ; autonomie politico-stratégique limitée par la primauté de Bismarck."
@@ -238,6 +256,7 @@
   verdict: "Finaliste légitime, mais probablement mal catégorisé comme grand stratège généraliste."
 - rang: 19
   nom: "Kautilya — Arthashastra"
+  slug: "kautilya-arthashastra"
   confiance: "Moyenne"
   cran: 2
   motif: "Corpus systémique de gouvernement et de puissance, mais attribution et validation opérationnelle insuffisantes."
@@ -251,6 +270,7 @@
   verdict: "Comparable à Sun Tzu comme corpus, mais moins centré sur la conduite militaire."
 - rang: 20
   nom: "Joseph Staline"
+  slug: "joseph-staline"
   confiance: "Élevée sur les faits, rang faible"
   cran: 4
   motif: "Capacité de mobilisation existentielle réelle, contrebalancée par des erreurs initiales et des coûts extrêmes."
