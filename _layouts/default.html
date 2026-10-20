@@ -16,7 +16,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
-  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  {%- comment -%}
+    La date de construction dans l'adresse : chaque publication change l'URL
+    de la feuille, et le navigateur ne peut plus servir l'ancienne depuis son
+    cache. Sans cela, un push restait invisible tant que le cache tenait.
+  {%- endcomment %}
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body>
 
