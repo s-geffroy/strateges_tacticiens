@@ -28,7 +28,10 @@
   --sans:  "Archivo", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
   --serif: "Spectral", Georgia, "Times New Roman", serif;
 
-  --mesure: 34rem;   /* environ 68 signes en Spectral : la ligne de lecture */
+  /* Le texte occupe toute la largeur de l'enveloppe (62 rem), comme l'en-tete,
+     le visuel et la matrice. Le jeton reste : c'est le seul levier si l'on veut
+     un jour reserrer la ligne de lecture. */
+  --mesure: none;
   --marge:  clamp(1.1rem, 4vw, 3rem);
 }
 
@@ -56,7 +59,7 @@ body {
   color: var(--encre);
   font-family: var(--serif);
   font-size: clamp(1rem, 0.96rem + 0.2vw, 1.075rem);
-  line-height: 1.62;               /* une serif demande un peu plus d'air */
+  line-height: 1.7;                /* une serif sur une ligne longue demande de l'air */
   font-variant-numeric: oldstyle-nums;
 }
 
@@ -144,7 +147,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 
 .titre-page {
   font-size: clamp(1.85rem, 1.1rem + 3.4vw, 3.1rem);
-  max-width: 18ch;
+  max-width: none;
 }
 
 .chapeau {
@@ -542,7 +545,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  line-height: 1.62;   /* la meme que le corps : le cran se centre sur la ligne */
+  line-height: 1.7;    /* la meme que le corps : le cran se centre sur la ligne */
 }
 .rang-cran .cran { margin-top: 0; }
 .matrice .col-rang a { text-decoration: none; box-shadow: inset 0 -1px 0 var(--trait); }
