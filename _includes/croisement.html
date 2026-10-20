@@ -1,59 +1,92 @@
 {%- comment -%}
-  Le visuel de l'accueil : les deux classements face a face, et les quatre
-  seules liaisons qui existent entre eux. Il est calcule depuis _data/, comme
-  le reste du site : il ne peut pas mentir sur les rangs.
+  Le visuel de l'accueil : les deux classements face a face, les quarante noms
+  ecrits, et les quatre seules liaisons qui existent entre eux. Il est calcule
+  depuis _data/, comme le reste du site : il ne peut pas mentir sur les rangs.
 
-  Geometrie : place 1 a y=50, pas de 20 px, donc place 20 a y=430.
+  La figure ne publie aucun chiffre. Elle montre des positions, des noms, la
+  porte d'admissibilite et les traits. Les rangs sont dans le figcaption, et
+  les rangs avec leur confiance sont dans /matrice/.
+
+  Geometrie, en unites du viewBox (736 x 460) :
+    noms strateges   8..244   bloc de 236 u, text-anchor=end a x=244
+    rail gauche    256..272   noeud a x=272
+    canal          272..464   les quatre liaisons
+    rail droit     464..480   noeud a x=464
+    noms tacticiens 492..728  bloc de 236 u, text-anchor=start a x=492
+
+  Le bloc de 236 u absorbe le plus long nom du corpus -- « John Churchill, duc
+  de Marlborough », 216 u en Archivo 500 a 14 px. Un nom plus long deborderait
+  dans le canal : le verifier avant d'en ajouter un.
+
+  Place i a y = 58 + (i-1)*20, donc 58 a 438. Ligne de base du nom a y+5 : la
+  capitale se centre sur le tiret. Porte a y=288, entre la 12e place (278) et
+  la 13e (298).
+
+  La largeur du viewBox vaut le min-width de .croisement dans site.css. Si
+  l'une bouge, l'autre bouge.
 {%- endcomment -%}
-<svg class="croisement" viewBox="0 0 640 470" role="img"
+<svg class="croisement" viewBox="0 0 736 460" role="img"
      aria-labelledby="croisement-titre croisement-desc">
   <title id="croisement-titre">Les deux classements face à face</title>
-  <desc id="croisement-desc">Deux colonnes de vingt places, stratégie à gauche
-  et tactique à droite. Quatre traits seulement les relient : Napoléon
-  Bonaparte, quatrième et deuxième ; Scipion l’Africain, cinquième et cinquième ;
-  Alexandre le Grand, dix-septième et premier ; Frédéric II de Prusse,
-  quatorzième et treizième.</desc>
+  <desc id="croisement-desc">Deux colonnes de vingt noms, les stratèges à
+  gauche et les tacticiens à droite, du premier en haut au vingtième en bas.
+  Un repère marque dans chaque colonne la porte d’admissibilité, entre la
+  douzième et la treizième place : au-dessus les douze admis, en dessous les
+  huit prétendants. Quatre traits seulement relient les deux colonnes, car
+  quatre hommes seulement figurent dans les deux classements : Napoléon
+  Bonaparte, quatrième et deuxième ; Scipion l’Africain, cinquième et
+  cinquième ; Frédéric II de Prusse, quatorzième et treizième ; et Alexandre
+  le Grand, dix-septième stratège mais premier tacticien, dont le trait
+  traverse toute la hauteur de la figure.</desc>
 
-  <text class="c-titre" x="190" y="28" text-anchor="end">Stratégie</text>
-  <text class="c-titre" x="450" y="28" text-anchor="start">Tactique</text>
+  <text class="c-titre" x="244" y="28" text-anchor="end">Stratégie</text>
+  <text class="c-titre" x="492" y="28" text-anchor="start">Tactique</text>
+  <line class="c-filet" x1="8" y1="38" x2="244" y2="38"/>
+  <line class="c-filet" x1="492" y1="38" x2="728" y2="38"/>
 
-  {%- comment -%} Les quarante places. Les douze admises portent un trait plein. {%- endcomment -%}
-  {%- for i in (1..20) -%}
-    {%- assign y = i | minus: 1 | times: 20 | plus: 50 -%}
-    <line class="c-place{% if i > 12 %} c-hors{% endif %}" x1="110" y1="{{ y }}" x2="190" y2="{{ y }}"/>
-    <line class="c-place{% if i > 12 %} c-hors{% endif %}" x1="450" y1="{{ y }}" x2="530" y2="{{ y }}"/>
+  {%- comment -%}
+    Les vingt strateges. On itere le classement, pas (1..20) : il faut le nom.
+    La jointure sur `nom` signale ceux qui figurent aussi chez les tacticiens.
+  {%- endcomment -%}
+  {%- for s in site.data.strateges -%}
+    {%- assign y = s.rang | minus: 1 | times: 20 | plus: 58 -%}
+    {%- assign croise = site.data.tacticiens | where: 'nom', s.nom | first -%}
+    <line class="c-place{% if s.rang > 12 %} c-hors{% endif %}" x1="256" y1="{{ y }}" x2="272" y2="{{ y }}"/>
+    <a href="{{ '/dossiers-strateges/' | relative_url }}#{{ s.slug }}">
+      <text class="c-liste{% if s.rang > 12 %} hors{% endif %}{% if croise %} croise{% endif %}"
+            x="244" y="{{ y | plus: 5 }}" text-anchor="end">{{ s.nom }}</text>
+    </a>
+  {%- endfor -%}
+
+  {%- comment -%} Les vingt tacticiens, en miroir. {%- endcomment -%}
+  {%- for t in site.data.tacticiens -%}
+    {%- assign y = t.rang | minus: 1 | times: 20 | plus: 58 -%}
+    {%- assign croise = site.data.strateges | where: 'nom', t.nom | first -%}
+    <line class="c-place{% if t.rang > 12 %} c-hors{% endif %}" x1="464" y1="{{ y }}" x2="480" y2="{{ y }}"/>
+    <a href="{{ '/dossiers-tacticiens/' | relative_url }}#{{ t.slug }}">
+      <text class="c-liste{% if t.rang > 12 %} hors{% endif %}{% if croise %} croise{% endif %}"
+            x="492" y="{{ y | plus: 5 }}" text-anchor="start">{{ t.nom }}</text>
+    </a>
   {%- endfor -%}
 
   {%- comment -%} La porte d'admissibilite, entre la douzieme et la treizieme place. {%- endcomment -%}
-  <line class="c-porte" x1="104" y1="280" x2="196" y2="280"/>
-  <line class="c-porte" x1="444" y1="280" x2="536" y2="280"/>
-  <text class="c-repere" x="98" y="284" text-anchor="end">porte</text>
+  <line class="c-porte" x1="248" y1="288" x2="280" y2="288"/>
+  <line class="c-porte" x1="456" y1="288" x2="488" y2="288"/>
+  <text class="c-repere" x="368" y="284" text-anchor="middle">porte</text>
 
-  <text class="c-repere" x="98" y="54" text-anchor="end">1</text>
-  <text class="c-repere" x="98" y="434" text-anchor="end">20</text>
-  <text class="c-repere" x="542" y="54" text-anchor="start">1</text>
-  <text class="c-repere" x="542" y="434" text-anchor="start">20</text>
-
-  {%- comment -%} Les seules liaisons : les personnages classes des deux cotes. {%- endcomment -%}
+  {%- comment -%}
+    Les seules liaisons : les quatre classes des deux cotes. Aucune etiquette --
+    les deux bouts du trait portent deja un nom, et un halo d'etiquette
+    couperait le trait en son milieu.
+  {%- endcomment -%}
   {%- for s in site.data.strateges -%}
     {%- assign t = site.data.tacticiens | where: 'nom', s.nom | first -%}
     {%- if t -%}
-      {%- assign ys = s.rang | minus: 1 | times: 20 | plus: 50 -%}
-      {%- assign yt = t.rang | minus: 1 | times: 20 | plus: 50 -%}
-      {%- assign ym = ys | plus: yt | divided_by: 2 -%}
-      <line class="c-lien" x1="190" y1="{{ ys }}" x2="450" y2="{{ yt }}"/>
-      <circle class="c-noeud" cx="190" cy="{{ ys }}" r="3.5"/>
-      <circle class="c-noeud" cx="450" cy="{{ yt }}" r="3.5"/>
-      <text class="c-nom" x="320" y="{{ ym | minus: 6 }}" text-anchor="middle">
-        {%- case s.slug -%}
-          {%- when 'napoleon-bonaparte' -%}Napoléon
-          {%- when 'scipion-l-africain' -%}Scipion
-          {%- when 'alexandre-le-grand' -%}Alexandre
-          {%- when 'frederic-ii-de-prusse' -%}Frédéric II
-          {%- else -%}{{ s.nom }}
-        {%- endcase -%}
-      </text>
-      <text class="c-rangs" x="320" y="{{ ym | plus: 8 }}" text-anchor="middle">{{ s.rang }}<tspan class="c-fleche"> et </tspan>{{ t.rang }}</text>
+      {%- assign ys = s.rang | minus: 1 | times: 20 | plus: 58 -%}
+      {%- assign yt = t.rang | minus: 1 | times: 20 | plus: 58 -%}
+      <line class="c-lien" x1="272" y1="{{ ys }}" x2="464" y2="{{ yt }}"/>
+      <circle class="c-noeud" cx="272" cy="{{ ys }}" r="3.5"/>
+      <circle class="c-noeud" cx="464" cy="{{ yt }}" r="3.5"/>
     {%- endif -%}
   {%- endfor -%}
 </svg>

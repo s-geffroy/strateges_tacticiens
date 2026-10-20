@@ -563,58 +563,49 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 .croisement {
   display: block;
   width: 100%;
-  min-width: 30rem;   /* sous cette largeur le visuel defile plutot que de
-                         devenir illisible : ses etiquettes ne se remettent
-                         pas a l'echelle du lecteur. */
+  /* = la largeur du viewBox de croisement.html. En dessous, le visuel defile
+     dans .debord plutot que de reduire son texte : les etiquettes d'un SVG ne
+     se remettent pas a l'echelle du lecteur. Au-dessus, il s'agrandit -- un
+     viewBox etroit donne donc un texte plus grand sur ecran large ET moins de
+     defilement sur telephone. Meme parti pris que .matrice. */
+  min-width: 46rem;
   height: auto;
 }
 
-.croisement .c-place {
-  stroke: var(--encre);
-  stroke-width: 2;
-}
-.croisement .c-hors {
-  stroke: var(--filet);
-  stroke-width: 1;
-}
-.croisement .c-porte {
-  stroke: var(--laiton);
-  stroke-width: 2.5;
-}
-.croisement .c-lien {
-  stroke: var(--laiton);
-  stroke-width: 1.5;
-}
+.croisement .c-place { stroke: var(--encre);      stroke-width: 2; }
+/* Les huit pretendants. --filet ne convient pas ici : 1,85:1 sur --papier, les
+   traits disparaissaient et la colonne semblait s'arreter a la douzieme. */
+.croisement .c-hors  { stroke: var(--encre-pale); stroke-width: 1.5; }
+/* Filet decoratif sous les titres : c'est le bon emploi de --filet. */
+.croisement .c-filet { stroke: var(--filet);      stroke-width: 1; }
+.croisement .c-porte { stroke: var(--laiton);     stroke-width: 2.5; }
+.croisement .c-lien  { stroke: var(--laiton);     stroke-width: 1.5; }
 .croisement .c-noeud { fill: var(--laiton); }
 
-.croisement text {
-  font-family: var(--sans);
-  fill: var(--encre);
-}
+.croisement text { font-family: var(--sans); fill: var(--encre); }
 .croisement .c-titre { font-size: 16px; font-weight: 600; }
+
+/* Les quarante noms. Archivo 500 et 700 sont charges par default.html. */
+.croisement .c-liste { font-size: 14px; font-weight: 500; }
+.croisement .c-liste.hors   { fill: var(--encre-pale); }  /* comme .matrice ... a.hors */
+.croisement .c-liste.croise { font-weight: 700; }         /* les quatre classes des deux cotes */
+
+/* Le soulignement en box-shadow du site ne s'applique pas dans un SVG : le
+   survol change la couleur. L'anneau de focus du navigateur est conserve. */
+.croisement a { text-decoration: none; }
+.croisement a:hover .c-liste,
+.croisement a:focus .c-liste { fill: var(--laiton); }
+
 .croisement .c-repere {
   font-size: 11px;
-  fill: var(--encre-pale);
   font-weight: 500;
-}
-.croisement .c-nom {
-  font-size: 14px;
-  font-weight: 600;
-  /* Un halo de la couleur du papier, pour que le nom reste lisible la ou il
-     croise un trait. Moins fragile qu'un rectangle dimensionne a la main. */
+  fill: var(--encre-pale);
+  /* Un halo de la couleur du papier, au cas ou le mot croise un trait. Il suit
+     le mode sombre tout seul. Moins fragile qu'un rectangle a la main. */
   stroke: var(--papier);
-  stroke-width: 5;
+  stroke-width: 2.5;
   paint-order: stroke;
 }
-.croisement .c-rangs {
-  font-size: 12px;
-  fill: var(--encre-pale);
-  font-weight: 500;
-  stroke: var(--papier);
-  stroke-width: 4;
-  paint-order: stroke;
-}
-.croisement .c-fleche { fill: var(--filet); }
 
 .figure figcaption {
   max-width: var(--mesure);
