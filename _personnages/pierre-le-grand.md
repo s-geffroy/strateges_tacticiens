@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Tsar enfant en 1682, il ne règne seul qu’à partir de 1696. Sa Grande Ambassade de 1697-1698 lui fait voir les chantiers navals, les arsenaux et les administrations de l’Europe occidentale. Il en tire un programme : armée permanente recrutée par conscription, création d’une marine, collèges administratifs, et une Table des rangs qui lie la noblesse au service de l’État.
+Tsar enfant en 1682, il ne règne seul qu’à partir de 1696. En 1697-1698, il parcourt l’Europe occidentale avec la Grande Ambassade et travaille lui-même dans les chantiers navals de Hollande. À son retour, l’armée devient permanente et se recrute par conscription. Il crée une marine de guerre. En 1722, la Table des rangs lie la noblesse au service de l’État.
 
-La Grande Guerre du Nord contre la Suède commence mal, par la défaite de Narva en 1700. Il reconstruit l’armée, fonde Saint-Pétersbourg en 1703, et bat Charles XII à Poltava en 1709. La paix de Nystad, en 1721, donne à la Russie un accès durable à la Baltique, et il prend le titre d’empereur. Il meurt en 1725.
+La Grande Guerre du Nord contre la Suède commence mal : à Narva, en 1700, son armée est battue. Il la reconstruit. En 1703, il fonde Saint-Pétersbourg sur des terres prises aux Suédois ; six ans plus tard, à Poltava, il écrase Charles XII. La paix de Nystad, en 1721, ouvre la Baltique à la Russie, et Pierre prend le titre d’empereur. Il meurt en 1725.

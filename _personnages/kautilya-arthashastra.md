@@ -32,6 +32,6 @@ liens:
     langue: en
 ---
 
-La tradition indienne fait de Kautilya, appelé aussi Chanakya ou Vishnugupta, le brahmane qui conseilla Chandragupta Maurya, fondateur de l’empire Maurya vers 320 av. J.-C. Rien de sa vie n’est établi en dehors de ces récits, composés bien plus tard.
+La tradition indienne fait de Kautilya, dit aussi Chanakya ou Vishnugupta, le brahmane qui conseilla Chandragupta, fondateur de l’empire Maurya vers 320 av. J.-C. Ces récits sont bien plus tardifs, et rien de sa vie n’est établi en dehors d’eux.
 
-L’Arthashastra, le traité qui lui est attribué, couvre le gouvernement, l’administration, l’économie, la justice, le renseignement, la diplomatie et la guerre ; il pense les relations entre royaumes comme un cercle d’ennemis et d’alliés autour de chaque souverain. Perdu de vue pendant des siècles, il a été redécouvert en 1905 dans un manuscrit de Mysore, puis publié par R. Shamasastry. La plupart des spécialistes y voient aujourd’hui un texte composé en plusieurs étapes, dont la forme actuelle date des premiers siècles de notre ère.
+L’Arthashastra, qu’on lui attribue, est un manuel de gouvernement : on y trouve aussi bien le barème des amendes que l’art d’entretenir des espions. Chaque royaume y est pris dans un cercle où le voisin est l’ennemi, et le voisin de ce voisin l’allié. On ne le connaissait plus que par des citations quand un manuscrit fut retrouvé à Mysore en 1905 ; R. Shamasastry le publia. Sa forme actuelle, composée par couches, date des premiers siècles de notre ère.
