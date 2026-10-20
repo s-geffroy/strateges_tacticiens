@@ -17,7 +17,11 @@
   /* Encre bleu de Prusse. C'est un bleu, pas un noir teinte. */
   --encre:         #17293c;
   --encre-pale:    #4d5c61;
-  --filet:         #a9b2a6;
+  --filet:         #a9b2a6;   /* filets decoratifs SEULEMENT : 1,8:1 sur --papier */
+  /* Trait porteur de sens (cran vide, soulignement de lien) : 3,5:1 sur
+     --papier, 3,2:1 sur --papier-creux. Le seuil WCAG d'un element graphique
+     est 3:1 ; --filet ne l'atteint pas et ne doit jamais porter une donnee. */
+  --trait:         #707d77;
   /* Un seul accent, un or olive de laiton. */
   --laiton:        #7d5e0c;
 
@@ -35,6 +39,7 @@
     --encre:         #dde3d9;
     --encre-pale:    #93a29c;
     --filet:         #3a4c52;
+    --trait:         #667b77;   /* 3,8:1 sur --papier, 3,3:1 sur --papier-creux */
     --laiton:        #c79b2e;
   }
 }
@@ -69,6 +74,10 @@ h1, h2, h3, .rang, .nav, .porte, .cartouche dt {
 }
 
 h1, h2, h3 { line-height: 1.12; letter-spacing: -0.018em; font-weight: 600; margin: 0; }
+
+/* Spectral est charge en 400 et 600 : sans cette regle, <strong> demanderait
+   du 700 et le navigateur fabriquerait un faux gras. */
+strong, b { font-weight: 600; }
 
 p { margin: 0 0 1em; }
 p:last-child { margin-bottom: 0; }
@@ -108,7 +117,12 @@ p:last-child { margin-bottom: 0; }
   font-size: 0.9rem;
   font-weight: 500;
 }
-.nav a { text-decoration: none; color: var(--encre-pale); }
+.nav a {
+  display: inline-block;
+  padding: 0.3rem 0;               /* cible tactile d'au moins 24 px */
+  text-decoration: none;
+  color: var(--encre-pale);
+}
 .nav a:hover { color: var(--encre); }
 .nav a[aria-current="page"] {
   color: var(--encre);
@@ -122,7 +136,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
   padding: 1.4rem 0 2.6rem;
   border-top: 1px solid var(--filet);
   color: var(--encre-pale);
-  font-size: 0.88rem;
+  font-size: 0.9rem;
 }
 .pied p { max-width: var(--mesure); }
 
@@ -173,28 +187,29 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
   box-shadow: inset 0 -2px 0 var(--laiton);
   padding-bottom: 1px;
 }
-.definition .conduit:hover {
-  color: var(--papier);
-  box-shadow: inset 0 -1.35em 0 var(--laiton);
-  transition: box-shadow .12s, color .12s;
-}
+.definition .conduit:hover { box-shadow: inset 0 -3px 0 var(--laiton); }
 
 /* --- L'echelle de confiance --------------------------------------------- */
 
 .cran {
   display: flex;
   flex-direction: column-reverse;   /* se remplit par le bas, comme une jauge */
-  gap: 3px;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 19px;                     /* cinq crans sur un pas fixe */
   width: 20px;
   margin-top: 0.55rem;
 }
+/* Le cran vide doit se voir : c'est lui qui dit « sur cinq ». Il etait en
+   --filet a 55 % d'opacite, soit 1,4:1 -- on lisait deux crans, pas deux sur
+   cinq. Plein et vide se distinguent aussi par la forme, pas par la seule
+   couleur : 3 px contre 1 px. */
 .cran i {
   display: block;
-  height: 2px;
-  background: var(--filet);
-  opacity: 0.55;
+  height: 1px;
+  background: var(--trait);
 }
-.cran i.plein { background: var(--laiton); opacity: 1; }
+.cran i.plein { height: 3px; background: var(--laiton); }
 
 /* --- Le registre -------------------------------------------------------- */
 
@@ -232,7 +247,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 .mention {
   margin: 0.4rem 0 0;
   font-family: var(--sans);
-  font-size: 0.82rem;
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--encre-pale);
 }
@@ -246,7 +261,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
   margin: 0.4rem 0 0;
   padding: 0.75rem 0 0.15rem;
   border-top: 3px solid var(--laiton);
-  font-size: 0.86rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--encre-pale);
 }
@@ -258,7 +273,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 
 .dossier > summary {
   font-family: var(--sans);
-  font-size: 0.82rem;
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--encre-pale);
   cursor: pointer;
@@ -266,6 +281,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
   display: inline-flex;
   align-items: baseline;
   gap: 0.4rem;
+  padding: 0.3rem 0;               /* cible tactile d'au moins 24 px */
 }
 .dossier > summary::-webkit-details-marker { display: none; }
 .dossier > summary::before {
@@ -283,7 +299,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
   max-width: var(--mesure);
 }
 .cartouche dt {
-  font-size: 0.78rem;
+  font-size: 0.875rem;
   font-weight: 600;
   color: var(--encre-pale);
   margin-top: 0.85rem;
@@ -329,13 +345,13 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 .prose caption, .tableau caption {
   text-align: left;
   font-family: var(--sans);
-  font-size: 0.82rem;
+  font-size: 0.875rem;
   color: var(--encre-pale);
   padding-bottom: 0.5rem;
 }
 .prose th, .tableau th {
   font-family: var(--sans);
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   font-weight: 600;
   text-align: left;
   color: var(--encre-pale);
@@ -354,6 +370,15 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 .debord { overflow-x: auto; }
 
 /* --- Divers ------------------------------------------------------------- */
+
+/* Masque a l'oeil, lu par les lecteurs d'ecran. */
+.vh {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
 
 .evitement {
   position: absolute;
@@ -395,7 +420,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 
 .nom a {
   text-decoration: none;
-  box-shadow: inset 0 -1px 0 var(--filet);
+  box-shadow: inset 0 -1px 0 var(--trait);   /* le seul signe du lien : il doit se voir */
 }
 .nom a:hover { box-shadow: inset 0 -2px 0 var(--laiton); }
 
@@ -464,7 +489,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 .fiche-position {
   margin: 0.35rem 0 0;
   font-family: var(--sans);
-  font-size: 0.84rem;
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--encre-pale);
 }
@@ -477,7 +502,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 .fiche-retour {
   margin: 1.1rem 0 0;
   font-family: var(--sans);
-  font-size: 0.84rem;
+  font-size: 0.875rem;
 }
 .fiche-retour a { color: var(--encre-pale); }
 .fiche-retour a:hover { color: var(--encre); }
@@ -520,16 +545,16 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
   line-height: 1.62;   /* la meme que le corps : le cran se centre sur la ligne */
 }
 .rang-cran .cran { margin-top: 0; }
-.matrice .col-rang a { text-decoration: none; box-shadow: inset 0 -1px 0 var(--filet); }
+.matrice .col-rang a { text-decoration: none; box-shadow: inset 0 -1px 0 var(--trait); }
 .matrice .col-rang a:hover { box-shadow: inset 0 -2px 0 var(--laiton); }
 .matrice .col-rang a.hors { color: var(--encre-pale); }
-.matrice .vide { color: var(--filet); }
+.matrice .vide { color: var(--encre-pale); }   /* du texte : --filet donnait 1,8:1 */
 
 .matrice .rubrique th {
   padding-top: 1.6rem;
   border-bottom: 2px solid var(--laiton);
   color: var(--encre);
-  font-size: 0.86rem;
+  font-size: 0.9rem;
 }
 .matrice tbody:first-of-type .rubrique th { padding-top: 0; }
 
@@ -546,11 +571,7 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
   padding-bottom: 2px;
   box-shadow: inset 0 -2px 0 var(--laiton);
 }
-.passerelle a:hover {
-  color: var(--papier);
-  box-shadow: inset 0 -1.35em 0 var(--laiton);
-  transition: box-shadow .12s, color .12s;
-}
+.passerelle a:hover { box-shadow: inset 0 -3px 0 var(--laiton); }
 
 /* --- Le croisement des deux classements (accueil) ----------------------- */
 
@@ -602,14 +623,6 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
    Le tiret de rail garde sa couleur : c'est lui qui dit admis ou pretendant,
    et cette distinction compte justement pour ces quatre-la. */
 .croisement .c-liste.croise { fill: var(--laiton); font-weight: 700; }
-
-/* Le soulignement en box-shadow du site ne s'applique pas dans un SVG : le
-   survol change la couleur, et souligne -- car sur les huit noms deja en
-   laiton la couleur seule ne signalerait rien. L'anneau de focus du navigateur
-   est conserve. */
-.croisement a { text-decoration: none; }
-.croisement a:hover .c-liste,
-.croisement a:focus .c-liste { fill: var(--laiton); text-decoration: underline; }
 
 .croisement .c-repere {
   font-size: 11px;

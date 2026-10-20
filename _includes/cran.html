@@ -1,9 +1,15 @@
 {%- comment -%}
   L'echelle de confiance : cinq crans, remplis par le bas.
   Parametres : include.cran (1 a 5), include.libelle (le libelle exact du
-  corpus, restitue aux lecteurs d'ecran et au survol).
+  corpus, restitue aux lecteurs d'ecran et au survol), include.decor (vrai
+  quand le texte voisin enonce deja le libelle : le cran est alors cache aux
+  lecteurs d'ecran, qui l'entendraient deux fois).
 {%- endcomment -%}
+{%- if include.decor -%}
+<div class="cran" aria-hidden="true">
+{%- else -%}
 <div class="cran" role="img" aria-label="Confiance : {{ include.libelle }}" title="Confiance : {{ include.libelle }}">
+{%- endif -%}
   {%- for i in (1..5) -%}
   <i{% if i <= include.cran %} class="plein"{% endif %}></i>
   {%- endfor -%}

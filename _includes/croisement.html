@@ -22,6 +22,10 @@
   capitale se centre sur le tiret. Porte a y=288, entre la 12e place (278) et
   la 13e (298).
 
+  Aucun lien dans la figure : role="img" rend ses enfants muets aux lecteurs
+  d'ecran, et des liens focusables y deviendraient des arrets de tabulation
+  sans nom. Les dossiers se rejoignent par le figcaption et par les listes.
+
   La largeur du viewBox vaut le min-width de .croisement dans site.css. Si
   l'une bouge, l'autre bouge.
 {%- endcomment -%}
@@ -52,10 +56,8 @@
     {%- assign y = s.rang | minus: 1 | times: 20 | plus: 58 -%}
     {%- assign croise = site.data.tacticiens | where: 'nom', s.nom | first -%}
     <line class="c-place{% if s.rang > 12 %} c-hors{% endif %}" x1="256" y1="{{ y }}" x2="272" y2="{{ y }}"/>
-    <a href="{{ '/dossiers-strateges/' | relative_url }}#{{ s.slug }}">
       <text class="c-liste{% if s.rang > 12 %} hors{% endif %}{% if croise %} croise{% endif %}"
             x="244" y="{{ y | plus: 5 }}" text-anchor="end">{{ s.nom }}</text>
-    </a>
   {%- endfor -%}
 
   {%- comment -%} Les vingt tacticiens, en miroir. {%- endcomment -%}
@@ -63,10 +65,8 @@
     {%- assign y = t.rang | minus: 1 | times: 20 | plus: 58 -%}
     {%- assign croise = site.data.strateges | where: 'nom', t.nom | first -%}
     <line class="c-place{% if t.rang > 12 %} c-hors{% endif %}" x1="464" y1="{{ y }}" x2="480" y2="{{ y }}"/>
-    <a href="{{ '/dossiers-tacticiens/' | relative_url }}#{{ t.slug }}">
       <text class="c-liste{% if t.rang > 12 %} hors{% endif %}{% if croise %} croise{% endif %}"
             x="492" y="{{ y | plus: 5 }}" text-anchor="start">{{ t.nom }}</text>
-    </a>
   {%- endfor -%}
 
   {%- comment -%} La porte d'admissibilite, entre la douzieme et la treizieme place. {%- endcomment -%}

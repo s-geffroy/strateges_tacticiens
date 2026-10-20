@@ -9,12 +9,12 @@
   {% include cran.html cran=include.d.cran libelle=include.d.confiance %}
   <div class="rang">{{ include.d.rang }}</div>
   <div class="corps-entree">
-    <h3 class="nom"><a href="{{ include.dossiers | append: '#' | append: include.d.slug | relative_url }}">{{ include.d.nom }}</a></h3>
+    <h2 class="nom"><a href="{{ include.dossiers | append: '#' | append: include.d.slug | relative_url }}">{{ include.d.nom }}</a></h2>
     <p class="motif">{{ include.d.motif }}</p>
     <p class="mention">Confiance {{ include.d.confiance | downcase }}. Bande estimée avant arbitrage : {{ include.d.bande | downcase }}.</p>
 
     <details class="dossier">
-      <summary>Dossier comparatif</summary>
+      <summary>Dossier comparatif<span class="vh"> de {{ include.d.nom }}</span></summary>
       <dl class="cartouche">
         <dt>Profil</dt><dd>{{ include.d.profil }}</dd>
         <dt>Cas maître</dt><dd>{{ include.d.cas }}</dd>

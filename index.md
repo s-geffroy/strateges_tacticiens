@@ -64,15 +64,15 @@ la solidité du dossier. Les cinq crans portés dans la marge des deux listes se
 lisent ainsi.</p>
 
 <div class="legende">
-  {% include cran.html cran=5 libelle="Très élevée" %}
+  {% include cran.html cran=5 libelle="Très élevée" decor=true %}
   <p><strong>Très élevée.</strong> Documentation abondante, attribution nette, aucune place sérieusement contestable.</p>
-  {% include cran.html cran=4 libelle="Élevée" %}
+  {% include cran.html cran=4 libelle="Élevée" decor=true %}
   <p><strong>Élevée.</strong> Le dossier tient ; l’écart avec les rangs voisins reste discutable.</p>
-  {% include cran.html cran=3 libelle="Moyenne à élevée" %}
+  {% include cran.html cran=3 libelle="Moyenne à élevée" decor=true %}
   <p><strong>Moyenne à élevée.</strong> Une dimension du dossier — sources, attribution, échantillon — reste ouverte.</p>
-  {% include cran.html cran=2 libelle="Moyenne" %}
+  {% include cran.html cran=2 libelle="Moyenne" decor=true %}
   <p><strong>Moyenne.</strong> Le rang est un arbitrage assumé, pas une évidence.</p>
-  {% include cran.html cran=1 libelle="Faible à moyenne" %}
+  {% include cran.html cran=1 libelle="Faible à moyenne" decor=true %}
   <p><strong>Faible à moyenne.</strong> Le talent est plausible, les sources ne permettent pas de le situer.</p>
 </div>
 
