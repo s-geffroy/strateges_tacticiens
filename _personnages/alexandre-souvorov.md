@@ -2,14 +2,14 @@
 title: "Alexandre Souvorov"
 tri: "alexandre souvorov"
 cle: alexandre-souvorov
-dates: "1729 – 1800"
+dates: "1729 ou 1730 – 1800"
 identite: "Généralissime de l’armée russe."
-description: "Alexandre Souvorov (1729 – 1800). Généralissime de l’armée russe. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Alexandre Souvorov (1729 ou 1730 – 1800). Généralissime de l’armée russe. Courte biographie, portrait et lectures pour aller plus loin."
 image:
   path: /assets/portraits/alexandre-souvorov.jpg
   width: 330
   height: 567
-  alt: "Portrait peint d’un vieil homme maigre en uniforme vert, couvert de décorations."
+  alt: "Portrait en pied d’un vieil homme maigre en uniforme vert, tendant un bâton de commandement devant un champ de bataille."
 portrait:
   legende: "Portrait par Nicolas Sébastien Frosté, 1833, d’après un portrait peint de son vivant. Musée de l’Ermitage, Saint-Pétersbourg."
   ressemblance: true

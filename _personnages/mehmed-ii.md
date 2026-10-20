@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/mehmed-ii.jpg
   width: 330
   height: 539
-  alt: "Miniature ottomane représentant un sultan assis, coiffé d’un turban blanc, tenant une fleur."
+  alt: "Miniature ottomane : un sultan assis, coiffé d’un grand turban blanc, respire une rose."
 portrait:
   legende: "Miniature de l’atelier de Nakkaş Osman, 1579, près d’un siècle après sa mort."
   ressemblance: false

@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/wellington.jpg
   width: 330
   height: 451
-  alt: "Portrait peint d’un homme en uniforme rouge de maréchal, décoré de la plaque de l’ordre de la Jarretière."
+  alt: "Portrait peint d’un homme en uniforme rouge brodé d’or, les bras croisés."
 portrait:
   legende: "Portrait par Thomas Lawrence, vers 1815."
   ressemblance: true

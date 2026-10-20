@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/dwight-d-eisenhower.jpg
   width: 330
   height: 412
-  alt: "Portrait photographique en couleur d’un homme chauve et souriant, en costume sombre."
+  alt: "Portrait photographique en couleur d’un homme chauve et souriant, en costume gris et cravate bleue."
 portrait:
   legende: "Portrait photographique officiel de la Maison-Blanche, 29 mai 1959."
   ressemblance: true

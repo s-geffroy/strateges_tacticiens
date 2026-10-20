@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/sun-tzu.jpg
   width: 276
   height: 300
-  alt: "Gravure chinoise représentant un homme debout en robe longue, les mains jointes."
+  alt: "Peinture d’un homme à fine moustache et barbiche, coiffé d’un foulard bleu, en robe grise."
 portrait:
   legende: "Représentation imaginaire, époque Qing."
   ressemblance: false

@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Fils de paysans aisés du Hunan, il participe en 1921 au congrès fondateur du Parti communiste chinois. Après la rupture avec le Guomindang en 1927, il installe le mouvement dans les campagnes et, pendant la Longue Marche de 1934-1935, s’impose à la tête du parti. Ses écrits de la fin des années 1930 théorisent la guerre populaire prolongée : base rurale, guérilla, retournement progressif du rapport de forces.
+Fils de paysans aisés du Hunan, il participe en 1921 au congrès fondateur du Parti communiste chinois. Après la rupture avec le Guomindang en 1927, il installe le mouvement dans les campagnes et, pendant la Longue Marche de 1934-1935, prend l’ascendant sur la direction militaire du parti, dont il devient ensuite le chef incontesté. Ses écrits de la fin des années 1930 théorisent la guerre populaire prolongée : base rurale, guérilla, retournement progressif du rapport de forces.
 
 Après la guerre contre le Japon, la guerre civile tourne à l’avantage des communistes, et il proclame la République populaire le 1er octobre 1949. Au pouvoir, il lance le Grand Bond en avant, dont la famine fait des dizaines de millions de morts entre 1959 et 1961, puis la Révolution culturelle à partir de 1966. Il meurt en 1976.

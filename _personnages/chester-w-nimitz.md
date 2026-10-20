@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/chester-w-nimitz.jpg
   width: 330
   height: 383
-  alt: "Photographie officielle d’un officier de marine américain aux cheveux blancs, en uniforme sombre."
+  alt: "Photographie en couleur d’un officier de marine américain aux cheveux blancs, en uniforme kaki, devant une carte."
 portrait:
   legende: "Photographie officielle de l’US Navy, vers 1945."
   ressemblance: true

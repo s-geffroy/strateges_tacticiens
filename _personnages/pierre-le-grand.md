@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/pierre-le-grand.jpg
   width: 330
   height: 436
-  alt: "Portrait peint d’un homme en armure, un manteau d’hermine sur l’épaule."
+  alt: "Portrait peint d’un homme en armure, une écharpe bleue en travers de la poitrine, la main posée sur un casque à plumes rouges."
 portrait:
   legende: "Portrait d’après Jean-Marc Nattier, qui l’a peint en 1717."
   ressemblance: true

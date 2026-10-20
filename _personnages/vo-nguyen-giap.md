@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/vo-nguyen-giap.jpg
   width: 330
   height: 478
-  alt: "Photographie en noir et blanc d’un homme souriant en uniforme clair."
+  alt: "Photographie en noir et blanc d’un homme en veste sombre boutonnée, portant deux décorations."
 portrait:
   legende: "Photographie de 1957."
   ressemblance: true

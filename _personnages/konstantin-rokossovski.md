@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-D’origine polonaise, soldat de cavalerie dans l’armée impériale, il rejoint l’Armée rouge pendant la guerre civile. Arrêté en 1937 pendant les purges, emprisonné et maltraité, il est libéré en 1940. Il commande en 1941 dans la défense de Moscou, puis dirige le front du Don, qui achève à Stalingrad l’encerclement et la reddition de la 6e armée allemande au début de 1943.
+D’origine polonaise, soldat de cavalerie dans l’armée impériale, il rejoint l’Armée rouge pendant la guerre civile. Arrêté en 1937 pendant les purges, emprisonné et maltraité, il est libéré en 1940. Il commande en 1941 une armée dans la défense de Moscou, puis dirige le front du Don, qui achève à Stalingrad l’encerclement et la reddition de la 6e armée allemande au début de 1943.
 
 À Koursk, l’été suivant, son front reçoit l’offensive allemande sur une défense préparée en profondeur, puis contre-attaque. En 1944, il est l’un des maîtres d’œuvre de l’opération Bagration, qui détruit le groupe d’armées Centre en Biélorussie. Maréchal, il commande le défilé de la Victoire en juin 1945. Il est ensuite ministre de la Défense de Pologne de 1949 à 1956.

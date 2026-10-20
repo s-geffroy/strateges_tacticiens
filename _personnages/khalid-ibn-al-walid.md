@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/khalid-ibn-al-walid.png
   width: 330
   height: 330
-  alt: "Le nom de Khalid ibn al-Walid calligraphié en arabe, en noir sur fond blanc."
+  alt: "Le nom de Khalid ibn al-Walid calligraphié en arabe, en lettres d’or sur un disque vert."
 portrait:
   legende: "Son nom en calligraphie arabe. La tradition islamique ne représente pas les Compagnons du Prophète, et aucun portrait de lui n’existe."
   ressemblance: false

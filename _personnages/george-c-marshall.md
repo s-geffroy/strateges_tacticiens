@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/george-c-marshall.jpg
   width: 330
   height: 413
-  alt: "Photographie officielle en noir et blanc d’un officier américain en uniforme, décorations sur la poitrine."
+  alt: "Photographie officielle en couleur d’un officier américain aux cheveux gris, en uniforme."
 portrait:
   legende: "Photographie officielle de l’armée américaine, milieu des années 1940."
   ressemblance: true

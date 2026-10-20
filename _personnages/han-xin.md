@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/han-xin.jpg
   width: 330
   height: 465
-  alt: "Gravure chinoise représentant un homme debout en robe et coiffe de dignitaire."
+  alt: "Gravure chinoise représentant un homme debout en robe de dignitaire, tenant une longue lance."
 portrait:
   legende: "Gravure du recueil Wanxiaotang huazhuan, édition de 1921. Représentation imaginaire."
   ressemblance: false

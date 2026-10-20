@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/belisaire.jpg
   width: 330
   height: 395
-  alt: "Détail de mosaïque byzantine : un homme barbu en manteau blanc, au milieu d’une rangée de dignitaires."
+  alt: "Détail de mosaïque byzantine : un homme barbu aux cheveux noirs bouclés, vêtu d’un manteau blanc."
 portrait:
   legende: "Mosaïque de la basilique Saint-Vital de Ravenne, avant 547. La figure placée à la droite de l’empereur Justinien est traditionnellement identifiée à Bélisaire."
   ressemblance: true

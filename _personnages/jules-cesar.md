@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/jules-cesar.jpg
   width: 330
   height: 448
-  alt: "Buste antique en marbre d’un homme maigre et âgé, au front dégarni."
+  alt: "Tête antique en marbre d’un homme maigre et âgé, au front dégarni."
 portrait:
   legende: "Le portrait dit de Tusculum, marbre sculpté de son vivant ou peu après sa mort. Musée des Antiquités, Turin."
   ressemblance: true

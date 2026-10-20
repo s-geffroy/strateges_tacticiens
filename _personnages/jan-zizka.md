@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/jan-zizka.jpg
   width: 330
   height: 409
-  alt: "Gravure représentant un guerrier en armure, un bandeau sur l’œil, tenant une masse d’armes."
+  alt: "Dessin aquarellé d’un chef de guerre en armure, monté sur un cheval blanc, brandissant une masse d’armes."
 portrait:
   legende: "Mikoláš Aleš, 1908. Représentation imaginaire."
   ressemblance: false

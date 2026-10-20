@@ -9,9 +9,9 @@ image:
   path: /assets/portraits/epaminondas.jpg
   width: 330
   height: 532
-  alt: "Buste de pierre d’un homme barbu, posé dans une niche d’un temple de jardin."
+  alt: "Statue de pierre en pied d’un guerrier barbu en tunique et manteau, dans la niche d’un temple de jardin."
 portrait:
-  legende: "Buste du XVIIIe siècle, temple de la Vertu antique, jardins de Stowe, Angleterre. Représentation imaginaire."
+  legende: "Statue du XVIIIe siècle, temple de la Vertu antique, jardins de Stowe, Angleterre. Représentation imaginaire."
   ressemblance: false
   auteur: "Photographie de Daderot"
   licence: "CC0, aucun droit réservé"

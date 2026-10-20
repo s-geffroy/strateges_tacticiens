@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/hannibal-barca.jpg
   width: 330
   height: 518
-  alt: "Photographie ancienne d’un buste antique en marbre, tête casquée, au visage barbu."
+  alt: "Photographie ancienne d’un buste antique en marbre : un homme barbu coiffé d’un bonnet orné."
 portrait:
   legende: "Buste conservé à Naples, longtemps identifié à Hannibal, reproduit dans l’Histoire romaine de Theodor Mommsen. Photographie Alinari, vers 1900. L’identification est incertaine."
   ressemblance: false
@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Fils d’Hamilcar Barca, il prend en 221 av. J.-C. le commandement des forces carthaginoises en Espagne. Le siège de Sagonte, alliée de Rome, déclenche en 219 la deuxième guerre punique. L’année suivante, il franchit les Pyrénées et les Alpes avec son armée et ses éléphants, et entre en Italie.
+Fils d’Hamilcar Barca, il prend en 221 av. J.-C. le commandement des forces carthaginoises en Espagne. Le siège de Sagonte, alliée de Rome, en 219, provoque la deuxième guerre punique, déclarée l’année suivante. L’année suivante, il franchit les Pyrénées et les Alpes avec son armée et ses éléphants, et entre en Italie.
 
 Il bat les Romains sur la Trébie, au lac Trasimène, puis à Cannes en 216, où il encercle et détruit une armée plus nombreuse que la sienne. Mais il reste quinze ans en Italie sans prendre Rome ni rallier ses alliés en nombre suffisant. Rappelé en Afrique, il est vaincu par Scipion à Zama en 202. Exilé en Orient après avoir gouverné Carthage, il se donne la mort vers 183 av. J.-C. pour ne pas être livré aux Romains.

@@ -9,7 +9,7 @@ image:
   path: /assets/portraits/louis-nicolas-davout.jpg
   width: 330
   height: 510
-  alt: "Portrait peint d’un homme chauve en uniforme de maréchal, brodé d’or."
+  alt: "Portrait en pied d’un homme chauve en uniforme de maréchal brodé d’or, la main posée sur son sabre."
 portrait:
   legende: "Portrait de Tito Marzocchi de Bellucci, 1852, d’après Pierre-Claude Gautherot. Château de Versailles."
   ressemblance: true
