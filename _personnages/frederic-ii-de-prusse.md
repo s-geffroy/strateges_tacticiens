@@ -1,5 +1,6 @@
 ---
 title: "Frédéric II de Prusse"
+tri: "frederic ii de prusse"
 cle: frederic-ii-de-prusse
 dates: "1712 – 1786"
 identite: "Roi de Prusse."

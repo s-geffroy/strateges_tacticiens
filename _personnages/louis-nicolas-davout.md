@@ -1,5 +1,6 @@
 ---
 title: "Louis-Nicolas Davout"
+tri: "louisnicolas davout"
 cle: louis-nicolas-davout
 dates: "1770 – 1823"
 identite: "Maréchal d’Empire."

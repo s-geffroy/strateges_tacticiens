@@ -1,5 +1,6 @@
 ---
 title: "Mehmed II"
+tri: "mehmed ii"
 cle: mehmed-ii
 dates: "1432 – 1481"
 identite: "Sultan ottoman, conquérant de Constantinople."

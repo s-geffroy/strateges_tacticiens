@@ -56,6 +56,8 @@ layout: default
         <li><a href="{{ l.url }}"{% if l.langue != 'fr' %} hreflang="{{ l.langue }}"{% endif %}>{{ l.titre }}</a></li>
         {%- endfor %}
       </ul>
+
+      <p class="fiche-retour"><a href="{{ '/personnages/' | relative_url }}">Voir tous les personnages</a></p>
     </div>
   </div>
 </article>

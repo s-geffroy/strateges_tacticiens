@@ -1,5 +1,6 @@
 ---
 title: "George C. Marshall"
+tri: "george c marshall"
 cle: george-c-marshall
 dates: "1880 – 1959"
 identite: "Chef d’état-major de l’armée américaine, puis secrétaire d’État."

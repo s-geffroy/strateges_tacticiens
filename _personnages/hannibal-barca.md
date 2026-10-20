@@ -1,5 +1,6 @@
 ---
 title: "Hannibal Barca"
+tri: "hannibal barca"
 cle: hannibal-barca
 dates: "247 – v. 183 av. J.-C."
 identite: "Général carthaginois."

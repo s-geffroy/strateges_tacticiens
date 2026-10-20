@@ -1,5 +1,6 @@
 ---
 title: "Konstantin Rokossovski"
+tri: "konstantin rokossovski"
 cle: konstantin-rokossovski
 dates: "1896 – 1968"
 identite: "Maréchal de l’Union soviétique."

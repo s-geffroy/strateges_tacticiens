@@ -1,5 +1,6 @@
 ---
 title: "Joseph Staline"
+tri: "joseph staline"
 cle: joseph-staline
 dates: "1878 – 1953"
 identite: "Dirigeant de l’Union soviétique."

@@ -1,5 +1,6 @@
 ---
 title: "Alexandre Souvorov"
+tri: "alexandre souvorov"
 cle: alexandre-souvorov
 dates: "1729 – 1800"
 identite: "Généralissime de l’armée russe."

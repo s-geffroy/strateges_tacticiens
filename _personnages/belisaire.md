@@ -1,5 +1,6 @@
 ---
 title: "Bélisaire"
+tri: "belisaire"
 cle: belisaire
 dates: "v. 500 – 565"
 identite: "Général de l’Empire byzantin."

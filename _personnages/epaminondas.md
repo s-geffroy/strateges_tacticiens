@@ -1,5 +1,6 @@
 ---
 title: "Épaminondas"
+tri: "epaminondas"
 cle: epaminondas
 dates: "v. 418 – 362 av. J.-C."
 identite: "Général et homme d’État thébain."

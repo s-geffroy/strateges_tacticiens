@@ -1,5 +1,6 @@
 ---
 title: "Khalid ibn al-Walid"
+tri: "khalid ibn alwalid"
 cle: khalid-ibn-al-walid
 dates: "? – 642"
 identite: "Général des premières conquêtes arabes."

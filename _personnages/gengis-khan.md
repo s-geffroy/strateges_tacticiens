@@ -1,5 +1,6 @@
 ---
 title: "Gengis Khan"
+tri: "gengis khan"
 cle: gengis-khan
 dates: "v. 1162 – 1227"
 identite: "Fondateur de l’Empire mongol."

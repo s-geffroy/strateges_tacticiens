@@ -1,5 +1,6 @@
 ---
 title: "Kautilya"
+tri: "kautilya"
 cle: kautilya-arthashastra
 dates: "tradition : IVe siècle av. J.-C."
 identite: "Auteur traditionnel de l’Arthashastra."

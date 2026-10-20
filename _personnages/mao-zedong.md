@@ -1,5 +1,6 @@
 ---
 title: "Mao Zedong"
+tri: "mao zedong"
 cle: mao-zedong
 dates: "1893 – 1976"
 identite: "Dirigeant du Parti communiste chinois, fondateur de la République populaire de Chine."

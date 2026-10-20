@@ -1,5 +1,6 @@
 ---
 title: "Yi Sun-sin"
+tri: "yi sunsin"
 cle: yi-sun-sin
 dates: "1545 – 1598"
 identite: "Amiral coréen de la dynastie Joseon."

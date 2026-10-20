@@ -1,5 +1,6 @@
 ---
 title: "Otto von Bismarck"
+tri: "otto von bismarck"
 cle: otto-von-bismarck
 dates: "1815 – 1898"
 identite: "Ministre-président de Prusse, puis premier chancelier de l’Empire allemand."

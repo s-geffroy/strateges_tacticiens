@@ -1,5 +1,6 @@
 ---
 title: "Napoléon Bonaparte"
+tri: "napoleon bonaparte"
 cle: napoleon-bonaparte
 dates: "1769 – 1821"
 identite: "Général, Premier consul, puis empereur des Français."

@@ -1,5 +1,6 @@
 ---
 title: "Jules César"
+tri: "jules cesar"
 cle: jules-cesar
 dates: "100 – 44 av. J.-C."
 identite: "Général et homme d’État romain."

@@ -1,5 +1,6 @@
 ---
 title: "Subutaï"
+tri: "subutai"
 cle: subutai
 dates: "v. 1175 – 1248"
 identite: "Général mongol."

@@ -1,5 +1,6 @@
 ---
 title: "Horatio Nelson"
+tri: "horatio nelson"
 cle: horatio-nelson
 dates: "1758 – 1805"
 identite: "Amiral britannique."

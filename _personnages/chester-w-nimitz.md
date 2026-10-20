@@ -1,5 +1,6 @@
 ---
 title: "Chester W. Nimitz"
+tri: "chester w nimitz"
 cle: chester-w-nimitz
 dates: "1885 – 1966"
 identite: "Commandant en chef de la flotte américaine du Pacifique."

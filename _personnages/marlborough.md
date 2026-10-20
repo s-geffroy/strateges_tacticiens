@@ -1,5 +1,6 @@
 ---
 title: "John Churchill, duc de Marlborough"
+tri: "john churchill duc de marlborough"
 cle: marlborough
 dates: "1650 – 1722"
 identite: "Capitaine général des armées britanniques."

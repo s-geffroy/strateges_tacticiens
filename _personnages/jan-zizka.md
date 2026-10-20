@@ -1,5 +1,6 @@
 ---
 title: "Jan Žižka"
+tri: "jan zizka"
 cle: jan-zizka
 dates: "v. 1360 – 1424"
 identite: "Chef militaire hussite en Bohême."

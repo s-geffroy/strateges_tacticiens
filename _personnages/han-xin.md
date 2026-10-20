@@ -1,5 +1,6 @@
 ---
 title: "Han Xin"
+tri: "han xin"
 cle: han-xin
 dates: "? – 196 av. J.-C."
 identite: "Général de la fondation de la dynastie Han."

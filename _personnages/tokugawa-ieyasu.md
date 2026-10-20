@@ -1,5 +1,6 @@
 ---
 title: "Tokugawa Ieyasu"
+tri: "tokugawa ieyasu"
 cle: tokugawa-ieyasu
 dates: "1543 – 1616"
 identite: "Fondateur du shogunat Tokugawa."

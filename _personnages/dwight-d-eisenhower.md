@@ -1,5 +1,6 @@
 ---
 title: "Dwight D. Eisenhower"
+tri: "dwight d eisenhower"
 cle: dwight-d-eisenhower
 dates: "1890 – 1969"
 identite: "Commandant suprême des forces alliées en Europe, puis président des États-Unis."

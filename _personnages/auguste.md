@@ -1,5 +1,6 @@
 ---
 title: "Auguste"
+tri: "auguste"
 cle: auguste
 dates: "63 av. J.-C. – 14 apr. J.-C."
 identite: "Premier empereur romain."

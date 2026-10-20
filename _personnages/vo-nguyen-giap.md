@@ -1,5 +1,6 @@
 ---
 title: "Võ Nguyên Giáp"
+tri: "vo nguyen giap"
 cle: vo-nguyen-giap
 dates: "1911 – 2013"
 identite: "Commandant en chef de l’Armée populaire vietnamienne."

@@ -1,5 +1,6 @@
 ---
 title: "Helmuth von Moltke l’Ancien"
+tri: "helmuth von moltke lancien"
 cle: helmuth-von-moltke-l-ancien
 dates: "1800 – 1891"
 identite: "Chef du grand état-major prussien."

@@ -731,3 +731,47 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 .matrice .vers-fiche:hover { box-shadow: inset 0 -2px 0 var(--laiton); }
 
 .fiche-retour + .fiche-retour { margin-top: 0.35rem; }
+
+/* --- L'index des personnages -------------------------------------------- */
+
+/* La vignette a un alt vide : le nom, juste a cote et dans le meme lien,
+   nomme deja la carte. Un alt descriptif ferait lire chaque lien deux fois. */
+.index-personnages {
+  list-style: none;
+  margin: clamp(1.8rem, 5vw, 2.6rem) 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 0 1.6rem;
+  border-top: 1px solid var(--filet);
+}
+.index-personnages li { border-bottom: 1px solid var(--papier-creux); }
+
+.index-carte {
+  display: grid;
+  grid-template-columns: 3.4rem 1fr;
+  grid-template-rows: auto auto auto;
+  column-gap: 0.9rem;
+  align-items: start;
+  padding: 0.8rem 0;
+  text-decoration: none;
+  font-family: var(--sans);
+}
+.index-carte img {
+  grid-row: 1 / span 3;
+  width: 3.4rem;
+  height: 4.4rem;
+  object-fit: cover;
+  object-position: center top;   /* le visage est en haut du portrait */
+  background: var(--papier-creux);
+}
+.index-nom { font-weight: 600; line-height: 1.3; }
+.index-dates, .index-rangs {
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--encre-pale);
+  font-variant-numeric: lining-nums;
+}
+.index-carte:hover .index-nom { box-shadow: inset 0 -2px 0 var(--laiton); }
+.mention + .mention { margin-top: 0.15rem; }
+.mention a { color: var(--encre); }

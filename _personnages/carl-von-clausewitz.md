@@ -1,5 +1,6 @@
 ---
 title: "Carl von Clausewitz"
+tri: "carl von clausewitz"
 cle: carl-von-clausewitz
 dates: "1780 – 1831"
 identite: "Officier prussien et théoricien de la guerre."

@@ -1,5 +1,6 @@
 ---
 title: "Scipion l’Africain"
+tri: "scipion lafricain"
 cle: scipion-l-africain
 dates: "236 – v. 183 av. J.-C."
 identite: "Général et homme d’État romain, vainqueur d’Hannibal."

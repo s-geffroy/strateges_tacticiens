@@ -1,5 +1,6 @@
 ---
 title: "Alexandre le Grand"
+tri: "alexandre le grand"
 cle: alexandre-le-grand
 dates: "356 – 323 av. J.-C."
 identite: "Roi de Macédoine, conquérant de l’empire perse."

@@ -9,6 +9,8 @@
       url: /strateges/
     - titre: "Tacticiens"
       url: /tacticiens/
+    - titre: "Personnages"
+      url: /personnages/
 - groupe: "L’appareil critique"
   entrees:
     - titre: "Matrice croisée"

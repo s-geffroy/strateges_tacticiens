@@ -1,5 +1,6 @@
 ---
 title: "Nader Shah"
+tri: "nader shah"
 cle: nader-shah
 dates: "1688 – 1747"
 identite: "Chah d’Iran, fondateur de la dynastie afcharide."

@@ -1,0 +1,26 @@
+{%- comment -%}
+  L'index des fiches. L'ordre vient du champ `tri` de chaque fiche : le nom
+  affiche, sans accents ni ponctuation. Liquid trie octet par octet, et sans
+  cette cle « Épaminondas » et « Võ Nguyên Giáp » passeraient apres « Z ».
+  Les rangs sont lus dans _data/, comme sur les fiches.
+{%- endcomment -%}
+{%- assign tous = site.personnages | sort: 'tri' -%}
+<ul class="index-personnages">
+  {%- for p in tous %}
+  {%- assign s = site.data.strateges | where: 'slug', p.cle | first -%}
+  {%- assign t = site.data.tacticiens | where: 'slug', p.cle | first %}
+  <li>
+    <a class="index-carte" href="{{ p.url | relative_url }}">
+      <img src="{{ p.image.path | relative_url }}" width="{{ p.image.width }}" height="{{ p.image.height }}"
+           alt="" loading="lazy" decoding="async">
+      <span class="index-nom">{{ p.title }}</span>
+      <span class="index-dates">{{ p.dates }}</span>
+      <span class="index-rangs">
+        {%- if s %}{{ s.rang }}<sup>e</sup> stratège{% endif -%}
+        {%- if s and t %}, {% endif -%}
+        {%- if t %}{{ t.rang }}<sup>e</sup> tacticien{% endif -%}
+      </span>
+    </a>
+  </li>
+  {%- endfor %}
+</ul>

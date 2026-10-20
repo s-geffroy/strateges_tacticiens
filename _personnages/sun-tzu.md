@@ -1,5 +1,6 @@
 ---
 title: "Sun Tzu"
+tri: "sun tzu"
 cle: sun-tzu
 dates: "tradition : VIe – Ve siècle av. J.-C."
 identite: "Auteur traditionnel de L’Art de la guerre."
