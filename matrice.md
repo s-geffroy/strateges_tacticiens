@@ -15,11 +15,11 @@ avant_prose: matrice-tableau.html
 
 ## Ce que le tableau donne à voir
 
-Les crans placés à côté de chaque rang évitent la lecture paresseuse. Konstantin
-Rokossovski ferme le classement tactique avec la confiance maximale : on sait
-exactement ce qu’il a fait, et cela relève de l’art opératif. Khalid ibn
-al-Walid est quinzième avec la confiance la plus basse du corpus : rien ne
-permet de le situer mieux. Les deux sont hors du Top 12, pour des raisons
+Les crans placés à côté de chaque rang évitent la lecture paresseuse. Le
+dernier des tacticiens, Konstantin Rokossovski, en porte cinq : ses opérations
+sont bien connues, mais elles relèvent de l’art opératif. Khalid ibn al-Walid,
+quinzième, n’en porte qu’un, le minimum du corpus : les sources ne permettent
+pas de le situer mieux. Tous deux restent hors du Top 12, pour des raisons
 opposées.
 
 Deux hommes seulement figurent dans les **deux Top 12** : Napoléon Bonaparte,

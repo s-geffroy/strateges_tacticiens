@@ -18,8 +18,7 @@ Deux classements autonomes, construits selon une architecture parallèle : les
 douze plus grands stratèges et les douze plus grands tacticiens, chacun suivi
 de huit prétendants immédiats. Derrière chaque nom, un dossier comparatif —
 quarante en tout — qui expose le profil, le cas maître, l’avantage décisif, la
-limite, ce qu’on peut réellement attribuer à l’intéressé et la qualité des
-sources.
+limite, la part qui lui revient en propre et la qualité des sources.
 
 La version a été arrêtée le 11 août 2026. Elle est fermée sur le fond.
 
@@ -31,9 +30,8 @@ résultent d’un arbitrage ordinal et d’analyses de sensibilité. Un classeme
 qui affiche 87,4 contre 86,9 ment sur sa propre précision.
 
 **Confondre les niveaux de guerre.** L’art opératif — organiser des opérations
-en campagnes — n’a pas de classement. Il sert de catégorie de contrôle : une
-performance principalement opérative ne prouve ni supériorité tactique, ni
-supériorité stratégique. Trois grands noms en font les frais.
+en campagnes — n’a pas de classement propre. Y exceller ne qualifie donc pour
+aucune des deux listes, et trois grands noms en font les frais.
 
 **Classer les conquérants.** Le rang stratégique récompense la transformation
 de la puissance disponible en résultat politique, pas l’étendue des conquêtes.
@@ -50,8 +48,8 @@ pénalité de civilisation.
 Trois choses accompagnent chaque nom et se lisent ensemble.
 
 - **Les crans**, de un à cinq, disent la solidité du dossier — pas la valeur de
-  l’homme. Konstantin Rokossovski ferme le classement tactique avec la
-  confiance maximale ; Khalid ibn al-Walid est quinzième avec la plus basse.
+  l’homme. Un dernier rang peut en porter cinq, et un rang du milieu un
+  seul.
 - **La porte d’admissibilité**, entre la douzième et la treizième place, est un
   seuil et non une frontière de qualité. Les huit qui suivent sont des
   prétendants immédiats, pas des candidats inférieurs.

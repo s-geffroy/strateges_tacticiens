@@ -28,4 +28,4 @@ liens:
 
 Membre du clan des Makhzum, l’une des grandes familles de La Mecque, il combat d’abord Muhammad, notamment à Uhud en 625, avant de se convertir vers 629. À Mu’ta, la même année, il ramène en bon ordre une armée musulmane dont les chefs ont été tués, et reçoit le surnom d’« Épée de Dieu ».
 
-Sous le calife Abu Bakr, il soumet les tribus d’Arabie qui ont rompu avec Médine, puis porte la guerre en Irak. En 634, il traverse le désert pour rejoindre les armées de Syrie. Il joue un rôle majeur dans la victoire du Yarmouk contre les Byzantins en 636, alors que le calife Umar l’a déjà relevé du commandement suprême. Il meurt en 642. Les récits de ses campagnes ont été mis par écrit deux siècles plus tard.
+Sous le calife Abu Bakr, il soumet les tribus d’Arabie qui ont rompu avec Médine, puis porte la guerre en Irak. En 634, il traverse le désert pour rejoindre les armées de Syrie. Au Yarmouk, en 636, l’armée byzantine est détruite ; il y commande une grande partie des troupes, alors que le calife Umar l’a déjà relevé du commandement suprême. Il meurt en 642. Les récits de ses campagnes ont été mis par écrit deux siècles plus tard.

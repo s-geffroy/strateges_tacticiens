@@ -86,10 +86,10 @@ documentaire qui lui interdit le Top 12, pas une infériorité démontrée.</p>
 <h2>Un troisième niveau, mais pas un troisième classement</h2>
 
 <p>Entre la bataille et la guerre, l’art opératif organise les opérations en
-campagnes. Il sert ici de catégorie de contrôle : une performance
-principalement opérative ne prouve ni une supériorité tactique, ni une
-supériorité stratégique. Trois grands noms en font les frais et figurent
-seulement parmi les prétendants — <a href="{{ '/dossiers-strateges/' | relative_url }}#helmuth-von-moltke-l-ancien">Helmuth von Moltke l’Ancien</a>, <a href="{{ '/dossiers-tacticiens/' | relative_url }}#subutai">Subutaï</a> et <a href="{{ '/dossiers-tacticiens/' | relative_url }}#konstantin-rokossovski">Rokossovski</a>.</p>
+campagnes. Le site ne lui consacre pas de liste : il s’en sert pour tenir les
+deux autres. Briller dans la conduite des campagnes ne suffit pas à entrer dans
+l’un ou l’autre Top 12, et trois grands noms restent ainsi parmi les
+prétendants : <a href="{{ '/dossiers-strateges/' | relative_url }}#helmuth-von-moltke-l-ancien">Helmuth von Moltke l’Ancien</a>, <a href="{{ '/dossiers-tacticiens/' | relative_url }}#subutai">Subutaï</a> et <a href="{{ '/dossiers-tacticiens/' | relative_url }}#konstantin-rokossovski">Rokossovski</a>.</p>
 
 <h2>Le reste des correspondances</h2>
 

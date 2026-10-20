@@ -34,4 +34,4 @@ liens:
 
 Issu d’une famille patricienne ancienne mais peu puissante, il fait carrière dans le camp populaire. En 60 av. J.-C., il s’entend avec Pompée et Crassus, et obtient le consulat en 59, puis le gouvernement des Gaules. De 58 à 50, il conquiert la Gaule chevelue ; la victoire d’Alésia sur Vercingétorix, en 52, en est le moment décisif. Il en fait lui-même le récit dans ses Commentaires.
 
-En janvier 49, il franchit le Rubicon avec son armée, ouvrant la guerre civile. Il bat Pompée à Pharsale en 48, puis les républicains à Thapsus et à Munda. Nommé dictateur, il concentre les pouvoirs et engage des réformes, dont celle du calendrier. Il est assassiné en plein Sénat aux ides de mars 44 av. J.-C.
+En janvier 49, il franchit le Rubicon avec son armée : c’est la guerre civile. Il bat Pompée à Pharsale en 48, puis les républicains à Thapsus et à Munda. Nommé dictateur, il concentre les pouvoirs et engage des réformes, dont celle du calendrier. Il est assassiné en plein Sénat aux ides de mars 44 av. J.-C.
