@@ -588,13 +588,28 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 /* Les quarante noms. Archivo 500 et 700 sont charges par default.html. */
 .croisement .c-liste { font-size: 14px; font-weight: 500; }
 .croisement .c-liste.hors   { fill: var(--encre-pale); }  /* comme .matrice ... a.hors */
-.croisement .c-liste.croise { font-weight: 700; }         /* les quatre classes des deux cotes */
+
+/* Les quatre classes des deux cotes, aux deux bouts des quatre traits. Le nom
+   prend l'accent, et le noeud laiton du trait -- pose sur ces rangees et sur
+   elles seules -- le prolonge : l'oeil trouve les deux bouts d'une liaison sans
+   qu'on ait a repeter le nom au centre.
+
+   Declare APRES .hors a dessein : a specificite egale c'est l'ordre qui
+   tranche, et le laiton doit gagner sur le gris des pretendants. Sinon
+   Alexandre le Grand (17e stratege) et Frederic II (14e) resteraient en
+   --encre-pale -- or c'est tout l'interet de leur trait.
+
+   Le tiret de rail garde sa couleur : c'est lui qui dit admis ou pretendant,
+   et cette distinction compte justement pour ces quatre-la. */
+.croisement .c-liste.croise { fill: var(--laiton); font-weight: 700; }
 
 /* Le soulignement en box-shadow du site ne s'applique pas dans un SVG : le
-   survol change la couleur. L'anneau de focus du navigateur est conserve. */
+   survol change la couleur, et souligne -- car sur les huit noms deja en
+   laiton la couleur seule ne signalerait rien. L'anneau de focus du navigateur
+   est conserve. */
 .croisement a { text-decoration: none; }
 .croisement a:hover .c-liste,
-.croisement a:focus .c-liste { fill: var(--laiton); }
+.croisement a:focus .c-liste { fill: var(--laiton); text-decoration: underline; }
 
 .croisement .c-repere {
   font-size: 11px;
