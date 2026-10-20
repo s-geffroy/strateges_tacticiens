@@ -627,6 +627,14 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
    et cette distinction compte justement pour ces quatre-la. */
 .croisement .c-liste.croise { fill: var(--laiton); font-weight: 700; }
 
+/* Les noms sont des liens vers les fiches. Le soulignement en box-shadow du
+   site ne s'applique pas dans un SVG : le survol souligne et colore -- sur les
+   huit noms deja en laiton, la couleur seule ne signalerait rien. */
+.croisement a { text-decoration: none; cursor: pointer; }
+.croisement a:hover .c-liste,
+.croisement a:focus-visible .c-liste { fill: var(--laiton); text-decoration: underline; }
+.croisement a:focus-visible { outline: 2px solid var(--laiton); outline-offset: 2px; }
+
 .croisement .c-repere {
   font-size: 11px;
   font-weight: 500;
@@ -645,3 +653,81 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
   color: var(--encre-pale);
 }
 .figure figcaption strong { color: var(--encre); font-weight: 600; }
+
+/* --- La fiche d'un personnage ------------------------------------------- */
+
+.personnage-dates {
+  margin: 0.6rem 0 0;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-variant-numeric: lining-nums;
+  color: var(--encre-pale);
+}
+
+/* Le portrait vient apres le titre dans le document -- c'est l'ordre de
+   lecture sur telephone. Sur grand ecran il passe dans une colonne etroite a
+   droite, le texte gardant toute la largeur restante. */
+.personnage-grille {
+  display: grid;
+  gap: clamp(1.6rem, 5vw, 3rem);
+  margin-top: clamp(1.8rem, 5vw, 2.6rem);
+}
+@media (min-width: 46rem) {
+  .personnage-grille { grid-template-columns: minmax(0, 1fr) 15rem; align-items: start; }
+  .portrait { grid-column: 2; grid-row: 1; }
+  .personnage-texte { grid-column: 1; grid-row: 1; }
+}
+
+.portrait { margin: 0; max-width: 15rem; }
+.portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: var(--papier-creux);   /* tient la place pendant le chargement */
+}
+.portrait figcaption {
+  margin-top: 0.7rem;
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--encre-pale);
+}
+.portrait figcaption p { margin: 0 0 0.45rem; }
+/* L'avertissement est une information sur la source, comme une confiance :
+   il se lit, il ne crie pas. */
+.portrait-reserve { color: var(--encre); font-weight: 600; }
+.portrait-credit a { color: inherit; }
+
+/* Le rang et sa confiance, en tete du texte : le site ne montre jamais l'un
+   sans l'autre. */
+.positions {
+  list-style: none;
+  margin: 0 0 0.4rem;
+  padding: 0;
+  font-family: var(--sans);
+}
+.positions li {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.55rem 0;
+  border-top: 1px solid var(--papier-creux);
+}
+.positions li:first-child { border-top: 1px solid var(--filet); }
+.positions li:last-child  { border-bottom: 1px solid var(--papier-creux); }
+.positions .cran { margin-top: 0; flex: none; }
+.positions a { font-weight: 600; }
+
+.personnage-texte h2 {
+  font-size: 1.35rem;
+  margin: 2.2rem 0 0.7rem;
+}
+
+.lectures { margin: 0; padding-left: 1.15rem; }
+.lectures li { margin-bottom: 0.45em; }
+
+/* Le nom de chaque ligne de la matrice conduit a la fiche du personnage. */
+.matrice .vers-fiche { text-decoration: none; box-shadow: inset 0 -1px 0 var(--trait); }
+.matrice .vers-fiche:hover { box-shadow: inset 0 -2px 0 var(--laiton); }
+
+.fiche-retour + .fiche-retour { margin-top: 0.35rem; }

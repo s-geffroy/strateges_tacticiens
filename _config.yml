@@ -47,6 +47,22 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Les fiches des personnages : un fichier par personnage dans _personnages/,
+# nomme d'apres le `slug` du corpus (_data/strateges.yml, tacticiens.yml).
+# Le nom du fichier fait l'URL : /personnages/<slug>/. Le renommer casse les
+# liens de l'accueil, de la matrice et des dossiers.
+collections:
+  personnages:
+    output: true
+    permalink: /personnages/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: personnages
+    values:
+      layout: personnage
+
 # CE QUI NE DOIT PAS ETRE PUBLIE. Sans cette liste, Jekyll copie tout ce qu'il
 # trouve a la racine dans le site final : CLAUDE.md, app.yaml et compose.yaml
 # seraient servis en ligne, lisibles par n'importe qui.

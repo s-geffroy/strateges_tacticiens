@@ -33,5 +33,6 @@
     <p class="verdict">{{ include.d.verdict }}</p>
 
     <p class="fiche-retour"><a href="{{ include.classement | append: '#' | append: include.d.slug | relative_url }}">Situer ce dossier dans le classement</a></p>
+    <p class="fiche-retour"><a href="{{ '/personnages/' | append: include.d.slug | append: '/' | relative_url }}">Lire la biographie de {{ include.d.nom }}</a></p>
   </div>
 </article>

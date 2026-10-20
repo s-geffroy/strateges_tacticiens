@@ -22,15 +22,16 @@
   capitale se centre sur le tiret. Porte a y=288, entre la 12e place (278) et
   la 13e (298).
 
-  Aucun lien dans la figure : role="img" rend ses enfants muets aux lecteurs
-  d'ecran, et des liens focusables y deviendraient des arrets de tabulation
-  sans nom. Les dossiers se rejoignent par le figcaption et par les listes.
+  Chaque nom conduit a la fiche du personnage : la figure sert d'index aux
+  trente-six fiches. Elle est donc un role="group", PAS un role="img" -- un
+  role="img" rendrait ses enfants muets, et les quarante liens deviendraient
+  des arrets de tabulation sans nom. Ici chaque lien est nomme par son texte.
 
   La largeur du viewBox vaut le min-width de .croisement dans site.css. Si
   l'une bouge, l'autre bouge.
 {%- endcomment -%}
-<svg class="croisement" viewBox="0 0 736 460" role="img"
-     aria-labelledby="croisement-titre croisement-desc">
+<svg class="croisement" viewBox="0 0 736 460" role="group"
+     aria-labelledby="croisement-titre" aria-describedby="croisement-desc">
   <title id="croisement-titre">Les deux classements face à face</title>
   <desc id="croisement-desc">Deux colonnes de vingt noms, les stratèges à
   gauche et les tacticiens à droite, du premier en haut au vingtième en bas.
@@ -56,8 +57,10 @@
     {%- assign y = s.rang | minus: 1 | times: 20 | plus: 58 -%}
     {%- assign croise = site.data.tacticiens | where: 'nom', s.nom | first -%}
     <line class="c-place{% if s.rang > 12 %} c-hors{% endif %}" x1="256" y1="{{ y }}" x2="272" y2="{{ y }}"/>
-      <text class="c-liste{% if s.rang > 12 %} hors{% endif %}{% if croise %} croise{% endif %}"
-            x="244" y="{{ y | plus: 5 }}" text-anchor="end">{{ s.nom }}</text>
+      <a href="{{ '/personnages/' | append: s.slug | append: '/' | relative_url }}">
+        <text class="c-liste{% if s.rang > 12 %} hors{% endif %}{% if croise %} croise{% endif %}"
+              x="244" y="{{ y | plus: 5 }}" text-anchor="end">{{ s.nom }}</text>
+      </a>
   {%- endfor -%}
 
   {%- comment -%} Les vingt tacticiens, en miroir. {%- endcomment -%}
@@ -65,8 +68,10 @@
     {%- assign y = t.rang | minus: 1 | times: 20 | plus: 58 -%}
     {%- assign croise = site.data.strateges | where: 'nom', t.nom | first -%}
     <line class="c-place{% if t.rang > 12 %} c-hors{% endif %}" x1="464" y1="{{ y }}" x2="480" y2="{{ y }}"/>
-      <text class="c-liste{% if t.rang > 12 %} hors{% endif %}{% if croise %} croise{% endif %}"
-            x="492" y="{{ y | plus: 5 }}" text-anchor="start">{{ t.nom }}</text>
+      <a href="{{ '/personnages/' | append: t.slug | append: '/' | relative_url }}">
+        <text class="c-liste{% if t.rang > 12 %} hors{% endif %}{% if croise %} croise{% endif %}"
+              x="492" y="{{ y | plus: 5 }}" text-anchor="start">{{ t.nom }}</text>
+      </a>
   {%- endfor -%}
 
   {%- comment -%} La porte d'admissibilite, entre la douzieme et la treizieme place. {%- endcomment -%}

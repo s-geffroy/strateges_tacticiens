@@ -1,0 +1,61 @@
+---
+layout: default
+---
+{%- comment -%}
+  La fiche d'un personnage. Le contenu (biographie) est le corps du fichier
+  _personnages/<cle>.md ; le portrait, ses droits et les liens sont dans son
+  front matter. Le rang et la confiance ne sont PAS recopies ici : ils sont lus
+  dans _data/, par la cle, pour ne jamais diverger des classements.
+{%- endcomment -%}
+{%- assign s = site.data.strateges | where: 'slug', page.cle | first -%}
+{%- assign t = site.data.tacticiens | where: 'slug', page.cle | first -%}
+
+<article class="personnage">
+  <h1 class="titre-page">{{ page.title }}</h1>
+  <p class="personnage-dates">{{ page.dates }}</p>
+  <p class="chapeau">{{ page.identite }}</p>
+
+  <div class="personnage-grille">
+    <figure class="portrait">
+      <img src="{{ page.image.path | relative_url }}" width="{{ page.image.width }}" height="{{ page.image.height }}"
+           alt="{{ page.image.alt }}" decoding="async">
+      <figcaption>
+        <p>{{ page.portrait.legende }}</p>
+        {%- unless page.portrait.ressemblance %}
+        <p class="portrait-reserve">Cette image ne prétend pas à la ressemblance.</p>
+        {%- endunless %}
+        <p class="portrait-credit">{{ page.portrait.auteur }}.
+          {% comment %} Une licence sans page propre n'est pas un lien : il doublerait celui du fichier. {% endcomment -%}
+          {% if page.portrait.licence_url != page.portrait.source %}<a href="{{ page.portrait.licence_url }}">{{ page.portrait.licence }}</a>{% else %}{{ page.portrait.licence }}{% endif %}.
+          <a href="{{ page.portrait.source }}">Fichier sur Wikimedia Commons</a>.</p>
+      </figcaption>
+    </figure>
+
+    <div class="personnage-texte">
+      <ul class="positions">
+        {%- if s %}
+        <li>{% include cran.html cran=s.cran libelle=s.confiance decor=true %}
+          <a href="{{ '/dossiers-strateges/' | relative_url }}#{{ s.slug }}">{{ s.rang }}<sup>e</sup> stratège sur vingt</a>,
+          {% if s.rang <= 12 %}dans le Top 12{% else %}prétendant immédiat{% endif %}. Confiance {{ s.confiance | downcase }}.</li>
+        {%- endif %}
+        {%- if t %}
+        <li>{% include cran.html cran=t.cran libelle=t.confiance decor=true %}
+          <a href="{{ '/dossiers-tacticiens/' | relative_url }}#{{ t.slug }}">{{ t.rang }}<sup>e</sup> tacticien sur vingt</a>,
+          {% if t.rang <= 12 %}dans le Top 12{% else %}prétendant immédiat{% endif %}. Confiance {{ t.confiance | downcase }}.</li>
+        {%- endif %}
+      </ul>
+
+      <h2>Biographie</h2>
+      <div class="biographie">
+        {{ content }}
+      </div>
+
+      <h2>Pour aller plus loin</h2>
+      <ul class="lectures">
+        {%- for l in page.liens %}
+        <li><a href="{{ l.url }}"{% if l.langue != 'fr' %} hreflang="{{ l.langue }}"{% endif %}>{{ l.titre }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+</article>

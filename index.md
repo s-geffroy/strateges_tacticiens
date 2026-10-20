@@ -50,7 +50,8 @@ confiance qu’il mérite.</p>
     le Grand</a>, premier tacticien mais seulement dix-septième stratège, et
     <a href="{{ '/dossiers-strateges/' | relative_url }}#frederic-ii-de-prusse">Frédéric
     II de Prusse</a>, écarté de justesse deux fois. Les trente-deux autres noms
-    n’existent que d’un seul côté.
+    n’existent que d’un seul côté. Chaque nom de la figure ouvre la fiche du
+    personnage : sa biographie, son portrait, et de quoi aller plus loin.
   </figcaption>
 </figure>
 
