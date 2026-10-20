@@ -20,6 +20,12 @@ vendor/
 # Le regenerer apres toute modification du Gemfile :
 #   sudo appctl run bundle bundle lock
 
+# Configuration MCP locale, ecrite par le script de connexion a niaf. Elle ne
+# contient aucun secret (le jeton est relu par headersHelper dans
+# ~/.config/niaf/), mais elle porte une adresse interne du VPS, qui n'a rien a
+# faire dans un depot public.
+.mcp.json
+
 # Marqueur local du VPS, lu par scripts/infra-reconcile.sh : il dit que cette
 # application redemarre au boot de CETTE machine. Rien a faire dans un depot.
 .autostart
