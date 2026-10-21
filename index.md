@@ -7,7 +7,7 @@ description: >-
   lui accorder.
 ---
 
-{% include titre-page.html texte="Deux métiers, deux listes" %}
+{% include titre-page.html texte="Deux métiers de la guerre" %}
 
 <p class="chapeau">Gagner des batailles et gagner politiquement une guerre ne
 sont pas la même compétence. Ce site tient donc deux listes séparées, arrêtées
