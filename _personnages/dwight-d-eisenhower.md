@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Officier d’état-major remarqué par Marshall, il commande en novembre 1942 le débarquement allié en Afrique du Nord, puis les campagnes de Sicile et d’Italie. Nommé commandant suprême des forces expéditionnaires alliées, il dirige le débarquement de Normandie du 6 juin 1944 et la campagne d’Europe occidentale jusqu’à la capitulation allemande de mai 1945.
+Avant 1942, il n’a jamais commandé au feu. C’est un officier d’état-major, que Marshall remarque et fait monter très vite. En novembre 1942, il dirige le débarquement allié en Afrique du Nord, puis les campagnes de Sicile et d’Italie. Devenu commandant suprême des forces expéditionnaires alliées, il décide de lancer le débarquement de Normandie malgré une météo incertaine : il a lieu le 6 juin 1944. Il conduit ensuite la campagne d’Europe occidentale jusqu’à la capitulation allemande, en mai 1945.
 
-Sa tâche tient autant de la coalition que du commandement : arbitrer entre Britanniques et Américains, entre Montgomery, Bradley et Patton. Premier commandant suprême des forces de l’OTAN en 1951, il est élu président des États-Unis l’année suivante et exerce deux mandats, de 1953 à 1961. Il meurt en 1969.
+Son métier tient de la diplomatie : il lui faut faire travailler ensemble Britanniques et Américains, Montgomery et Patton. En 1951, il devient le premier commandant suprême des forces de l’OTAN. Élu président des États-Unis l’année suivante, il fait deux mandats, de 1953 à 1961, et meurt en 1969.

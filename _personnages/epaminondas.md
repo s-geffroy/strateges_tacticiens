@@ -26,6 +26,6 @@ liens:
     langue: en
 ---
 
-Thébain formé à la philosophie pythagoricienne, il s’impose dans la vie politique de sa cité après que Thèbes s’est libérée de la garnison spartiate en 379 av. J.-C. À Leuctres, en 371, il renforce démesurément son aile gauche, sur cinquante rangs de profondeur, et la lance contre l’élite spartiate, tout en retardant le reste de sa ligne. L’armée de Sparte, réputée invincible, est brisée.
+Élève d’un philosophe pythagoricien, Lysis de Tarente, il ne s’impose dans la vie publique de Thèbes qu’après 379 av. J.-C., quand la cité chasse la garnison spartiate. Huit ans plus tard, à Leuctres, il entasse son aile gauche sur cinquante rangs et la jette sur l’élite spartiate, pendant que le reste de sa ligne se tient en retrait. Le Bataillon sacré de Pélopidas achève la percée. Sparte, qu’on croyait invincible, perd la bataille et son prestige.
 
-Il envahit ensuite le Péloponnèse à plusieurs reprises, libère la Messénie, fonde Messène et soutient Mégalopolis, privant Sparte de la base de sa puissance. L’hégémonie thébaine reste brève. Il est mortellement blessé à Mantinée en 362 av. J.-C., au moment où ses troupes l’emportent.
+Il descend ensuite plusieurs fois dans le Péloponnèse. La Messénie, libérée, reçoit une capitale, Messène, et Sparte perd les terres et les hilotes qui la faisaient vivre. L’hégémonie de Thèbes ne dure pourtant pas. En 362, à Mantinée, il est frappé à mort alors que ses troupes l’emportent ; selon la tradition, il ne laisse retirer le fer qu’après avoir appris la victoire.

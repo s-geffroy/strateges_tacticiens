@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Roi en 1740, il envahit la Silésie autrichienne quelques mois plus tard et la conserve au terme de la guerre de Succession d’Autriche. La guerre de Sept Ans, de 1756 à 1763, le met face à une coalition de l’Autriche, de la France et de la Russie. Il remporte Rossbach et Leuthen en 1757, mais frôle l’effondrement après la défaite de Kunersdorf en 1759.
+Il monte sur le trône en 1740 et, quelques mois plus tard, envahit la Silésie autrichienne ; la guerre de Succession d’Autriche la lui laisse. La guerre de Sept Ans, de 1756 à 1763, est d’une autre taille : l’Autriche, la France et la Russie se liguent contre lui. Rossbach et Leuthen, en 1757, restent ses victoires les plus célèbres. Deux ans plus tard, au soir de Kunersdorf, il écrit qu’il croit tout perdu.
 
-La mort de l’impératrice Élisabeth de Russie, en 1762, sauve la Prusse, et la paix d’Hubertusburg lui laisse la Silésie. Il participe au premier partage de la Pologne en 1772. Correspondant de Voltaire, musicien, auteur d’écrits politiques et militaires, il est le modèle du despote éclairé. Il meurt en 1786.
+La mort de l’impératrice Élisabeth de Russie, en 1762, le sauve : son successeur, Pierre III, admirateur de Frédéric, fait la paix. Le traité d’Hubertusburg confirme la Silésie à la Prusse. En 1772, il prend part au premier partage de la Pologne. Flûtiste, il reçoit Voltaire à Potsdam et laisse des écrits politiques et militaires. Il meurt en 1786.

@@ -26,6 +26,6 @@ liens:
     langue: en
 ---
 
-Officier d’état-major, il planifie en 1918 une partie de l’offensive Meuse-Argonne. Il devient chef d’état-major de l’armée le 1er septembre 1939, jour de l’invasion de la Pologne. Il fait passer l’armée américaine de moins de deux cent mille hommes à plus de huit millions, choisit ses grands commandants, Eisenhower en tête, et défend au sein de l’état-major allié la priorité donnée à l’Allemagne.
+En 1918, officier d’état-major en France, il organise le déplacement des troupes vers l’offensive Meuse-Argonne. Il devient chef d’état-major de l’armée le 1er septembre 1939, le jour où l’Allemagne envahit la Pologne. L’armée américaine compte alors moins de deux cent mille hommes ; elle en aura plus de huit millions. Il choisit ses grands chefs, Eisenhower le premier, et défend auprès des Alliés la priorité donnée à l’Allemagne. On le voyait commander le débarquement en Europe, mais Roosevelt préfère le garder à Washington.
 
-Secrétaire d’État de 1947 à 1949, il annonce à Harvard, le 5 juin 1947, le programme de reconstruction de l’Europe qui portera son nom, le plan Marshall. Secrétaire à la Défense pendant la guerre de Corée, il reçoit le prix Nobel de la paix en 1953 et meurt en 1959.
+Secrétaire d’État, il annonce à Harvard, le 5 juin 1947, l’aide à la reconstruction de l’Europe qu’on appellera le plan Marshall. Il revient comme secrétaire à la Défense pendant la guerre de Corée. Prix Nobel de la paix en 1953, il meurt en 1959.

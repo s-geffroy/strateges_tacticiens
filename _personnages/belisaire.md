@@ -26,6 +26,6 @@ liens:
     langue: en
 ---
 
-Général de Justinien, il bat les Perses à Dara en 530, puis écrase en 532 la sédition Nika, qui menaçait le trône. En 533, avec une petite armée, il détruit le royaume vandale d’Afrique en deux batailles, Ad Decimum et Tricamarum.
+Général de Justinien, il bat les Perses à Dara en 530. Deux ans plus tard, quand la sédition Nika menace le trône, il fait massacrer les émeutiers enfermés dans l’hippodrome. En 533, une petite armée lui suffit pour abattre le royaume vandale d’Afrique : deux batailles, Ad Decimum et Tricamarum, et le roi Gélimer finit par se rendre.
 
-En Italie, il prend la Sicile, puis Naples et Rome en 536, soutient dans Rome un long siège mené par les Ostrogoths, et entre à Ravenne en 540. Souvent privé de renforts par un empereur méfiant, rappelé, renvoyé, il connaît plusieurs disgrâces. Il repousse encore une invasion des Koutrigours près de Constantinople en 559. Il meurt en 565. Procope, son secrétaire, est la source principale de ses campagnes.
+L’Italie lui résiste davantage. Il prend la Sicile, puis Naples et Rome en 536 ; les Ostrogoths l’y assiègent pendant un an. Ravenne lui ouvre ses portes en 540. Justinien se méfie de lui, le laisse sans renforts et le rappelle plus d’une fois. Vieux, il repousse encore les Koutrigours aux portes de Constantinople, en 559, et meurt en 565. Ce qu’on sait de ses campagnes vient surtout de Procope, son secrétaire.

@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Professeur d’histoire à Hanoï et militant communiste, il fonde en décembre 1944 la petite unité armée dont naîtra l’Armée populaire vietnamienne. Pendant la guerre d’Indochine, il la transforme en armée régulière capable d’engager le corps expéditionnaire français. Le siège de Diên Biên Phu, de mars à mai 1954, s’achève par la reddition du camp retranché et ouvre les accords de Genève.
+Il enseigne l’histoire dans un lycée privé de Hanoï et milite au Parti communiste. En décembre 1944, il forme une brigade de propagande armée de trente-quatre hommes : c’est le noyau de la future Armée populaire vietnamienne. Pendant la guerre d’Indochine, il en fait une armée régulière, capable de tenir tête au corps expéditionnaire français. À Diên Biên Phu, ses hommes hissent à bras l’artillerie sur les hauteurs qui dominent la cuvette. Le camp retranché se rend le 7 mai 1954, et sa chute pèse sur la conférence de Genève, réunie depuis la fin d’avril.
 
-Ministre de la Défense du Nord-Vietnam, il reste une figure centrale pendant la guerre contre le Sud et les États-Unis, mais son rôle dans les grandes décisions, l’offensive du Têt de 1968 comprise, est discuté : d’autres dirigeants le marginalisent progressivement. Il meurt à Hanoï en 2013, à cent deux ans.
+Ministre de la Défense du Nord-Vietnam, il compte encore pendant la guerre contre le Sud et les États-Unis. Son rôle dans l’offensive du Têt de 1968 est pourtant discuté, et d’autres dirigeants l’écartent peu à peu. Il meurt à Hanoï en 2013, à cent deux ans.

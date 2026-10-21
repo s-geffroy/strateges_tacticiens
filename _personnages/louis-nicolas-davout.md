@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Officier noble rallié à la Révolution, il sert en Égypte avec Bonaparte et devient l’un des dix-huit premiers maréchaux en 1804. Le 14 octobre 1806, à Auerstaedt, il bat avec un seul corps d’armée la principale armée prussienne, deux fois plus nombreuse, pendant que l’Empereur combat à Iéna.
+Noble, il choisit pourtant la Révolution, sert en Égypte sous Bonaparte et devient en 1804, à trente-quatre ans, le plus jeune des maréchaux. Le 14 octobre 1806, à Auerstaedt, son seul corps d’armée affronte la principale armée prussienne, deux fois plus nombreuse, et la bat. L’Empereur, qui croyait avoir l’essentiel de l’ennemi devant lui à Iéna, a d’abord du mal à le croire.
 
-Il s’illustre encore à Eylau, à Eckmühl et à Wagram, et reçoit les titres de duc d’Auerstaedt et de prince d’Eckmühl. Réputé pour sa discipline et son administration, il tient Hambourg assiégée jusqu’après l’abdication de 1814. Ministre de la Guerre pendant les Cent-Jours, il meurt en 1823.
+Eylau, Eckmühl et Wagram suivent ; il devient duc d’Auerstaedt, puis prince d’Eckmühl. On le craint pour sa discipline, on l’estime pour son administration. Assiégé dans Hambourg, il ne rend la ville qu’après l’abdication de 1814. Pendant les Cent-Jours, il est ministre de la Guerre. Il meurt en 1823.

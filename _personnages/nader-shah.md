@@ -26,6 +26,6 @@ liens:
     langue: en
 ---
 
-Issu de la tribu turkmène des Afchars, il entre au service du prince safavide Tahmasp II, alors que l’Iran est envahi par les Afghans, les Ottomans et les Russes. Il chasse les Afghans en 1729, puis repousse les Ottomans. En 1736, il écarte les Safavides et se fait proclamer chah.
+Il naît dans la tribu turkmène des Afchars, au nord-est de l’Iran. Quand les Afghans prennent Ispahan, en 1722, et que Russes et Ottomans se partagent les provinces du Nord et de l’Ouest, il se met au service du prince safavide Tahmasp II. Il chasse les Afghans en 1729, puis les Ottomans. En 1736, il écarte la dynastie qu’il a servie et se fait couronner chah.
 
-Il prend Kandahar en 1738 et envahit l’Inde moghole : vainqueur à Karnal en 1739, il pille Delhi et emporte le trône du Paon. Il fait encore campagne en Asie centrale, dans le Caucase et contre les Ottomans. Mais la fiscalité écrasante et la brutalité de son gouvernement soulèvent les révoltes, et il est assassiné par ses propres officiers en 1747.
+Deux ans plus tard, il prend Kandahar et, de là, descend sur l’Inde moghole. Vainqueur à Karnal en 1739, il livre Delhi au pillage et rapporte en Iran le trône du Paon et le diamant Koh-i-Noor. Les campagnes continuent, du Caucase à l’Asie centrale. Les impôts qu’elles exigent et ses cruautés finissent par soulever le pays : en 1747, ses propres officiers l’assassinent.

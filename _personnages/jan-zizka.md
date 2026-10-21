@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Petit noble de Bohême, soldat expérimenté, il prend la tête des forces hussites après la défenestration de Prague, en 1419. Avec des paysans et des artisans sans tradition militaire, il bâtit une armée défendue par des chariots de guerre reliés entre eux, d’où tirent armes à feu et petites pièces d’artillerie.
+Petit noble de Bohême, il a déjà une longue vie de soldat quand la défenestration de Prague, en 1419, déclenche la révolte hussite. Il en prend la tête militaire. Ses troupes sont des paysans et des artisans qui n’ont jamais fait la guerre ; il les abrite derrière des chariots enchaînés les uns aux autres, d’où l’on tire avec des armes à feu et de petites pièces d’artillerie.
 
-Il repousse les croisades de l’empereur Sigismond, à la colline de Vítkov devant Prague en 1420, puis à Kutná Hora et à Německý Brod en 1422. Borgne depuis longtemps, il perd son second œil en 1421 et continue de commander. Il meurt de la peste en 1424, sans avoir été vaincu en bataille rangée.
+Les croisés de l’empereur Sigismond se brisent sur ce dispositif : à Vítkov, devant Prague, en 1420, puis à Kutná Hora et à Německý Brod pendant l’hiver 1421-1422. Il avait déjà perdu un œil ; une flèche lui crève l’autre en 1421, au siège de Rabí, et il continue de commander, aveugle. La peste l’emporte en 1424. Il n’a jamais perdu de bataille rangée.

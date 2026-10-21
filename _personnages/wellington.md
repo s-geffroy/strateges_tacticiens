@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Officier en Inde, il remporte la bataille d’Assaye en 1803. En 1808, il prend le commandement des troupes britanniques au Portugal. Pendant la guerre d’Espagne, il s’abrite derrière les lignes fortifiées de Torres Vedras, épuise l’armée française qui ne peut les forcer, puis passe à l’offensive : Salamanque en 1812, Vitoria en 1813, et l’entrée en France en 1814.
+Officier en Inde, il y gagne la bataille d’Assaye en 1803. En 1808, il prend le commandement des troupes britanniques au Portugal. En 1810, Masséna arrive devant les lignes de Torres Vedras, que Wellington a fait fortifier en secret ; l’armée française ne peut les forcer et s’use devant elles tout l’hiver. Wellington passe ensuite à l’offensive : Salamanque en 1812, Vitoria en 1813, et en 1814 il entre en France.
 
-Le 18 juin 1815, à Waterloo, il tient le plateau de Mont-Saint-Jean contre Napoléon jusqu’à l’arrivée des Prussiens de Blücher. Il fait ensuite une carrière politique : Premier ministre de 1828 à 1830, il fait voter l’émancipation des catholiques. Il meurt en 1852.
+Le 18 juin 1815, à Waterloo, il tient le plateau de Mont-Saint-Jean contre Napoléon jusqu’à l’arrivée des Prussiens de Blücher. Premier ministre en 1828, il fait voter l’émancipation des catholiques et se bat même en duel, en 1829, avec un lord qui l’accusait de duplicité sur ce sujet. Il meurt en 1852.

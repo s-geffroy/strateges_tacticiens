@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Officier d’artillerie né à Ajaccio, il se fait remarquer au siège de Toulon en 1793, puis dirige la campagne d’Italie de 1796-1797 et l’expédition d’Égypte. Le coup d’État du 18 Brumaire, en 1799, en fait le Premier consul ; il devient empereur en 1804. Austerlitz en 1805, Iéna en 1806, Wagram en 1809 lui donnent la maîtrise du continent, tandis que le Code civil et les institutions du Consulat réorganisent durablement la France.
+Né à Ajaccio, officier d’artillerie, il se fait remarquer au siège de Toulon en 1793. La campagne d’Italie de 1796-1797 lui donne la gloire ; l’expédition d’Égypte suit. Le coup d’État du 18 Brumaire, en 1799, le fait Premier consul, et il devient empereur en 1804. Austerlitz en 1805, Iéna l’année suivante, Wagram en 1809 : pendant quatre ans, le continent plie. Dans le même temps, le Code civil donne à la France un droit qui lui survivra.
 
-La guerre d’Espagne, puis la campagne de Russie de 1812, détruisent ses armées. Vaincu à Leipzig en 1813, il abdique en 1814, revient pour les Cent-Jours et perd définitivement à Waterloo en juin 1815. Il meurt en exil à Sainte-Hélène en 1821.
+L’Espagne l’enlise, et la Russie, en 1812, engloutit la Grande Armée. Battu à Leipzig en 1813, il abdique au printemps suivant. Il revient de l’île d’Elbe pour les Cent-Jours, que Waterloo termine en juin 1815. Exilé à Sainte-Hélène, il y meurt en 1821.
