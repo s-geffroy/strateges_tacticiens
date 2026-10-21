@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Il enseigne l’histoire dans un lycée privé de Hanoï et milite au Parti communiste. En décembre 1944, il forme une brigade de propagande armée de trente-quatre hommes : c’est le noyau de la future Armée populaire vietnamienne. Pendant la guerre d’Indochine, il en fait une armée régulière, capable de tenir tête au corps expéditionnaire français. À Diên Biên Phu, ses hommes hissent à bras l’artillerie sur les hauteurs qui dominent la cuvette. Le camp retranché se rend le 7 mai 1954, et sa chute pèse sur la conférence de Genève, réunie depuis la fin d’avril.
+Professeur d’histoire à Hanoï et militant communiste, il forme en décembre 1944 une brigade de propagande armée de trente-quatre hommes, noyau de la future Armée populaire vietnamienne. Pendant la guerre d’Indochine, il en fait une armée régulière, capable de tenir tête au corps expéditionnaire français. À Diên Biên Phu, ses hommes hissent à bras l’artillerie sur les hauteurs qui dominent la cuvette. Le camp retranché se rend le 7 mai 1954, en pleine conférence de Genève.
 
 Ministre de la Défense du Nord-Vietnam, il compte encore pendant la guerre contre le Sud et les États-Unis. Son rôle dans l’offensive du Têt de 1968 est pourtant discuté, et d’autres dirigeants l’écartent peu à peu. Il meurt à Hanoï en 2013, à cent deux ans.
