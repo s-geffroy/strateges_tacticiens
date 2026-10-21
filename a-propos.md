@@ -96,7 +96,8 @@ résultat. Il n’y a ni base de données ni serveur d’application. Le seul sc
 chargé chez le visiteur est le bandeau commun de
 [Ligne de crête](https://www.ligne-de-crete.fr/), la vitrine qui présente ce
 travail parmi d’autres ; le site lui-même n’en exécute aucun. En plus des pages,
-le navigateur télécharge une feuille de style et deux familles de caractères.
+le navigateur télécharge une feuille de style et deux familles de caractères ;
+le bandeau apporte la sienne.
 
 Le dépôt est public :
 [s-geffroy/strateges_tacticiens](https://github.com/s-geffroy/strateges_tacticiens).
