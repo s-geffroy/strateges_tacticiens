@@ -29,6 +29,6 @@ liens:
     langue: fr
 ---
 
-Né à Ajaccio, officier d’artillerie, il se fait remarquer au siège de Toulon en 1793. La campagne d’Italie de 1796-1797 lui donne la gloire ; l’expédition d’Égypte suit. Le coup d’État du 18 Brumaire, en 1799, le fait Premier consul, et il devient empereur en 1804. Austerlitz en 1805, Iéna l’année suivante, Wagram en 1809 : pendant quatre ans, le continent plie. Dans le même temps, le Code civil donne à la France un droit qui lui survivra.
+Né à Ajaccio, officier d’artillerie, il se fait remarquer au siège de Toulon en 1793. Il commande l’armée d’Italie en 1796-1797, puis conduit l’expédition d’Égypte. Le coup d’État du 18 Brumaire, en 1799, le fait Premier consul. Sacré empereur en 1804, il bat les Autrichiens et les Russes à Austerlitz l’année suivante, les Prussiens à Iéna en 1806, puis de nouveau l’Autriche à Wagram en 1809. Le Code civil, promulgué en 1804, reste le fondement du droit civil français.
 
-L’Espagne l’enlise, et la Russie, en 1812, engloutit la Grande Armée. Battu à Leipzig en 1813, il abdique au printemps suivant. Il revient de l’île d’Elbe pour les Cent-Jours, que Waterloo termine en juin 1815. Exilé à Sainte-Hélène, il y meurt en 1821.
+En Espagne, à partir de 1808, ses troupes s’enlisent face à la guérilla et aux Anglais. La campagne de Russie de 1812 lui coûte l’essentiel de la Grande Armée. Battu à Leipzig en 1813, il abdique en avril 1814 et part pour l’île d’Elbe. Il en revient en mars 1815 ; les Cent-Jours s’achèvent à Waterloo, le 18 juin. Il meurt en exil à Sainte-Hélène en 1821.
