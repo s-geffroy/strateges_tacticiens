@@ -7,7 +7,7 @@ description: >-
   lui accorder.
 ---
 
-<h1 class="titre-page">Deux classements, et ce qu’on peut leur accorder</h1>
+<h1 class="titre-page titre-ligne" style="--titre-em: 15.9">Douze stratèges, douze tacticiens</h1>
 
 <p class="chapeau">Gagner des batailles et gagner politiquement une guerre ne
 sont pas la même compétence. Ce site tient donc deux listes séparées, arrêtées
