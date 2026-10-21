@@ -1,0 +1,17 @@
+{%- comment -%}
+  Le titre de page, tenu sur une ligne a toute largeur : c'est la police qui
+  s'ajuste, pas le texte (voir .titre-ligne dans site.css).
+  La longueur du titre en em est calculee a la construction, caractere par
+  caractere, d'apres _data/chasse_archivo600.json. On y ajoute 6 % de marge
+  pour une police de repli plus large, le temps qu'Archivo se charge.
+  Parametre : include.texte
+{%- endcomment -%}
+{%- assign chasse = site.data.chasse_archivo600 -%}
+{%- assign em = 0.0 -%}
+{%- assign signes = include.texte | split: "" -%}
+{%- for c in signes -%}
+  {%- assign w = chasse.chasses[c] | default: chasse.defaut -%}
+  {%- assign em = em | plus: w -%}
+{%- endfor -%}
+{%- assign em = em | times: 1.06 | round: 2 -%}
+<h1 class="titre-page titre-ligne" style="--titre-em: {{ em }}">{{ include.texte }}</h1>

@@ -151,14 +151,15 @@ main { padding: clamp(2.2rem, 6vw, 4rem) 0 1rem; }
 }
 
 /* Un titre qui tient sur une ligne a toute largeur : c'est la police qui
-   s'ajuste, pas le texte. --titre-em est la longueur du titre en em, mesuree
-   sur Archivo 600 avec l'interlettrage des titres, plus une marge pour la police
-   de repli. Si le titre change, ce nombre se remesure. Sans les unites cq*, la
-   regle precedente s'applique et le titre peut passer a la ligne. */
+   s'ajuste, pas le texte. --titre-em est la longueur du titre en em, calculee a
+   la construction par _includes/titre-page.html. Un titre court garde la taille
+   de la regle precedente ; un titre long la reduit juste assez pour tenir. Sans
+   les unites cq*, la regle precedente s'applique et le titre peut passer a la
+   ligne. */
 main > .enveloppe { container-type: inline-size; }
 .titre-ligne {
   white-space: nowrap;
-  font-size: min(3.1rem, 100cqi / var(--titre-em));
+  font-size: min(clamp(1.85rem, 1.1rem + 3.4vw, 3.1rem), 100cqi / var(--titre-em));
 }
 
 .chapeau {

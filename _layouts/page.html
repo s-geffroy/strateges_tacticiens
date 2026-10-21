@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<h1 class="titre-page">{{ page.titre_long | default: page.title }}</h1>
+{%- assign titre = page.titre_long | default: page.title -%}
+{% include titre-page.html texte=titre %}
 {%- if page.chapeau %}
 <p class="chapeau">{{ page.chapeau }}</p>
 {%- endif %}

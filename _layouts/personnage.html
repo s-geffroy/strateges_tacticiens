@@ -11,7 +11,7 @@ layout: default
 {%- assign t = site.data.tacticiens | where: 'slug', page.cle | first -%}
 
 <article class="personnage">
-  <h1 class="titre-page">{{ page.title }}</h1>
+  {% include titre-page.html texte=page.title %}
   <p class="personnage-dates">{{ page.dates }}</p>
   <p class="chapeau">{{ page.identite }}</p>
 

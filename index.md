@@ -7,7 +7,7 @@ description: >-
   lui accorder.
 ---
 
-<h1 class="titre-page titre-ligne" style="--titre-em: 15.9">Douze stratèges, douze tacticiens</h1>
+{% include titre-page.html texte="Douze stratèges, douze tacticiens" %}
 
 <p class="chapeau">Gagner des batailles et gagner politiquement une guerre ne
 sont pas la même compétence. Ce site tient donc deux listes séparées, arrêtées

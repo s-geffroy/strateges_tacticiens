@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1 class="titre-page">{{ page.titre_long }}</h1>
+{% include titre-page.html texte=page.titre_long %}
 <p class="chapeau">{{ page.chapeau }}</p>
 
 <p class="passerelle"><a href="{{ page.classement | relative_url }}">Revenir au classement</a></p>
