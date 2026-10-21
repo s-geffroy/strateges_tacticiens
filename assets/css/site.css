@@ -437,6 +437,11 @@ main > .enveloppe { container-type: inline-size; }
   padding: 0.5rem 0;
 }
 
+/* Bandeau ligne de crete : le kit arrive apres le premier affichage. Sa
+   hauteur (33 px) est reservee tant que l'element n'est pas defini, sinon
+   tout le contenu descendrait d'autant (CLS). */
+ldc-bandeau:not(:defined) { display: block; height: 33px; }
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }

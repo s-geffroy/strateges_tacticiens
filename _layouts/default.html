@@ -28,6 +28,13 @@
 
 <a class="evitement" href="#contenu">Aller au contenu</a>
 
+{%- comment -%}
+  Emplacement du bandeau ligne de crete, juste apres le lien d'evitement. Le
+  kit le remplit ; site.css lui reserve sa hauteur avant l'arrivee du script,
+  pour que la page ne descende pas de 33 px au chargement.
+{%- endcomment %}
+<ldc-bandeau></ldc-bandeau>
+
 <header class="entete-bande">
   <div class="enveloppe entete">
     <a class="enseigne" href="{{ '/' | relative_url }}">{{ site.title }}</a>
