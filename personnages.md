@@ -8,7 +8,7 @@ chapeau: >-
   alphabétique. Chaque nom ouvre une fiche : biographie, portrait et lectures
   pour aller plus loin.
 description: >-
-  Les trente-six personnages des deux classements, stratèges et tacticiens,
-  avec leur rang et un lien vers leur biographie.
+  Les trente-six personnages classés, avec leur rang dans chaque discipline et
+  un lien vers leur biographie.
 avant_prose: personnages-liste.html
 ---

@@ -8,9 +8,8 @@ chapeau: >-
   d’attribution et procédure d’arbitrage. Rien de ce qui suit n’est neutre :
   chaque choix déplace des noms.
 description: >-
-  Définitions des niveaux de guerre, grilles à cent points, portes
-  d’admissibilité, corrections transversales et procédure d’arbitrage des deux
-  classements.
+  Comment les deux classements ont été construits, depuis la définition des
+  niveaux de guerre jusqu’à la procédure d’arbitrage.
 ---
 
 ## Périmètre

@@ -8,8 +8,8 @@ chapeau: >-
   stratèges, la douzième place des tacticiens. Elles ont été tranchées à charge
   et à décharge.
 description: >-
-  Procès contradictoires des dernières places des deux classements : Marshall,
-  Giáp, Nimitz, Frédéric II, Bélisaire, Žižka et Khalid ibn al-Walid.
+  Comment se sont jouées les dernières places des deux classements, admis et
+  exclus pris un par un, de George C. Marshall à Khalid ibn al-Walid.
 ---
 
 ## Places 11 et 12 du classement stratégique

@@ -7,8 +7,8 @@ chapeau: >-
   Ce socle n’est pas une bibliographie exhaustive des quarante dossiers. C’est
   la trace de ce qui a servi à cadrer et à contrôler les jugements.
 description: >-
-  Règles documentaires, hiérarchie des sources et références de cadrage
-  utilisées pour construire les deux classements.
+  Comment les sources ont été hiérarchisées pour construire les deux
+  classements, et quelles références en ont fixé le cadre.
 ---
 
 ## Hiérarchie retenue
