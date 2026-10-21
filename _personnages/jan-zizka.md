@@ -4,7 +4,7 @@ tri: "jan zizka"
 cle: jan-zizka
 dates: "v. 1360 – 1424"
 identite: "Chef militaire hussite en Bohême."
-description: "Jan Žižka (v. 1360 – 1424). Chef militaire hussite en Bohême. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Jan Žižka (v. 1360 – 1424). Chef militaire hussite en Bohême. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/jan-zizka.jpg
   width: 330

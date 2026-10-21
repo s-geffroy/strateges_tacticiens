@@ -4,7 +4,7 @@ tri: "chester w nimitz"
 cle: chester-w-nimitz
 dates: "1885 – 1966"
 identite: "Commandant en chef de la flotte américaine du Pacifique."
-description: "Chester W. Nimitz (1885 – 1966). Commandant en chef de la flotte américaine du Pacifique. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Chester W. Nimitz (1885 – 1966). Commandant en chef de la flotte américaine du Pacifique. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/chester-w-nimitz.jpg
   width: 330

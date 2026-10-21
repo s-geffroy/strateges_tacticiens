@@ -4,7 +4,7 @@ tri: "george c marshall"
 cle: george-c-marshall
 dates: "1880 – 1959"
 identite: "Chef d’état-major de l’armée américaine, puis secrétaire d’État."
-description: "George C. Marshall (1880 – 1959). Chef d’état-major de l’armée américaine, puis secrétaire d’État. Courte biographie, portrait et lectures pour aller plus loin."
+description: "George C. Marshall (1880 – 1959). Chef d’état-major de l’armée américaine, puis secrétaire d’État. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/george-c-marshall.jpg
   width: 330

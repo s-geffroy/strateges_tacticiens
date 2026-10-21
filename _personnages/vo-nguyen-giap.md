@@ -4,7 +4,7 @@ tri: "vo nguyen giap"
 cle: vo-nguyen-giap
 dates: "1911 – 2013"
 identite: "Commandant en chef de l’Armée populaire vietnamienne."
-description: "Võ Nguyên Giáp (1911 – 2013). Commandant en chef de l’Armée populaire vietnamienne. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Võ Nguyên Giáp (1911 – 2013). Commandant en chef de l’Armée populaire vietnamienne. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/vo-nguyen-giap.jpg
   width: 330

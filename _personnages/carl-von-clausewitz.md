@@ -4,7 +4,7 @@ tri: "carl von clausewitz"
 cle: carl-von-clausewitz
 dates: "1780 – 1831"
 identite: "Officier prussien et théoricien de la guerre."
-description: "Carl von Clausewitz (1780 – 1831). Officier prussien et théoricien de la guerre. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Carl von Clausewitz (1780 – 1831). Officier prussien et théoricien de la guerre. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/carl-von-clausewitz.jpg
   width: 330

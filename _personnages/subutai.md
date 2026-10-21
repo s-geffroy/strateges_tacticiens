@@ -4,7 +4,7 @@ tri: "subutai"
 cle: subutai
 dates: "v. 1175 – 1248"
 identite: "Général mongol."
-description: "Subutaï (v. 1175 – 1248). Général mongol. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Subutaï (v. 1175 – 1248). Général mongol. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/subutai.jpg
   width: 330

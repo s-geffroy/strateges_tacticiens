@@ -4,7 +4,7 @@ tri: "frederic ii de prusse"
 cle: frederic-ii-de-prusse
 dates: "1712 – 1786"
 identite: "Roi de Prusse."
-description: "Frédéric II de Prusse (1712 – 1786). Roi de Prusse. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Frédéric II de Prusse (1712 – 1786). Roi de Prusse. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/frederic-ii-de-prusse.jpg
   width: 330

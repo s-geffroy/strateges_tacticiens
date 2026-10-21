@@ -4,7 +4,7 @@ tri: "pierre le grand"
 cle: pierre-le-grand
 dates: "1672 – 1725"
 identite: "Tsar, puis premier empereur de Russie."
-description: "Pierre le Grand (1672 – 1725). Tsar, puis premier empereur de Russie. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Pierre le Grand (1672 – 1725). Tsar, puis premier empereur de Russie. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/pierre-le-grand.jpg
   width: 330

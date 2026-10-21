@@ -4,7 +4,7 @@ tri: "alexandre souvorov"
 cle: alexandre-souvorov
 dates: "1729 ou 1730 – 1800"
 identite: "Généralissime de l’armée russe."
-description: "Alexandre Souvorov (1729 ou 1730 – 1800). Généralissime de l’armée russe. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Alexandre Souvorov (1729 ou 1730 – 1800). Généralissime de l’armée russe. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/alexandre-souvorov.jpg
   width: 330

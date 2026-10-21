@@ -4,7 +4,7 @@ tri: "scipion lafricain"
 cle: scipion-l-africain
 dates: "236 – v. 183 av. J.-C."
 identite: "Général et homme d’État romain, vainqueur d’Hannibal."
-description: "Scipion l’Africain (236 – v. 183 av. J.-C.). Général et homme d’État romain, vainqueur d’Hannibal. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Scipion l’Africain (236 – v. 183 av. J.-C.). Général et homme d’État romain, vainqueur d’Hannibal. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/scipion-l-africain.jpg
   width: 330

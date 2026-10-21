@@ -4,7 +4,7 @@ tri: "epaminondas"
 cle: epaminondas
 dates: "v. 418 – 362 av. J.-C."
 identite: "Général et homme d’État thébain."
-description: "Épaminondas (v. 418 – 362 av. J.-C.). Général et homme d’État thébain. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Épaminondas (v. 418 – 362 av. J.-C.). Général et homme d’État thébain. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/epaminondas.jpg
   width: 330

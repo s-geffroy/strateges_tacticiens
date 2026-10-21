@@ -4,7 +4,7 @@ tri: "mehmed ii"
 cle: mehmed-ii
 dates: "1432 – 1481"
 identite: "Sultan ottoman, conquérant de Constantinople."
-description: "Mehmed II (1432 – 1481). Sultan ottoman, conquérant de Constantinople. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Mehmed II (1432 – 1481). Sultan ottoman, conquérant de Constantinople. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/mehmed-ii.jpg
   width: 330

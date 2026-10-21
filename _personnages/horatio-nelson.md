@@ -4,7 +4,7 @@ tri: "horatio nelson"
 cle: horatio-nelson
 dates: "1758 – 1805"
 identite: "Amiral britannique."
-description: "Horatio Nelson (1758 – 1805). Amiral britannique. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Horatio Nelson (1758 – 1805). Amiral britannique. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/horatio-nelson.jpg
   width: 330

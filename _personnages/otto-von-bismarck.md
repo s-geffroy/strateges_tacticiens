@@ -4,7 +4,7 @@ tri: "otto von bismarck"
 cle: otto-von-bismarck
 dates: "1815 – 1898"
 identite: "Ministre-président de Prusse, puis premier chancelier de l’Empire allemand."
-description: "Otto von Bismarck (1815 – 1898). Ministre-président de Prusse, puis premier chancelier de l’Empire allemand. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Otto von Bismarck (1815 – 1898). Ministre-président de Prusse, puis premier chancelier de l’Empire allemand. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/otto-von-bismarck.jpg
   width: 330

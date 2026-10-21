@@ -4,7 +4,7 @@ tri: "sun tzu"
 cle: sun-tzu
 dates: "tradition : VIe – Ve siècle av. J.-C."
 identite: "Auteur traditionnel de L’Art de la guerre."
-description: "Sun Tzu (tradition : VIe – Ve siècle av. J.-C.). Auteur traditionnel de L’Art de la guerre. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Sun Tzu (tradition : VIe – Ve siècle av. J.-C.). Auteur traditionnel de L’Art de la guerre. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/sun-tzu.jpg
   width: 276

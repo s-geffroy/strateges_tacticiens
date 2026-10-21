@@ -4,7 +4,7 @@ tri: "auguste"
 cle: auguste
 dates: "63 av. J.-C. – 14 apr. J.-C."
 identite: "Premier empereur romain."
-description: "Auguste (63 av. J.-C. – 14 apr. J.-C.). Premier empereur romain. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Auguste (63 av. J.-C. – 14 apr. J.-C.). Premier empereur romain. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/auguste.jpg
   width: 330

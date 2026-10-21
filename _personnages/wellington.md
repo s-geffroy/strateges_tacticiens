@@ -4,7 +4,7 @@ tri: "arthur wellesley duc de wellington"
 cle: wellington
 dates: "1769 – 1852"
 identite: "Général et homme d’État britannique."
-description: "Arthur Wellesley, duc de Wellington (1769 – 1852). Général et homme d’État britannique. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Arthur Wellesley, duc de Wellington (1769 – 1852). Général et homme d’État britannique. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/wellington.jpg
   width: 330

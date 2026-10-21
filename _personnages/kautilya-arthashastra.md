@@ -4,7 +4,7 @@ tri: "kautilya"
 cle: kautilya-arthashastra
 dates: "tradition : IVe siècle av. J.-C."
 identite: "Auteur traditionnel de l’Arthashastra."
-description: "Kautilya (tradition : IVe siècle av. J.-C.). Auteur traditionnel de l’Arthashastra. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Kautilya (tradition : IVe siècle av. J.-C.). Auteur traditionnel de l’Arthashastra. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/kautilya-arthashastra.jpg
   width: 330

@@ -4,7 +4,7 @@ tri: "hannibal barca"
 cle: hannibal-barca
 dates: "247 – v. 183 av. J.-C."
 identite: "Général carthaginois."
-description: "Hannibal Barca (247 – v. 183 av. J.-C.). Général carthaginois. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Hannibal Barca (247 – v. 183 av. J.-C.). Général carthaginois. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/hannibal-barca.jpg
   width: 330

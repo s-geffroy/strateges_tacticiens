@@ -4,7 +4,7 @@ tri: "mao zedong"
 cle: mao-zedong
 dates: "1893 – 1976"
 identite: "Dirigeant du Parti communiste chinois, fondateur de la République populaire de Chine."
-description: "Mao Zedong (1893 – 1976). Dirigeant du Parti communiste chinois, fondateur de la République populaire de Chine. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Mao Zedong (1893 – 1976). Dirigeant du Parti communiste chinois, fondateur de la République populaire de Chine. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/mao-zedong.jpg
   width: 330

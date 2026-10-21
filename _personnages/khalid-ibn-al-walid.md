@@ -4,7 +4,7 @@ tri: "khalid ibn alwalid"
 cle: khalid-ibn-al-walid
 dates: "? – 642"
 identite: "Général des premières conquêtes arabes."
-description: "Khalid ibn al-Walid (? – 642). Général des premières conquêtes arabes. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Khalid ibn al-Walid (? – 642). Général des premières conquêtes arabes. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/khalid-ibn-al-walid.png
   width: 330

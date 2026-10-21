@@ -4,7 +4,7 @@ tri: "han xin"
 cle: han-xin
 dates: "? – 196 av. J.-C."
 identite: "Général de la fondation de la dynastie Han."
-description: "Han Xin (? – 196 av. J.-C.). Général de la fondation de la dynastie Han. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Han Xin (? – 196 av. J.-C.). Général de la fondation de la dynastie Han. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/han-xin.jpg
   width: 330

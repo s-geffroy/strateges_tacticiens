@@ -4,7 +4,7 @@ tri: "helmuth von moltke lancien"
 cle: helmuth-von-moltke-l-ancien
 dates: "1800 – 1891"
 identite: "Chef du grand état-major prussien."
-description: "Helmuth von Moltke l’Ancien (1800 – 1891). Chef du grand état-major prussien. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Helmuth von Moltke l’Ancien (1800 – 1891). Chef du grand état-major prussien. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/helmuth-von-moltke-l-ancien.jpg
   width: 299

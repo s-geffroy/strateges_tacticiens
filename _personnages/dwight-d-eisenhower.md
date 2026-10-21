@@ -4,7 +4,7 @@ tri: "dwight d eisenhower"
 cle: dwight-d-eisenhower
 dates: "1890 – 1969"
 identite: "Commandant suprême des forces alliées en Europe, puis président des États-Unis."
-description: "Dwight D. Eisenhower (1890 – 1969). Commandant suprême des forces alliées en Europe, puis président des États-Unis. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Dwight D. Eisenhower (1890 – 1969). Commandant suprême des forces alliées en Europe, puis président des États-Unis. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/dwight-d-eisenhower.jpg
   width: 330

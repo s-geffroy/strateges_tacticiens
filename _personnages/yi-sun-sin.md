@@ -4,7 +4,7 @@ tri: "yi sunsin"
 cle: yi-sun-sin
 dates: "1545 – 1598"
 identite: "Amiral coréen de la dynastie Joseon."
-description: "Yi Sun-sin (1545 – 1598). Amiral coréen de la dynastie Joseon. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Yi Sun-sin (1545 – 1598). Amiral coréen de la dynastie Joseon. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/yi-sun-sin.jpg
   width: 330

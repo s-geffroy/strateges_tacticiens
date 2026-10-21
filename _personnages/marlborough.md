@@ -4,7 +4,7 @@ tri: "john churchill duc de marlborough"
 cle: marlborough
 dates: "1650 – 1722"
 identite: "Capitaine général des armées britanniques."
-description: "John Churchill, duc de Marlborough (1650 – 1722). Capitaine général des armées britanniques. Courte biographie, portrait et lectures pour aller plus loin."
+description: "John Churchill, duc de Marlborough (1650 – 1722). Capitaine général des armées britanniques. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/marlborough.jpg
   width: 330

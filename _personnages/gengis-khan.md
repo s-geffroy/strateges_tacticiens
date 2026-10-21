@@ -4,7 +4,7 @@ tri: "gengis khan"
 cle: gengis-khan
 dates: "v. 1162 – 1227"
 identite: "Fondateur de l’Empire mongol."
-description: "Gengis Khan (v. 1162 – 1227). Fondateur de l’Empire mongol. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Gengis Khan (v. 1162 – 1227). Fondateur de l’Empire mongol. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/gengis-khan.jpg
   width: 330

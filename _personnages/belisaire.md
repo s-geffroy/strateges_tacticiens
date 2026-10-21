@@ -4,7 +4,7 @@ tri: "belisaire"
 cle: belisaire
 dates: "v. 500 – 565"
 identite: "Général de l’Empire byzantin."
-description: "Bélisaire (v. 500 – 565). Général de l’Empire byzantin. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Bélisaire (v. 500 – 565). Général de l’Empire byzantin. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/belisaire.jpg
   width: 330

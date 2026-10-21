@@ -4,7 +4,7 @@ tri: "alexandre le grand"
 cle: alexandre-le-grand
 dates: "356 – 323 av. J.-C."
 identite: "Roi de Macédoine, conquérant de l’empire perse."
-description: "Alexandre le Grand (356 – 323 av. J.-C.). Roi de Macédoine, conquérant de l’empire perse. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Alexandre le Grand (356 – 323 av. J.-C.). Roi de Macédoine, conquérant de l’empire perse. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/alexandre-le-grand.jpg
   width: 330

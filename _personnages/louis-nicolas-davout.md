@@ -4,7 +4,7 @@ tri: "louisnicolas davout"
 cle: louis-nicolas-davout
 dates: "1770 – 1823"
 identite: "Maréchal d’Empire."
-description: "Louis-Nicolas Davout (1770 – 1823). Maréchal d’Empire. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Louis-Nicolas Davout (1770 – 1823). Maréchal d’Empire. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/louis-nicolas-davout.jpg
   width: 330

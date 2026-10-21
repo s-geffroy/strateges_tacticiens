@@ -4,7 +4,7 @@ tri: "tokugawa ieyasu"
 cle: tokugawa-ieyasu
 dates: "1543 – 1616"
 identite: "Fondateur du shogunat Tokugawa."
-description: "Tokugawa Ieyasu (1543 – 1616). Fondateur du shogunat Tokugawa. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Tokugawa Ieyasu (1543 – 1616). Fondateur du shogunat Tokugawa. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/tokugawa-ieyasu.jpg
   width: 330

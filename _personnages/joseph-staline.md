@@ -4,7 +4,7 @@ tri: "joseph staline"
 cle: joseph-staline
 dates: "1878 – 1953"
 identite: "Dirigeant de l’Union soviétique."
-description: "Joseph Staline (1878 – 1953). Dirigeant de l’Union soviétique. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Joseph Staline (1878 – 1953). Dirigeant de l’Union soviétique. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/joseph-staline.jpg
   width: 330

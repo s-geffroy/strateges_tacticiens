@@ -4,7 +4,7 @@ tri: "nader shah"
 cle: nader-shah
 dates: "1688 – 1747"
 identite: "Chah d’Iran, fondateur de la dynastie afcharide."
-description: "Nader Shah (1688 – 1747). Chah d’Iran, fondateur de la dynastie afcharide. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Nader Shah (1688 – 1747). Chah d’Iran, fondateur de la dynastie afcharide. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/nader-shah.jpg
   width: 330

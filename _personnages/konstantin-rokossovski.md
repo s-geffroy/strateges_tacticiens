@@ -4,7 +4,7 @@ tri: "konstantin rokossovski"
 cle: konstantin-rokossovski
 dates: "1896 – 1968"
 identite: "Maréchal de l’Union soviétique."
-description: "Konstantin Rokossovski (1896 – 1968). Maréchal de l’Union soviétique. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Konstantin Rokossovski (1896 – 1968). Maréchal de l’Union soviétique. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/konstantin-rokossovski.jpg
   width: 330

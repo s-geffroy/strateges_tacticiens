@@ -4,7 +4,7 @@ tri: "napoleon bonaparte"
 cle: napoleon-bonaparte
 dates: "1769 – 1821"
 identite: "Général, Premier consul, puis empereur des Français."
-description: "Napoléon Bonaparte (1769 – 1821). Général, Premier consul, puis empereur des Français. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Napoléon Bonaparte (1769 – 1821). Général, Premier consul, puis empereur des Français. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/napoleon-bonaparte.jpg
   width: 330

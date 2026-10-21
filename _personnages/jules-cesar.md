@@ -4,7 +4,7 @@ tri: "jules cesar"
 cle: jules-cesar
 dates: "100 – 44 av. J.-C."
 identite: "Général et homme d’État romain."
-description: "Jules César (100 – 44 av. J.-C.). Général et homme d’État romain. Courte biographie, portrait et lectures pour aller plus loin."
+description: "Jules César (100 – 44 av. J.-C.). Général et homme d’État romain. Une courte biographie illustrée, avec des pistes de lecture."
 image:
   path: /assets/portraits/jules-cesar.jpg
   width: 330
