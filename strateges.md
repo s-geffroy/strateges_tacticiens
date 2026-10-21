@@ -4,7 +4,7 @@ permalink: /strateges/
 jeu: strateges
 dossiers: /dossiers-strateges/
 title: Stratèges
-titre_long: Les douze plus grands stratèges
+titre_long: Le classement des stratèges
 chapeau: >-
   Classement final arrêté, suivi de ses huit prétendants immédiats. Le rang
   récompense la capacité à transformer la puissance disponible en résultat

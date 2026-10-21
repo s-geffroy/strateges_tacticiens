@@ -2,7 +2,7 @@
 layout: page
 permalink: /methodologie/
 title: Méthodologie
-titre_long: Comment ces rangs ont été fabriqués
+titre_long: La fabrique des rangs
 chapeau: >-
   Définitions, grilles de notation, portes d’admissibilité, corrections
   d’attribution et procédure d’arbitrage. Rien de ce qui suit n’est neutre :

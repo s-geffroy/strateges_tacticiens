@@ -11,7 +11,9 @@ layout: default
 {%- assign t = site.data.tacticiens | where: 'slug', page.cle | first -%}
 
 <article class="personnage">
-  {% include titre-page.html texte=page.title %}
+  {%- comment -%} titre_long : un titre plus court que le nom complet, quand celui-ci deborderait. {%- endcomment -%}
+  {%- assign titre = page.titre_long | default: page.title %}
+  {% include titre-page.html texte=titre %}
   <p class="personnage-dates">{{ page.dates }}</p>
   <p class="chapeau">{{ page.identite }}</p>
 

@@ -4,7 +4,7 @@ permalink: /tacticiens/
 jeu: tacticiens
 dossiers: /dossiers-tacticiens/
 title: Tacticiens
-titre_long: Les douze plus grands tacticiens
+titre_long: Le classement des tacticiens
 chapeau: >-
   Classement final arrêté, suivi de ses huit prétendants immédiats. Le rang
   récompense la transformation directe d’une situation de combat.

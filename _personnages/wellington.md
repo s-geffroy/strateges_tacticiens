@@ -1,5 +1,6 @@
 ---
 title: "Arthur Wellesley, duc de Wellington"
+titre_long: "Le duc de Wellington"
 tri: "arthur wellesley duc de wellington"
 cle: wellington
 dates: "1769 – 1852"

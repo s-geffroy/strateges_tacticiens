@@ -2,7 +2,7 @@
 layout: page
 permalink: /arbitrages/
 title: Arbitrages
-titre_long: Les places de frontière, plaidées
+titre_long: Les places de frontière
 chapeau: >-
   Deux frontières restaient instables : les onzième et douzième places des
   stratèges, la douzième place des tacticiens. Elles ont été tranchées à charge

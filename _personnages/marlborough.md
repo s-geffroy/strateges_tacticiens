@@ -1,5 +1,6 @@
 ---
 title: "John Churchill, duc de Marlborough"
+titre_long: "Le duc de Marlborough"
 tri: "john churchill duc de marlborough"
 cle: marlborough
 dates: "1650 – 1722"
