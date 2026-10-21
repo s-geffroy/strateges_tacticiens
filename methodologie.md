@@ -107,7 +107,7 @@ bataille ne suffit que dans un cas exceptionnel et explicitement justifié.
 - **Documentation** : séparer faits établis, interprétations plausibles et traditions légendaires.
 - **Résultat** : une bonne décision peut échouer, une mauvaise décision peut réussir.
 - **Asymétrie** : l’infériorité des moyens augmente la difficulté mais n’accorde aucun bonus automatique.
-- **Offensive et défensive** : neutralité doctrinale : attaque, défense, retraite ou dissuasion sont jugées par rapport à l’objectif.
+- **Offensive et défensive** : neutralité doctrinale ; attaque, défense, retraite ou dissuasion sont jugées par rapport à l’objectif.
 - **Carrière** : distinguer pic de génie, constance et trajectoire complète.
 
 ## Test contrefactuel

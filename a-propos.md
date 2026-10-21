@@ -92,9 +92,11 @@ endroit à l’autre du site.
 Le reste est délibérément simple. Jekyll construit les pages, sans thème :
 les gabarits sont écrits pour ce site. Chaque poussée de code déclenche une
 construction et une publication par GitHub Actions, et GitHub Pages sert le
-résultat. Il n’y a ni base de données, ni serveur d’application, ni script à
-exécuter chez le visiteur : la seule chose que votre navigateur télécharge en
-plus des pages est une feuille de style et deux familles de caractères.
+résultat. Il n’y a ni base de données ni serveur d’application. Le seul script
+chargé chez le visiteur est le bandeau commun de
+[Ligne de crête](https://www.ligne-de-crete.fr/), la vitrine qui présente ce
+travail parmi d’autres ; le site lui-même n’en exécute aucun. En plus des pages,
+le navigateur télécharge une feuille de style et deux familles de caractères.
 
 Le dépôt est public :
 [s-geffroy/strateges_tacticiens](https://github.com/s-geffroy/strateges_tacticiens).
