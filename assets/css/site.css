@@ -6,6 +6,35 @@
    montre seul -- l'echelle a cinq crans dans la marge de gauche est le seul
    endroit ou ce site se permet d'etre spectaculaire. Tout le reste se tait. */
 
+/* --- Polices de repli calibrees ------------------------------------------
+   Archivo et Spectral arrivent de Google Fonts en display=swap : le texte
+   s'affiche d'abord dans une police locale, puis bascule. Si celle-ci est plus
+   large, des lignes passent a la ligne puis reviennent, et tout le contenu se
+   decale (CLS). Ces faces donnent a Arial et a Times la chasse d'Archivo et de
+   Spectral. Mesure sur les fichiers Google Fonts (Arimo et Tinos, de meme
+   metrique qu'Arial et Times), le 21 octobre 2026 :
+     Arial  = 99,5 % de la largeur d'Archivo 500, Arial gras = 101,1 % du 700 ;
+     Times  = 91,0 % de Spectral 400 ; Georgia = 99,8 %, utilisee telle quelle.
+   Les hauteurs de ligne du site sont fixes (line-height chiffre) : seule la
+   chasse compte, d'ou size-adjust sans ascent-override. */
+@font-face {
+  font-family: "Archivo repli";
+  src: local("Arial"), local("ArialMT"), local("Helvetica"), local("Arimo"), local("Liberation Sans");
+  font-weight: 400 500;
+  size-adjust: 100.5%;
+}
+@font-face {
+  font-family: "Archivo repli";
+  src: local("Arial Bold"), local("Arial-BoldMT"), local("Helvetica Bold"), local("Arimo Bold"), local("Liberation Sans Bold");
+  font-weight: 600 700;
+  size-adjust: 98.9%;
+}
+@font-face {
+  font-family: "Spectral repli";
+  src: local("Times New Roman"), local("TimesNewRomanPSMT"), local("Times"), local("Tinos"), local("Liberation Serif");
+  size-adjust: 109.9%;
+}
+
 /* --- Jetons ------------------------------------------------------------- */
 
 :root {
@@ -25,8 +54,11 @@
   /* Un seul accent, un or olive de laiton. */
   --laiton:        #7d5e0c;
 
-  --sans:  "Archivo", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
-  --serif: "Spectral", Georgia, "Times New Roman", serif;
+  /* Les polices de repli calibrees (voir @font-face en tete) passent avant les
+     polices systeme : c'est ce qui empeche la page de bouger quand Archivo et
+     Spectral arrivent. */
+  --sans:  "Archivo", "Archivo repli", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  --serif: "Spectral", Georgia, "Spectral repli", serif;
 
   /* Le texte occupe toute la largeur de l'enveloppe (62 rem), comme l'en-tete,
      le visuel et la matrice. Le jeton reste : c'est le seul levier si l'on veut
