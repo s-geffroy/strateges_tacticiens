@@ -31,4 +31,4 @@ liens:
 
 Né à Ajaccio, officier d’artillerie, il se fait remarquer au siège de Toulon en 1793. Il commande l’armée d’Italie en 1796-1797, puis conduit l’expédition d’Égypte. Le 18 Brumaire, en 1799, le fait Premier consul. Sacré empereur en 1804, il bat les Autrichiens et les Russes à Austerlitz l’année suivante, les Prussiens à Iéna en 1806, puis de nouveau l’Autriche à Wagram en 1809. Le Code civil de 1804 reste le fondement du droit civil français.
 
-En Espagne, à partir de 1808, ses troupes s’enlisent face à la guérilla et aux Anglais. La campagne de Russie de 1812 lui coûte l’essentiel de la Grande Armée. Battu à Leipzig en 1813, il abdique en 1814. Revenu de l’île d’Elbe pour les Cent-Jours, il est vaincu à Waterloo le 18 juin 1815 et meurt en exil à Sainte-Hélène en 1821.
+En Espagne, à partir de 1808, ses troupes s’enlisent face à la guérilla et aux Anglais. La campagne de Russie de 1812 anéantit presque toute la Grande Armée. Battu à Leipzig en 1813, il abdique en 1814. Revenu de l’île d’Elbe pour les Cent-Jours, il est vaincu à Waterloo le 18 juin 1815 et meurt en exil à Sainte-Hélène en 1821.

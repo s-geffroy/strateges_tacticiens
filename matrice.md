@@ -49,6 +49,6 @@ l’autre discipline.
 ## D’où vient la dernière colonne
 
 Le fichier de matrice du corpus commente vingt-quatre des quarante dossiers au
-niveau croisé ; ses formulations sont reprises telles quelles. Pour les seize
+niveau croisé ; ses formulations sont reprises sur le fond, retouchées dans la forme. Pour les seize
 autres, la colonne résume le dossier de l’intéressé (son profil, sa limite,
 ce qu’on peut lui attribuer) sans y ajouter de fait qui n’y figure pas.

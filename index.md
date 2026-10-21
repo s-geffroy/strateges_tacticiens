@@ -17,9 +17,10 @@ confiance qu’il mérite.</p>
 <div class="pivot">
   <section class="definition">
     <h2>Le stratège</h2>
-    <p>Transforme les moyens militaires, politiques, économiques et temporels
-    en résultat politique. Il choisit les objectifs, ajuste les fins aux
-    moyens, tient une coalition, et organise l’après-guerre.</p>
+    <p>Il convertit en résultat politique des moyens qui ne sont pas seulement
+    militaires : l’économie et le temps en font partie. Il choisit ses objectifs
+    et ajuste les fins aux moyens ; il tient une coalition, puis organise
+    l’après-guerre.</p>
     <a class="conduit" href="{{ '/strateges/' | relative_url }}">Les douze stratèges</a>
   </section>
 
@@ -27,9 +28,9 @@ confiance qu’il mérite.</p>
 
   <section class="definition">
     <h2>Le tacticien</h2>
-    <p>Transforme une situation de combat en avantage militaire décisif. Il
-    conçoit l’engagement, lit le terrain et l’adversaire, place ses réserves,
-    et improvise quand le plan cède.</p>
+    <p>Il transforme une situation de combat en avantage militaire décisif. Il
+    conçoit l’engagement en lisant le terrain et l’adversaire ; il place ses
+    réserves, et improvise quand le plan cède.</p>
     <a class="conduit" href="{{ '/tacticiens/' | relative_url }}">Les douze tacticiens</a>
   </section>
 </div>
