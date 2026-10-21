@@ -14,8 +14,8 @@
   <div class="fiche-corps">
     <h2 class="fiche-nom">{{ include.d.nom }}</h2>
     <p class="fiche-position">
-      {{ include.d.rang }}<sup>e</sup> {{ include.discipline }} sur vingt —
-      {% if include.d.rang <= 12 %}Top 12{% else %}prétendant immédiat{% endif %}.
+      {{ include.d.rang }}<sup>e</sup> {{ include.discipline }} sur vingt,
+      {% if include.d.rang <= 12 %}dans le Top 12{% else %}prétendant immédiat{% endif %}.
       Confiance {{ include.d.confiance | downcase }}.
     </p>
     <p class="motif">{{ include.d.motif }}</p>
@@ -33,6 +33,6 @@
     <p class="verdict">{{ include.d.verdict }}</p>
 
     <p class="fiche-retour"><a href="{{ include.classement | append: '#' | append: include.d.slug | relative_url }}">Situer ce dossier dans le classement</a></p>
-    <p class="fiche-retour"><a href="{{ '/personnages/' | append: include.d.slug | append: '/' | relative_url }}">Lire la biographie de {{ include.d.nom }}</a></p>
+    <p class="fiche-retour"><a href="{{ '/personnages/' | append: include.d.slug | append: '/' | relative_url }}">Lire la biographie {% include de-nom.html nom=include.d.nom %}</a></p>
   </div>
 </article>

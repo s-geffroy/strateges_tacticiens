@@ -45,7 +45,7 @@ confiance qu’il mérite.</p>
     Bonaparte</a>, quatrième stratège et deuxième tacticien, et
     <a href="{{ '/dossiers-strateges/' | relative_url }}#scipion-l-africain">Scipion
     l’Africain</a>, cinquième des deux côtés. Deux autres apparaissent des deux
-    côtés sans être admis nulle part —
+    côtés sans être admis nulle part :
     <a href="{{ '/dossiers-tacticiens/' | relative_url }}#alexandre-le-grand">Alexandre
     le Grand</a>, premier tacticien mais seulement dix-septième stratège, et
     <a href="{{ '/dossiers-strateges/' | relative_url }}#frederic-ii-de-prusse">Frédéric
@@ -70,7 +70,7 @@ lisent ainsi.</p>
   {% include cran.html cran=4 libelle="Élevée" decor=true %}
   <p><strong>Élevée.</strong> Le dossier tient ; l’écart avec les rangs voisins reste discutable.</p>
   {% include cran.html cran=3 libelle="Moyenne à élevée" decor=true %}
-  <p><strong>Moyenne à élevée.</strong> Une dimension du dossier — sources, attribution, échantillon — reste ouverte.</p>
+  <p><strong>Moyenne à élevée.</strong> Une dimension du dossier (sources, attribution ou échantillon) reste ouverte.</p>
   {% include cran.html cran=2 libelle="Moyenne" decor=true %}
   <p><strong>Moyenne.</strong> Le rang est un arbitrage assumé, pas une évidence.</p>
   {% include cran.html cran=1 libelle="Faible à moyenne" decor=true %}
@@ -94,7 +94,7 @@ prétendants : <a href="{{ '/dossiers-strateges/' | relative_url }}#helmuth-von-
 <h2>Le reste des correspondances</h2>
 
 <p>Le tableau croisé prend les trente-six personnages un par un : leur rang et
-leur confiance dans chaque discipline, et ce que la comparaison révèle de chacun
-— <a href="{{ '/matrice/' | relative_url }}">voir la matrice croisée</a>.</p>
+leur confiance dans chaque discipline, et ce que la comparaison révèle de chacun :
+<a href="{{ '/matrice/' | relative_url }}">voir la matrice croisée</a>.</p>
 
 </div>

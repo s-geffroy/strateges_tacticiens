@@ -31,4 +31,4 @@ liens:
 
 Né Temüjin dans une steppe divisée en tribus rivales, il passe sa jeunesse dans la précarité après la mort de son père, puis rassemble par alliances et par victoires successives les peuples mongols et turcs de la steppe. Le kurultai de 1206 le proclame Gengis Khan.
 
-Il organise l’armée sur une base décimale, rompt les solidarités tribales en mêlant les unités, et soumet le pays à un code, le yassa. Ses campagnes frappent les Xia occidentaux, l’empire Jin du nord de la Chine — Zhongdu, l’actuelle Pékin, tombe en 1215 — puis l’empire khwarezmien entre 1219 et 1221. Il meurt en 1227 pendant une dernière campagne contre les Xia. Ses fils et petits-fils étendent ensuite l’empire de la Corée à l’Europe orientale.
+Il organise l’armée sur une base décimale, rompt les solidarités tribales en mêlant les unités, et soumet le pays à un code, le yassa. Ses campagnes frappent les Xia occidentaux, l’empire Jin du nord de la Chine (Zhongdu, l’actuelle Pékin, tombe en 1215), puis l’empire khwarezmien entre 1219 et 1221. Il meurt en 1227 pendant une dernière campagne contre les Xia. Ses fils et petits-fils étendent ensuite l’empire de la Corée à l’Europe orientale.

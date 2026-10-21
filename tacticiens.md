@@ -14,8 +14,8 @@ description: >-
 ---
 
 Le rang évalue la lecture, la conception, l’exécution et l’adaptation dans
-l’engagement lui-même. Les performances principalement opératives — coordonner
-des colonnes, synchroniser une campagne — ne suffisent pas, et c’est ce qui
+l’engagement lui-même. Les performances principalement opératives, comme coordonner
+des colonnes ou synchroniser une campagne, ne suffisent pas, et c’est ce qui
 écarte Subutaï et Rokossovski malgré leur stature.
 
 Une seule bataille ne fonde un dossier que dans un cas exceptionnel et

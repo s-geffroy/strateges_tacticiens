@@ -39,7 +39,7 @@ recouvrement n’est pas un défaut de construction, c’est le résultat.
 
 Trois noms occupent une case par défaut plutôt que par mérite : Helmuth von
 Moltke l’Ancien est rangé en stratégie, Subutaï et Konstantin Rokossovski en
-tactique, alors que leur génie est **opératif** — organiser des opérations en
+tactique, alors que leur génie est **opératif** : ils organisent des opérations en
 campagnes. Le corpus a délibérément refusé d’en faire un troisième classement
 et s’en sert comme catégorie de contrôle. Leur position dans ce tableau montre
 ce que ce choix coûte, et pourquoi la séparation des niveaux reste nécessaire :
@@ -50,5 +50,5 @@ l’autre discipline.
 
 Le fichier de matrice du corpus commente vingt-quatre des quarante dossiers au
 niveau croisé ; ses formulations sont reprises telles quelles. Pour les seize
-autres, la colonne résume le dossier de l’intéressé — son profil, sa limite,
-ce qu’on peut lui attribuer — sans y ajouter de fait qui n’y figure pas.
+autres, la colonne résume le dossier de l’intéressé (son profil, sa limite,
+ce qu’on peut lui attribuer) sans y ajouter de fait qui n’y figure pas.

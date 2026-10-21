@@ -25,9 +25,9 @@ Un même individu peut apparaître dans les deux classements, avec deux
 
 ## Les trois niveaux de guerre
 
-- **Stratégie** — articulation des moyens militaires, politiques, économiques, diplomatiques et temporels avec les fins politiques.
-- **Art opératif** — organisation des opérations et des batailles en campagnes.
-- **Tactique** — conduite des engagements et transformation immédiate de la situation de combat.
+- **Stratégie** : articulation des moyens militaires, politiques, économiques, diplomatiques et temporels avec les fins politiques.
+- **Art opératif** : organisation des opérations et des batailles en campagnes.
+- **Tactique** : conduite des engagements et transformation immédiate de la situation de combat.
 
 L’art opératif sert de **catégorie de contrôle** : une performance
 principalement opérative ne suffit pas à prouver une supériorité tactique ou
@@ -103,13 +103,13 @@ bataille ne suffit que dans un cas exceptionnel et explicitement justifié.
 
 ## Corrections transversales
 
-- **Époque** — comparaison relative aux possibilités et contraintes contemporaines.
-- **Technologie** — distinguer innovation personnelle et avantage technologique hérité.
-- **Documentation** — séparer faits établis, interprétations plausibles et traditions légendaires.
-- **Résultat** — une bonne décision peut échouer, une mauvaise décision peut réussir.
-- **Asymétrie** — l’infériorité des moyens augmente la difficulté mais n’accorde aucun bonus automatique.
-- **Offensive et défensive** — neutralité doctrinale : attaque, défense, retraite ou dissuasion sont jugées par rapport à l’objectif.
-- **Carrière** — distinguer pic de génie, constance et trajectoire complète.
+- **Époque** : comparaison relative aux possibilités et contraintes contemporaines.
+- **Technologie** : distinguer innovation personnelle et avantage technologique hérité.
+- **Documentation** : séparer faits établis, interprétations plausibles et traditions légendaires.
+- **Résultat** : une bonne décision peut échouer, une mauvaise décision peut réussir.
+- **Asymétrie** : l’infériorité des moyens augmente la difficulté mais n’accorde aucun bonus automatique.
+- **Offensive et défensive** : neutralité doctrinale : attaque, défense, retraite ou dissuasion sont jugées par rapport à l’objectif.
+- **Carrière** : distinguer pic de génie, constance et trajectoire complète.
 
 ## Test contrefactuel
 
@@ -125,7 +125,7 @@ Pour chaque cas majeur, cinq questions.
 
 La précision du rang est limitée par la qualité documentaire et par la
 sensibilité aux pondérations. L’appartenance au Top 12 compte davantage que
-l’écart exact entre deux rangs voisins — c’est pourquoi chaque entrée porte sa
+l’écart exact entre deux rangs voisins ; c’est pourquoi chaque entrée porte sa
 confiance, et la bande dans laquelle elle flottait avant arbitrage.
 
 ## Procédure

@@ -16,8 +16,8 @@ description: >-
 
 Deux classements autonomes, construits selon une architecture parallèle : les
 douze plus grands stratèges et les douze plus grands tacticiens, chacun suivi
-de huit prétendants immédiats. Derrière chaque nom, un dossier comparatif —
-quarante en tout — qui expose le profil, le cas maître, l’avantage décisif, la
+de huit prétendants immédiats. Derrière chaque nom, un dossier comparatif
+(quarante en tout) qui expose le profil, le cas maître, l’avantage décisif, la
 limite, la part qui lui revient en propre et la qualité des sources.
 
 La version a été arrêtée le 11 août 2026. Elle est fermée sur le fond.
@@ -29,8 +29,8 @@ servent à structurer la comparaison, pas à produire un chiffre : les rangs
 résultent d’un arbitrage ordinal et d’analyses de sensibilité. Un classement
 qui affiche 87,4 contre 86,9 ment sur sa propre précision.
 
-**Confondre les niveaux de guerre.** L’art opératif — organiser des opérations
-en campagnes — n’a pas de classement propre. Y exceller ne qualifie donc pour
+**Confondre les niveaux de guerre.** L’art opératif, qui organise les opérations
+en campagnes, n’a pas de classement propre. Y exceller ne qualifie donc pour
 aucune des deux listes, et trois grands noms en font les frais.
 
 **Classer les conquérants.** Le rang stratégique récompense la transformation
@@ -47,7 +47,7 @@ pénalité de civilisation.
 
 Trois choses accompagnent chaque nom et se lisent ensemble.
 
-- **Les crans**, de un à cinq, disent la solidité du dossier — pas la valeur de
+- **Les crans**, de un à cinq, disent la solidité du dossier, pas la valeur de
   l’homme. Un dernier rang peut en porter cinq, et un rang du milieu un
   seul.
 - **La porte d’admissibilité**, entre la douzième et la treizième place, est un
@@ -80,7 +80,7 @@ site n’est que la mise en ligne de ce travail, par la même main.
 
 Ce que cela implique se lit dans la règle de stabilité ci-dessus : les listes
 sont fermées par leur auteur, et rouvertes aux mêmes conditions que pour
-n’importe qui — un document nouveau, une erreur, une contradiction.
+n’importe qui : un document nouveau, une erreur ou une contradiction.
 
 ## Comment le site est fabriqué
 
@@ -93,7 +93,7 @@ Le reste est délibérément simple. Jekyll construit les pages, sans thème :
 les gabarits sont écrits pour ce site. Chaque poussée de code déclenche une
 construction et une publication par GitHub Actions, et GitHub Pages sert le
 résultat. Il n’y a ni base de données, ni serveur d’application, ni script à
-exécuter chez le visiteur — la seule chose que votre navigateur télécharge en
+exécuter chez le visiteur : la seule chose que votre navigateur télécharge en
 plus des pages est une feuille de style et deux familles de caractères.
 
 Le dépôt est public :

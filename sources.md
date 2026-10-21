@@ -20,8 +20,8 @@ description: >-
 
 Les traditions héroïques ne sont jamais traitées comme des transcriptions
 littérales des décisions tactiques. Pour les figures antiques ou médiévales,
-l’incertitude documentaire agit d’abord sur la **confiance dans le rang** — les
-crans affichés dans la marge des classements — et jamais comme une pénalité
+l’incertitude documentaire agit d’abord sur la **confiance dans le rang**, c’est-à-dire sur les
+crans affichés dans la marge des classements, et jamais comme une pénalité
 morale ou civilisationnelle.
 
 ## Cadrage méthodologique
@@ -31,13 +31,13 @@ morale ou civilisationnelle.
 
 ## Grande stratégie
 
-- *The Cambridge History of Strategy* — chapitres sur les traditions chinoises, romaines, mongoles, européennes modernes et contemporaines.
-- *The Cambridge History of the Mongol Empire* — organisation militaire et expansion mongoles.
-- Cambridge University Press — Bismarck, la guerre limitée et l’unification allemande.
-- Cambridge University Press — Auguste, l’armée romaine et la construction de l’ordre impérial.
-- U.S. Army Center of Military History — Marshall, Eisenhower, mobilisation et planification alliée.
-- Naval History and Heritage Command — Nimitz, commandement du Pacifique et doctrine navale.
-- Historiographie récente de la guerre du Vietnam — direction collective du Parti, rôle de Giáp et évolution stratégique.
+- *The Cambridge History of Strategy* : chapitres sur les traditions chinoises, romaines, mongoles, européennes modernes et contemporaines.
+- *The Cambridge History of the Mongol Empire* : organisation militaire et expansion mongoles.
+- Cambridge University Press : Bismarck, la guerre limitée et l’unification allemande.
+- Cambridge University Press : Auguste, l’armée romaine et la construction de l’ordre impérial.
+- U.S. Army Center of Military History : Marshall, Eisenhower, mobilisation et planification alliée.
+- Naval History and Heritage Command : Nimitz, commandement du Pacifique et doctrine navale.
+- Historiographie récente de la guerre du Vietnam : direction collective du Parti, rôle de Giáp et évolution stratégique.
 
 ## Tactique
 

@@ -1,0 +1,14 @@
+{%- comment -%}
+  « de » suivi d'un nom propre, elide devant une voyelle ou un h muet :
+  « d’Épaminondas », « d’Horatio Nelson », mais « de Han Xin ».
+  Parametre : include.nom
+  Pas de y : on ecrit « de Yi Sun-sin ».
+  Le h muet est une affaire d'usage, pas d'orthographe : seuls les prenoms
+  ou l'usage francais elide (Hannibal, Horatio) sont listes ici.
+{%- endcomment -%}
+{%- assign initiale = include.nom | slice: 0 | downcase -%}
+{%- assign elide = false -%}
+{%- if "aeiouàâéèêëîïôöùûü" contains initiale -%}{%- assign elide = true -%}{%- endif -%}
+{%- assign premier = include.nom | split: " " | first -%}
+{%- if premier == "Hannibal" or premier == "Horatio" -%}{%- assign elide = true -%}{%- endif -%}
+{%- if elide -%}d’{{ include.nom }}{%- else -%}de {{ include.nom }}{%- endif -%}

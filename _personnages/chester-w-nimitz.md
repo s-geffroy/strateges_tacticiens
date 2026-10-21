@@ -31,4 +31,4 @@ liens:
 
 Officier de marine passé par les sous-marins et la propulsion diesel, il est nommé à la tête de la flotte du Pacifique dix jours après Pearl Harbor, puis commandant de l’ensemble des zones océaniques du Pacifique. Il dirige la guerre navale contre le Japon depuis Hawaï, en s’appuyant sur le renseignement : la victoire de Midway, en juin 1942, renverse le rapport des forces aéronavales.
 
-Il conduit ensuite la progression à travers le Pacifique central — îles Gilbert, Marshall, Mariannes, Iwo Jima, Okinawa — tandis que MacArthur avance par le sud-ouest. Le 2 septembre 1945, il signe au nom des États-Unis l’acte de capitulation du Japon à bord du Missouri. Il est ensuite chef des opérations navales jusqu’en 1947.
+Il conduit ensuite la progression à travers le Pacifique central (îles Gilbert, Marshall, Mariannes, Iwo Jima, Okinawa), tandis que MacArthur avance par le sud-ouest. Le 2 septembre 1945, il signe au nom des États-Unis l’acte de capitulation du Japon à bord du Missouri. Il est ensuite chef des opérations navales jusqu’en 1947.

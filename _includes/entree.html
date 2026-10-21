@@ -12,10 +12,10 @@
     <h2 class="nom"><a href="{{ include.dossiers | append: '#' | append: include.d.slug | relative_url }}">{{ include.d.nom }}</a></h2>
     <p class="motif">{{ include.d.motif }}</p>
     <p class="mention">Confiance {{ include.d.confiance | downcase }}. Bande estimée avant arbitrage : {{ include.d.bande | downcase }}.</p>
-    <p class="mention"><a href="{{ '/personnages/' | append: include.d.slug | append: '/' | relative_url }}">Biographie de {{ include.d.nom }}</a></p>
+    <p class="mention"><a href="{{ '/personnages/' | append: include.d.slug | append: '/' | relative_url }}">Biographie {% include de-nom.html nom=include.d.nom %}</a></p>
 
     <details class="dossier">
-      <summary>Dossier comparatif<span class="vh"> de {{ include.d.nom }}</span></summary>
+      <summary>Dossier comparatif<span class="vh"> {% include de-nom.html nom=include.d.nom %}</span></summary>
       <dl class="cartouche">
         <dt>Profil</dt><dd>{{ include.d.profil }}</dd>
         <dt>Cas maître</dt><dd>{{ include.d.cas }}</dd>

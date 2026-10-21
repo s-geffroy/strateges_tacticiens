@@ -17,7 +17,7 @@ description: >-
 Quatre candidats en lice : George C. Marshall, Võ Nguyên Giáp, Chester W.
 Nimitz, Frédéric II de Prusse.
 
-### Onzième — George C. Marshall, admis
+### Onzième : George C. Marshall, admis {#onzième--george-c-marshall-admis}
 
 **À charge.** Il ne fixe pas seul les finalités politiques américaines, et la
 stratégie alliée est un processus collectif.
@@ -29,7 +29,7 @@ des commandants.
 **Décision.** Sa contribution à la création du système de puissance est plus
 globale que celle d’un commandant de théâtre.
 
-### Douzième — Võ Nguyên Giáp, admis
+### Douzième : Võ Nguyên Giáp, admis {#douzième--võ-nguyên-giáp-admis}
 
 **À charge.** Attribution collective avec le Parti, Hô Chi Minh, Lê Duẩn et
 d’autres responsables ; coûts humains très élevés.
@@ -42,7 +42,7 @@ majeure à Điện Biên Phủ.
 transformation de la guerre en résultat politique, non sur la seule direction
 d’un théâtre.
 
-### Treizième — Chester W. Nimitz, premier exclu
+### Treizième : Chester W. Nimitz, premier exclu {#treizième--chester-w-nimitz-premier-exclu}
 
 **À charge.** Commandement de théâtre inscrit dans une stratégie et un système
 industriel et de renseignement plus larges.
@@ -53,7 +53,7 @@ prise de risque calculée, délégation efficace.
 **Décision.** Immense stratège de théâtre, mais contribution moins globale que
 Marshall et moins politico-stratégique que Giáp.
 
-### Quatorzième — Frédéric II, deuxième exclu
+### Quatorzième : Frédéric II, deuxième exclu {#quatorzième--frédéric-ii-deuxième-exclu}
 
 **À charge.** Risques auto-infligés, pertes, erreurs, et dépendance à la
 défaillance de la coalition adverse comme au retournement russe.
@@ -69,7 +69,7 @@ stratégique.
 Quatre candidats en lice : Bélisaire, Frédéric II de Prusse, Jan Žižka, Khalid
 ibn al-Walid.
 
-### Douzième — Bélisaire, admis
+### Douzième : Bélisaire, admis {#douzième--bélisaire-admis}
 
 **À charge.** Sources dominées par Procope, parfois favorable au général, et
 plusieurs revers.
@@ -80,7 +80,7 @@ adaptation, défense mobile, commandement de forces hétérogènes.
 **Décision.** Il est le meilleur des quatre sur l’adaptation tactique en
 situation dégradée et sur la création d’un avantage avec des moyens limités.
 
-### Treizième — Frédéric II, premier exclu
+### Treizième : Frédéric II, premier exclu {#treizième--frédéric-ii-premier-exclu}
 
 **À charge.** Irrégularité, pertes élevées, erreurs de reconnaissance, attaques
 coûteuses.
@@ -91,7 +91,7 @@ Leuthen.
 **Décision.** Le volume de preuves est supérieur à celui de Bélisaire, mais la
 qualité adaptative moyenne est moins élevée.
 
-### Quatorzième — Jan Žižka, deuxième exclu
+### Quatorzième : Jan Žižka, deuxième exclu {#quatorzième--jan-žižka-deuxième-exclu}
 
 **À charge.** Système très lié au théâtre bohémien, aux chariots, aux armes à
 feu précoces et à des adversaires initialement mal adaptés.
@@ -102,7 +102,7 @@ d’infanterie, neutralisation de la cavalerie lourde.
 **Décision.** Remarquable, mais preuve moins diversifiée que Bélisaire et
 Frédéric.
 
-### Quinzième — Khalid ibn al-Walid
+### Quinzième : Khalid ibn al-Walid {#quinzième--khalid-ibn-al-walid}
 
 **À charge.** Sources tardives et reconstruction tactique trop incertaine pour
 un rang mondial précis.
